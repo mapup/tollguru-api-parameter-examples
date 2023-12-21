@@ -1,0 +1,11 @@
+{
+    "polyline": "won~EtsegVLV|@nA^h@h@KXETE^I|@Q`@CR?\\BLDPHPLPPLTNVXr@Xp@^n@Vb@DHN\\Th@HXDTBVB\\@~@Bv@Jz@Fj@PnABPVpBRvADVH\\JXJTNVJJZ`@LNJHNHRLZRNJPPLNDLFLBHBJBL@J?J?TCr@?R@Z@LBNFVDN\\~@lAtCh@nAZr@Tj@Tf@HLDFHJLLHFLH\\Nl@TlAb@LFDBLHDDFHHJR\\d@x@HLHHLJLHl@\\\\L\\PJFFDRPJLV^|@`BLRNRTXVXj@n@OPKLKLIFIFc@Vm@Xw@\\_ChAKFKHKHKJIHKNSZOV_@p@Q\\S\\KPMPSTSRKJ[VQNSPGHIJEHELETCPAL?H?J@P@FDNRn@p@~BRn@Rp@b@xAd@dBd@bBRz@ZzAHb@Jf@BJH\\BNBN@F@J?LAJALEJCFEHEFGFOLa@`@cA|@_@^GFIJEFGJINGL]p@]j@q@dAU^INEJEJENCLCNCPANAX?J?H@P@R@L@LDVDNBFFJHHl@\\f@Vn@\\z@`@b@PlAh@l@Tp@T`A\\bA\\d@Nd@Ln@Lz@Lh@Fd@D\\B^@z@@T?Z@VBl@JLBNDVJZPl@\\j@^\\Rt@`@`Bv@`@PjAf@fCdAzAl@|@^h@T\\NZJXHTDTBL?X?PAJAOgG",
+    "vehicleType": "2AxlesAuto",
+    "fuelOptions": {
+        "fuelEfficiency": {
+            "city": 23.4,
+            "hwy": 30,
+            "units": "mpg"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "from": {
+        "address": "Philadelphia, PA 19107 USA"
+    },
+    "to": {
+        "address": "Akron, OH 44308 USA"
+    },
+    "vehicleType": "5AxlesTruck",
+    "weight": 20000
+}
