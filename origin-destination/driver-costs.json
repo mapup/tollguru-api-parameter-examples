@@ -6,7 +6,9 @@
         "address": "Ocean City, NJ 08226 USA"
     },
     "vehicleType": "2AxlesAuto",
-    "units": {
-        "currency": "MXN"
-    }
+    "driver": {
+        "wage": 30,
+        "rounding": 15,
+        "valueOfTime": 0
+        }
 }

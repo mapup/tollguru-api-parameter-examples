@@ -1,12 +1,10 @@
 {
+    "serviceProvider": "gmaps",
     "from": {
         "address": "Walt Whitman Brg Philadelphia, PA 19148, USA"
     },
     "to": {
         "address": "Ocean City, NJ 08226 USA"
     },
-    "vehicleType": "2AxlesAuto",
-    "units": {
-        "currency": "MXN"
-    }
+    "vehicleType": "2AxlesAuto"
 }
