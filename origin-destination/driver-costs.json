@@ -5,10 +5,10 @@
     "to": {
         "address": "Ocean City, NJ 08226 USA"
     },
-    "waypoints": [
-        {
-            "address": "4 Clarks Landing Rd, Port Republic, NJ 08241, USA"
+    "vehicleType": "2AxlesAuto",
+    "driver": {
+        "wage": 30,
+        "rounding": 15,
+        "valueOfTime": 0
         }
-    ],
-    "vehicleType": "2AxlesAuto"
 }
