@@ -1,0 +1,10 @@
+{
+    "from": {
+        "address": "Philadelphia, USA"
+    },
+    "to": {
+        "address": "New York, USA"
+    },
+    "vehicleType": "2AxlesAuto",
+    "departure_time": "2023-11-18T10:42:51-05:00"
+}
