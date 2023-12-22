@@ -1,0 +1,12 @@
+{
+    "from": {
+        "address": "Philadelphia, PA 19107 USA"
+    },
+    "to": {
+        "address": "Akron, OH 44308, USA"
+    },
+    "vehicle": {
+        "type": "2AxlesAuto",
+        "height": { "value": 10, "unit": "feet" }
+    }
+}

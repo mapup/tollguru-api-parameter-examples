@@ -1,0 +1,162 @@
+{
+    "status": "OK",
+    "summary": {
+        "countries": [
+            "USA"
+        ],
+        "currency": "USD",
+        "vehicleType": "2AxlesAuto",
+        "vehicleDescription": "Car, SUV or Pickup truck without 4 tires on rear axle",
+        "units": {
+            "currencyUnit": "USD",
+            "fuelEfficiencyUnit": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "departure_time": "2023-12-22T12:36:28.787468182Z",
+        "departureTime": "2023-12-22T12:36:28.787468182Z",
+        "share": {
+            "name": "Tollguru Route",
+            "prefix": "Tollguru+Route",
+            "uuid": "bb6085ea-b787-4dc3-af6c-163660a9e0c7",
+            "timestamp": "2023-12-22T12:36:28.787462821Z",
+            "client": "polylineAPI"
+        }
+    },
+    "route": {
+        "hasTolls": true,
+        "distance": {
+            "text": "64 mi",
+            "metric": "103 km",
+            "value": 103971
+        },
+        "costs": {
+            "fuel": 8.23,
+            "tag": 6.57,
+            "cash": 6.65,
+            "licensePlate": null,
+            "prepaidCard": 6.57,
+            "tagAndCash": 6.57,
+            "minimumTollCost": 6.57
+        },
+        "tolls": [
+            {
+                "id": 112001300,
+                "lat": 39.513676,
+                "lng": -74.686696,
+                "name": "AEH : Egg Harbor Mainline Barrier",
+                "road": "Atlantic City Expy",
+                "state": "NJ",
+                "country": "USA",
+                "type": "barrier",
+                "tagCost": 4.55,
+                "tagPriCost": 4.55,
+                "tagSecCost": null,
+                "cashCost": 4.55,
+                "licensePlateCost": null,
+                "prepaidCardCost": 4.55,
+                "currency": "USD",
+                "tagPrimaryNames": [
+                    "E-ZPass"
+                ],
+                "prepaidCardNames": [],
+                "tagPrimary": [
+                    "E-ZPass"
+                ],
+                "tagSecondary": [],
+                "licensePlateNames": [
+                    "Tolls by Mail"
+                ],
+                "discountCarDetails": "Monthly Volume Discount: E-ZPass NJ must be used 30 times in 35-day period.",
+                "discountCarType": "All vehicles",
+                "arrival": {
+                    "distance": 64543.48,
+                    "time": "2023-12-22T12:36:28Z"
+                },
+                "timestamp_formatted": "2023-12-22T12:36:28Z",
+                "timestamp_localized": "2023-12-22T07:36:28-05:00",
+                "point": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -74.686696,
+                            39.513676
+                        ]
+                    }
+                },
+                "height": null,
+                "tagRequested": "tagPriCost"
+            },
+            {
+                "id": 112106200,
+                "lat": 39.306802,
+                "lng": -74.61805,
+                "name": "Great Egg",
+                "road": "Garden State Parkway",
+                "state": "NJ",
+                "country": "USA",
+                "type": "barrier",
+                "tagCost": 2.02,
+                "tagPriCost": 2.02,
+                "tagSecCost": 2.02,
+                "cashCost": 2.1,
+                "licensePlateCost": null,
+                "prepaidCardCost": 2.02,
+                "currency": "USD",
+                "tagPrimaryNames": [
+                    "E-ZPass NJ"
+                ],
+                "prepaidCardNames": [],
+                "tagPrimary": [
+                    "E-ZPass NJ"
+                ],
+                "tagSecondary": [
+                    "E-ZPass",
+                    "E-ZPass DE",
+                    "Uni",
+                    "I-Pass",
+                    "E-ZPass Skyway",
+                    "E-ZPass IN",
+                    "RiverLink",
+                    "E-ZPass ME",
+                    "E-ZPass MD",
+                    "E-ZPass MA",
+                    "MnPass",
+                    "E-ZPass NH",
+                    "E-ZPass NY",
+                    "E-ZPass NC",
+                    "E-ZPass OH",
+                    "E-ZPass PA",
+                    "E-ZPass RI",
+                    "E-ZPass VA",
+                    "E-ZPass WV",
+                    "E-Zpass Flex"
+                ],
+                "licensePlateNames": [
+                    "Tolls by Mail"
+                ],
+                "discountCarDetails": "Other discounts: 65+ Senior citizens receive a 10% discount on the off-peak rate as Senior Citizen Discount. Vehicles with fuel efficiency 45 MPG and meeting California Super Ultra Low Emission Vehicle (SULEV) standard receive a 10% discount on the off-peak rate as Green Pass Discount. Must have NJ E-ZPass.",
+                "discountCarType": "Cars",
+                "arrival": {
+                    "distance": 94525.34,
+                    "time": "2023-12-22T12:36:28Z"
+                },
+                "timestamp_formatted": "2023-12-22T12:36:28Z",
+                "timestamp_localized": "2023-12-22T07:36:28-05:00",
+                "point": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -74.61805,
+                            39.306802
+                        ]
+                    }
+                },
+                "height": null,
+                "tagRequested": "tagPriCost"
+            }
+        ],
+        "polyline": ""
+    }
+}

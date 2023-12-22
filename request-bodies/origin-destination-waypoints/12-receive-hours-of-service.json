@@ -1,0 +1,27 @@
+{
+    "from": {
+        "address": "Walt Whitman Brg Philadelphia, PA 19148, USA"
+    },
+    "to": {
+        "address": "Ocean City, NJ 08226, USA"
+    },
+    "vehicle": {
+        "type": "2AxlesAuto"
+    },
+    "driver": {
+        "wage": 30,
+        "rounding": 15,
+        "valueOfTime": 0
+    },
+    "truck": {
+        "limitedWeight": 500
+    },
+    "state_mileage": true,
+    "hos": {
+        "rule": 60,
+        "dutyHoursBeforeEndOfWorkDay": 11,
+        "dutyHoursBeforeRestBreak": 7,
+        "drivingHoursBeforeEndOfWorkDay": 11,
+        "timeRemaining": 60
+    }
+}

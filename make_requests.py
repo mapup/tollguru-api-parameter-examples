@@ -37,11 +37,15 @@ if __name__ == "__main__":
     folder_glob = "request-bodies/*/"
     responses_path = "responses"
 
-    gps_file = open("request-bodies/gps-tracks-csv-upload/gps-tracks-test-case.csv", "r")
-
     for folder in glob.glob(folder_glob):
         endpoint = extract_match(folder_glob, folder)
         url = urljoin(base_url, endpoint)
+
+        if endpoint == "gps-tracks-csv-download":
+            continue
+
+        if endpoint != "gps-tracks-csv-upload":
+            continue
 
         for example in glob.glob(f"{folder}/*.json"):
             out_path = os.path.join(
@@ -57,16 +61,17 @@ if __name__ == "__main__":
                 if endpoint == "gps-tracks-csv-upload":
                     params = json.loads(data)
                     params = [f"{urllib.parse.quote(key)}={urllib.parse.quote(str(convert_value(value)))}" for key, value in params.items()]
-                    response_raw = requests.request(
-                        "POST",
-                        f"{url}?",
-                        headers={
-                            "Content-Type": "text/csv",
-                            "Accept": "application/json",
-                            "x-api-key": api_key,
-                        },
-                        data=gps_file
-                    )
+                    with open("request-bodies/gps-tracks-csv-upload/gps-tracks-test-case.csv", "r") as gps_file:
+                        response_raw = requests.request(
+                            "POST",
+                            f"{url}?",
+                            headers={
+                                "Content-Type": "text/csv",
+                                "Accept": "application/json",
+                                "x-api-key": api_key,
+                            },
+                            data=gps_file
+                        )
                 else:
                     response_raw = requests.request(
                         "POST",
@@ -78,14 +83,15 @@ if __name__ == "__main__":
                         },
                         data=data,
                     )
+
                 response = response_raw.json()
-                del response["meta"]
+                try:
+                    del response["meta"]
+                except:
+                    pass
 
                 os.makedirs(os.path.dirname(out_path), exist_ok=True)
                 with open(out_path, "w+") as o:
                     o.write(json.dumps(response, indent=4))
 
                 print(f"  Successfully written {out_path}")
-
-                # break
-    gps_file.close()
