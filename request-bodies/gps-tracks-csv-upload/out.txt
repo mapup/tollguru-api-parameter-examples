@@ -1,1 +1,0 @@
-curl -X POST https://apis.tollguru.com/toll/v2/gps-tracks-csv-upload?isAsync=true&vehicleName=truck -H 'Content-Type: text/csv' -H 'x-api-key: {{apiKey}}' --data-binary '@'
