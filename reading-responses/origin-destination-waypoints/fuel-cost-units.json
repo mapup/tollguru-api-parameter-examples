@@ -1,0 +1,214 @@
+{
+    "status": "OK",
+    "summary": {
+        "route": [
+            {
+                "location": {
+                    "lat": 39.90724,
+                    "lng": -75.14148
+                },
+                "address": "Walt Whitman Brg, Philadelphia, PA 19148, United States"
+            },
+            {
+                "location": {
+                    "lat": 39.27952,
+                    "lng": -74.57579
+                },
+                "address": "834 Asbury Ave, Ocean City, NJ 08226-3657, United States"
+            }
+        ],
+        "countries": [
+            "USA"
+        ],
+        "currency": "USD",
+        "vehicleType": "2AxlesAuto",
+        "vehicleDescription": "Car, SUV or Pickup truck without 4 tires on rear axle",
+        "fuelPrice": {
+            "value": 4.38,
+            "currency": "USD",
+            "units": "USD/gallon",
+            "fuelUnit": "gallon"
+        },
+        "fuelEfficiency": {
+            "city": 23.4,
+            "hwy": 30,
+            "units": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "units": {
+            "currencyUnit": "USD",
+            "fuelEfficiencyUnit": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "departure_time": "2023-12-21T16:41:09.317364825Z",
+        "departureTime": "2023-12-21T16:41:09.317364825Z",
+        "share": {
+            "name": "walt whitman brg, philadelphia, pa 19148, united states-834 asbury ave, ocean city, nj 08226-3657, united states",
+            "prefix": "walt+whitman+brg%2C+philadelphia%2C+pa+19148%2C+united+states-834+asbury+ave%2C+ocean+city%2C+nj+08226-3657%2C+united+states",
+            "uuid": "6141306f-052f-42f7-a640-743433989e7e",
+            "timestamp": "2023-12-21T16:41:09.317373569Z",
+            "client": "api"
+        },
+        "source": "HERE"
+    },
+    "routes": [
+        {
+            "summary": {
+                "hasTolls": true,
+                "hasExpressTolls": false,
+                "diffs": {
+                    "cheapest": 0,
+                    "fastest": 0
+                },
+                "url": "https://www.google.com/maps/?saddr=39.907240,-75.141480&daddr=39.905190,-75.129570+to:39.868230,-75.102130+to:39.771060,-75.048940+to:39.325670,-74.615870+to:39.279402,-74.575553+to:39.279520,-74.575790&via=1,2,3,4,5",
+                "distance": {
+                    "text": "59 mi",
+                    "metric": "96 km",
+                    "value": 96076
+                },
+                "duration": {
+                    "text": "1 h 3 min",
+                    "value": 3781
+                },
+                "name": "RT-42"
+            },
+            "costs": {
+                "tagAndCash": 6.57,
+                "minimumTollCost": 6.57,
+                "fuel": 8.8,
+                "tag": 6.57,
+                "cash": 6.65,
+                "licensePlate": null,
+                "prepaidCard": 6.57
+            },
+            "tolls": [
+                {
+                    "id": 112001300,
+                    "lat": 39.513676,
+                    "lng": -74.686696,
+                    "name": "AEH : Egg Harbor Mainline Barrier",
+                    "road": "Atlantic City Expy",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 4.55,
+                    "tagPriCost": 4.55,
+                    "tagSecCost": null,
+                    "cashCost": 4.55,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 4.55,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass"
+                    ],
+                    "tagSecondary": [],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Monthly Volume Discount: E-ZPass NJ must be used 30 times in 35-day period.",
+                    "discountCarType": "All vehicles",
+                    "arrival": {
+                        "distance": 61553.76,
+                        "time": "2023-12-21T17:19:13Z"
+                    },
+                    "timestamp_formatted": "2023-12-21T17:19:13Z",
+                    "timestamp_localized": "2023-12-21T12:19:13-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -74.686696,
+                                39.513676
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                },
+                {
+                    "id": 112106000,
+                    "lat": 39.3230070016561,
+                    "lng": -74.6161949840383,
+                    "name": "Somers Point",
+                    "road": "Garden State Parkway",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 2.02,
+                    "tagPriCost": 2.02,
+                    "tagSecCost": 2.02,
+                    "cashCost": 2.1,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 2.02,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass NJ"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass NJ"
+                    ],
+                    "tagSecondary": [
+                        "E-ZPass",
+                        "E-ZPass DE",
+                        "Uni",
+                        "I-Pass",
+                        "E-ZPass Skyway",
+                        "E-ZPass IN",
+                        "RiverLink",
+                        "E-ZPass ME",
+                        "E-ZPass MD",
+                        "E-ZPass MA",
+                        "MnPass",
+                        "E-ZPass NH",
+                        "E-ZPass NY",
+                        "E-ZPass NC",
+                        "E-ZPass OH",
+                        "E-ZPass PA",
+                        "E-ZPass RI",
+                        "E-ZPass VA",
+                        "E-ZPass WV",
+                        "E-Zpass Flex"
+                    ],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Other discounts: 65+ Senior citizens receive a 10% discount on the off-peak rate as Senior Citizen Discount. Vehicles with fuel efficiency 45 MPG and meeting California Super Ultra Low Emission Vehicle (SULEV) standard receive a 10% discount on the off-peak rate as Green Pass Discount. Must have NJ E-ZPass.",
+                    "discountCarType": "Cars",
+                    "arrival": {
+                        "distance": 89825.37,
+                        "time": "2023-12-21T17:36:44Z"
+                    },
+                    "timestamp_formatted": "2023-12-21T17:36:44Z",
+                    "timestamp_localized": "2023-12-21T12:36:44-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -74.6161949840383,
+                                39.3230070016561
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                }
+            ],
+            "polyline": "ekqrFfasiM\\yDb@oEBUB[De@F_@Z_Dj@cGT_CH_A\\aD@YTcCXoC|@cJ^eEj@oFZsDXoCf@iFDc@LqATcC^yDTuBL_BLuAn@wGJ_AHs@^cEv@gJd@wEFo@Fe@Dk@LiAJaALqAJw@NcAHe@Lq@R_ALg@J[La@Le@Xw@`@_ARc@T_@Vc@Xc@`@k@^i@V[f@g@h@g@r@o@NMz@s@b@]`@Y\\Up@c@TOz@i@x@g@j@]|@g@j@[d@Wj@Yt@]t@]t@]ZMXK^Mv@]r@[n@WlAg@pBu@rBu@jC_A|@Yx@Wl@SrAc@f@O^KTGf@Oh@Od@Mt@Sd@MlA[dBc@tBg@x@Qz@QnAW`ASp@Mv@O~@Qn@Mv@Mf@IdAQrBYr@K^Eb@Gf@GZCJALCj@Gl@GdBOpBWr@K|AMtBMbBKr@En@ExAInAIt@ETALALAz@G`DS`F[bAIfAItCSd@EnAM~BSbCQdAGr@Er@E~@IrAIh@GTCXCZ?xABbA@j@@lCJt@BbAF`ABTAZC^CVC^G\\GNCn@O~@W\\Il@Q`@MXI`@K^Id@M\\Gz@Kp@I\\E^EjAOXE^GfDg@`AO^GbASXGHCVGp@Sr@ObDu@rD}@bB_@bFmAzBi@hCo@xA_@r@QvD}@VGn@M|Bk@f@KZK`AUf@M`@KjEgAjBa@tCo@|@Sv@Q~@Uj@O~@UhBc@rJ{BtKeCbCm@jG{AbBa@j@MbFiAzCs@zCs@hHcB|EkAnAWlA[fBe@r@Uf@OhDmAb@Qd@SdBu@vAo@b@Ql@Yn@_@j@]tBoAvAy@bCiBtBaBtAmAj@g@~@y@\\[b@c@f@g@v@y@hAmAxAgBt@}@t@aAt@eARY\\g@NS\\c@~AcC~A}BT[xAuB|D{Fh@y@d@u@p@iA~@_Bt@sAt@wA`AoBv@_Bt@_Bl@uAt@gBvBoFbBcE`D_InAwCl@oAv@}ArBeEp@sAv@qA|@eBf@{@rAuBbAcBjAiBp@cAdBaCbAuAdByBfAqAtA_BxAaBdEiEz@y@b@_@h@g@n@k@vAmAf@a@hA}@vAcA`Aq@bCaBfC{AjDqBtBkAxA{@xA{@fDmBhEcC\\STONI|BqA|BqAnBiAjEeC`B_AjDiBnDaB~BcAnDuAbA_@lC}@zC}@lCu@~Bg@xBe@zAYbBY|AWtDc@rBSpAKxAUn@Ej@Ep@Er@CbAEpBG`BCzAEfBAjFEfG@jGD~FA|HEtJ?dCAxBCf@?lA?`DA|A?|@@hFDb@?n@?z@Ar@Ch@?lAA^?XAZCPAVCb@Gt@Ov@SPGXKn@Yh@WZSXS\\Y`Ay@dCaClDeDh@g@d@a@n@i@f@a@h@a@f@_@bAs@v@i@fAs@`CwA~BqATMnGkDnBkA|AiA`Aw@~@_AvA{ApA}A~@oAfAcB`AcBx@cBjCiGfBkEdAeCZw@nA_Dt@eBr@aBx@kBz@kBrAqCnB{D`AmBp@oAx@{A|AoCnAwBjB}CpB{ClAeBpAkBp@cAnAgBfAwAxBqClBaC~AkBpAyAdCkC|CgDfEcEfCcCtEqE|DwDvMkMxFwFzByBvAuALOf@i@fAcA|AgBjCoCrIoIZ[VWdEyDxAsAbByAr@q@l@i@dB}Al@k@l@k@bBaBtBsB~B}BdE_EjDiDrAoAfCeCjCgCfFcFfBcBhBkB|CcDhAoA~@eAzAgB~@iAlBaCrAeBjA_BlAeB|@qAjAgB`A{AjAkBd@w@fB{CjAsBxCkFnFsJnC}Ex@yA~@_BvA_C^o@p@mA^s@dBaD|@gBx@kBv@oB~BcHp@sBJ]Pi@dAcDrAiELc@tBaIP}@XwAH]VwA^mB`@cC^gCrA}KVmBj@sEt@iGt@eGr@_Gf@cEt@eGh@gEf@eEf@eEbAiIh@cEdA{Hz@yF|@wFpA}HbA}FzA}HhBcJtCoMfBsHj@{BZmALg@Li@hAkE`AsDhAyDvA{Eh@gBPm@Ro@~FuR`P}h@fBuFpAyDjBmFfBwE\\cAb@iAnA_Dr@eBz@qBjAiChAcC|@oBtAuChBmDbBcDjBiDpBmDfAiBlB}ClB{CfAcBvB}C`B_CxAqBlBgCbC}ChAuAvAcBxAeBdAmAhBoBzDeElDuDnCsCvSoT`CiCnGyGrBqB~CaDl@m@pDyE~AkBrA{AtAyArGcHRSHIVWdGoGnWoXjHyHb^m_@hCoC|JoKp@q@nBuBp@s@v@{@|AaBtD{D~FiGfDmD\\_@jRcS~_@ia@nH{HjBqBrAuApAuArA{ApAyAnAyAlAwApBeCrBmCvEoG`DuEvAyBdBqC|AcCn@cAd@u@Xc@rC{EbHmLpDgGzEoIT_@T_@rEsHbCwDxBgDx@mArCiEv@mAl@aAtC{E|AgCj@aAnFkJnBgDb@s@fGwJ|@_BVg@hBeDXe@jEmH`@s@T_@bBmCr@cAxA}Bf@y@xEmHdBmC`IuMxE_Ib@s@|GcLvHgMdI_NvFiJxG}K`HkLrDeG|HyMbDyFTa@T_@dDuFl@aAdA_BbA}ApB{CjAiB~@yAdAcBhB{Cr@mAt@qAjAuB|FaKzIoO~DcHhCoEbD_GlMuUTa@Xe@Tc@\\o@\\o@Zi@p@mAr@oAx@yAt@oAz@uAjAiBl@_At@kAf@y@p@gAv@mA~@_Bv@sA~AoCf@{@j@cAl@iAv@wAz@yAdD{FzGqLbBwC`FuIlAwBZk@xAkCtEcIpFqJfD}FrDoGbAiB~@cB~BcElAsBl@eAh@_Ad@w@f@y@n@eA|@wA`@o@h@w@h@w@r@aAx@gAhAwA|@iAnA}A|@gApBgCj@q@nBaCxCsDrCmDf@m@nA_BhAuAvBmCzCuD|CyDxBoC~AoBV[Z_@bEeFrDsErCmDrA_Bd@k@xTqXbC{C~FmHj@s@b@k@hAwA`D}DnDkExCsDbFkGnBcCjAwA~DaFpA_BbBuBlH}IjCeD`CwC|@iAv@cAv@eAx@kAx@mAz@sAx@qAv@qAj@aAl@gAfAqBz@_BnCgFfHsMlDuGpK}RfDmG`HmMtGyLrFeKhDiGjC}EdCuElA{BpBwDh@aAj@cA`@s@b@u@P[Xg@f@{@f@{@dAeB|AeClCeExCgF~B_EvCcFv@qAz@sAz@sA|@qAxB}CvDyFvAuBj@_An@aAxC}EtBeDbA}A|AoCfCmEVa@`BqCXa@l@cAnAsBn@gAl@aAR[JOLSHMLSJOLSPWNULQPW`@k@`AuA`BaC~A_C`CoDnB}C|AgChBuC`BiC|IqNpWya@tc@}r@dVw_@~Xyc@~BuDR[PYV_@PWRYZc@PWNSRWPSZ_@|@eA^c@XYVWv@w@b@c@XWVURQ^]h@e@j@c@XUVSTQROTQPMROZUPMXSNKNKTOd@[j@]r@a@v@c@TMRKRKZOVMTKTKVMPITKTKZMVKRIRIRINGz@]^O^Mx@WRGRGRGRGXITGZIZI\\Ib@Kb@KREXGZGTEZGl@Kh@I^Gj@I`@Gn@Ib@G`@Ej@Gd@Eh@Eh@Ev@Gv@Gh@Ef@E`DUvAKvAKbQqA|D[ZCVCVCVCVCRCTCZEXEh@Il@Ib@I^Gt@Op@MREPEJCPEVGfAYxC}@zAg@|Ai@vAi@`Ae@\\O^Qb@QbB{@nAs@j@[pAy@~AgAlA{@nA_ApAgArAiAnAkAnAmA|BiC`@e@X]nAyAjBgCdA_BbA}AbAaB`AeBf@aAd@}@jA_Cx@kBjB{EL]Tm@Pc@Tq@\\cAhAoDjCyIh@eC`@gBhFcUt@eDpAyFnQcw@pH{[j@eCz@uDf@qBj@qBn@qBJWf@wAZw@p@eBZy@|@gBv@cApAwBR[b@s@n@cAV_@X_@`@g@t@}@fAoAhAmAdAcAbAcAjAeAdB{A`CyBf@g@r@o@dC}BdC}BxAuAxA}AhAsApAaBjA}AfAaBhAkBbAkB`AoBz@mBz@uBz@}Bp@kBp@gB`AiCPc@Pc@~AoErByFpAoDnAiDnAgDt@oBhBcFv@sB^cAfBwErGaQnAiDp@iBbCuGf@q@\\i@TYj@m@|@s@nB}AxAkAv@q@t@m@^Wb@]`@Wr@a@j@[TMXMpAc@l@Mt@Kh@Gx@Ah@@n@DjARzAZv@NdAP~AXbARfAThB^dATh@H`@Fd@DrAJhBf@pCt@|Bj@jB`@jBf@f@Nb@N~@\\tBbAb@T|@h@jAr@|BzAn@`@PJhAp@nAv@zCnB|@j@|@f@bIbFzClBXP|@j@|@l@d@\\z@n@n@f@j@d@`@\\jAbAz@x@r@p@~A~ApAtAr@x@\\^\\`@r@z@j@p@h@p@z@hAf@p@`@j@v@fAzAvBpGfJz@nAb@p@f@r@~@pAp@~@l@x@j@t@f@n@j@r@n@v@n@t@j@l@h@h@h@h@~@z@d@b@XV`@\\h@b@d@^`@Zf@^x@l@v@h@r@d@n@`@nAx@~@n@`Ap@bGhE`BjAtEhDbAt@r@f@t@f@j@^t@d@~@j@d@Xj@Zp@^n@Z`@Rh@Vz@`@r@Zj@Tz@\\|@\\n@Tx@Xh@Pt@Tr@Rt@Rx@R|@Rx@Pt@Np@LbFz@xEx@~B^d@HZFVDj@J`AR`ATp@Pr@R`AZx@Vl@RjBr@tAl@z@`@`Af@|BnAl@^^Th@\\h@^t@h@p@f@f@`@f@`@f@b@j@h@vAtAtAxAvAzA~AdBjHzHfErEjCtC~A`BdAbAl@h@v@p@l@f@f@`@t@j@`Ar@pA|@p@b@p@`@n@^p@^n@\\|@b@fAf@dAd@d@Rn@Vh@Rh@P~@Zz@X~@X`Bf@lA^vBr@d@Pj@Tl@Vr@Zr@\\v@b@~@j@z@j@x@l@dKdIn@f@d@^r@j@rB~AbAv@n@f@r@h@h@^b@Xf@Zj@\\bAl@`@Th@X~@d@\\PZNTJPHXLRHVJVJb@Pp@Vl@Tl@TXJTHZJ|DnAd@Nf@LfA\\x@VVHtDhAb@Nn@Tv@Zp@Xx@`@z@d@l@\\l@^j@^l@b@h@`@`@\\j@f@|@z@l@l@l@p@z@`An@t@t@|@lDjEhBxBhBzBvBjC^b@zBpCjAtAb@bAJ\\F`@Dj@?t@CdAC`A?`@B\\FZJZNRRRTJTDTAVCXMb@g@|@mAZo@x@wANU~AsCvAcCn@gAhAmBn@mAh@_ATa@NW^q@`@s@v@sADIHMl@eAb@u@pGyK@CDG\\m@t@qAb@u@Va@`@q@nBeD`@s@`A_Bl@aAj@gAP[b@eAFQPk@Rs@T_@LYFO^{@\\u@r@mAn@gAb@s@`AyAn@aADGFW\\e@TYLO^a@VWRSRSZY`@]POVSd@]TOTM`@WXONITMNINILGLGNGTITIPGVIt@UlA[nA[p@QXIPGl@Ql@SlAa@x@W`@SRKTMPKLItA}@v@i@TOpBuAjA_Al@e@t@q@p@q@l@u@r@aAzAyBv@kAt@iAf@s@b@k@f@m@h@k@f@i@x@u@t@k@nA{@nA{@|A_AhBaAzAw@p@a@fDyBpBsAzAiAz@i@hEqC`CeBlBuA`DeCvAcAdLaIbBoAtDmCdD_Ct@k@z@m@tB{A~@o@l@_@r@]r@Yp@Sz@Sx@Mx@Gt@Cp@?n@@R@Z@lAFpADj@@t@C`@Cl@In@Qd@Qd@U`@W\\YZ[VYTYXo@bAwA`@m@z@mAp@aAf@q@V]`@m@T[bAwAr@cAx@kA|@oAf@m@jAwAoBmC"
+        }
+    ],
+    "meta": {
+        "userId": "developer@tollguru.com",
+        "customerId": "cus_Gxf9jTs5iu6FtA",
+        "tx": 4,
+        "type": "api",
+        "client": "api",
+        "source": ""
+    }
+}
