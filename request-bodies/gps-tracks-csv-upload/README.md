@@ -17,4 +17,3 @@ The use cases of this endpoint are as follows:
 | Weight-Based Toll | [View File](05c-weight-based-toll.json) | [View File](../../responses/gps-tracks-csv-upload/05c-weight-based-toll.json) |
 | Change Fuel Cost | [View File](06a-change-fuel-cost.json) | [View File](../../responses/gps-tracks-csv-upload/06a-change-fuel-cost.json) |
 | Change Fuel Efficiency | [View File](06b-change-fuel-efficiency.json) | [View File](../../responses/gps-tracks-csv-upload/06b-change-fuel-efficiency.json) |
-| Receive EV Locations on the Route | [View File](07-receive-ev-locations-on-the-route.json) | [View File](../../responses/gps-tracks-csv-upload/07-receive-ev-locations-on-the-route.json) |
