@@ -1,0 +1,13 @@
+{
+    "isAsync": false,
+    "mapProvider": "here",
+    "vehicleName": "truck",
+    
+    "vehicle": {
+        "type": "5AxlesTruck",
+        "weight": {
+            "value": 9,
+            "unit": "tonnes"
+        }
+    }
+}

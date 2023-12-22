@@ -1,0 +1,8 @@
+{
+    "isAsync": false,
+    "mapProvider": "google",
+    "vehicleName": "truck",
+    "vehicle": {
+        "type": "2AxlesTruck"
+    }
+}

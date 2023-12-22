@@ -1,0 +1,13 @@
+{
+    "isAsync": false,
+    "mapProvider": "here",
+    "vehicleName": "truck",
+    
+    "vehicle": {
+        "type": "2AxlesAuto",
+        "height": {
+            "value": 9,
+            "unit": "meter"
+        }
+    }
+}
