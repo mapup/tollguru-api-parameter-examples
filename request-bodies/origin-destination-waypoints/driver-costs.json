@@ -5,7 +5,9 @@
     "to": {
         "address": "Ocean City, NJ 08226, USA"
     },
-    "vehicleType": "2AxlesAuto",
+    "vehicle": {
+        "type": "2AxlesAuto"
+    }
     "driver": {
         "wage": 30,
         "rounding": 15,

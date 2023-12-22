@@ -5,5 +5,7 @@
     "to": {
         "address": "Ocean City, NJ 08226, USA"
     },
-    "vehicleType": "2AxlesTruck"
+    "vehicle": {
+        "type": "2AxlesTruck"
+    }
 }

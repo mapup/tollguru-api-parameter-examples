@@ -40,13 +40,13 @@
             "fuelEfficiencyUnit": "MPG",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2023-12-22T07:13:22.796393639Z",
-        "departureTime": "2023-12-22T07:13:22.796393639Z",
+        "departure_time": "2023-12-22T10:31:33.612009811Z",
+        "departureTime": "2023-12-22T10:31:33.612009811Z",
         "share": {
             "name": "curious designs, market st, philadelphia, pa 19107, united states-105 e market st, akron, oh 44308-2019, united states",
             "prefix": "curious+designs%2C+market+st%2C+philadelphia%2C+pa+19107%2C+united+states-105+e+market+st%2C+akron%2C+oh+44308-2019%2C+united+states",
-            "uuid": "89cd0493-5af1-44f9-b355-27e5ad34fcca",
-            "timestamp": "2023-12-22T07:13:22.796405784Z",
+            "uuid": "e08c3bda-525d-4c08-871d-7466ac8cc9d7",
+            "timestamp": "2023-12-22T10:31:33.612020544Z",
             "client": "api"
         },
         "source": "HERE"
@@ -57,7 +57,7 @@
                 "hasTolls": true,
                 "hasExpressTolls": false,
                 "diffs": {
-                    "cheapest": 89.7,
+                    "cheapest": 89.66,
                     "fastest": 0
                 },
                 "url": "https://www.google.com/maps/?saddr=39.952090,-75.162190&daddr=39.956450,-75.180450+to:40.089860,-75.406950+to:40.221060,-79.603680+to:41.110570,-80.838180+to:41.084312,-81.514308+to:41.084410,-81.514140&via=1,2,3,4,5",
@@ -68,14 +68,14 @@
                 },
                 "duration": {
                     "text": "6 h 52 min",
-                    "value": 24746
+                    "value": 24778
                 },
                 "name": "I-76"
             },
             "costs": {
                 "tagAndCash": 120.05,
                 "minimumTollCost": 120.05,
-                "fuel": 181.88,
+                "fuel": 181.89,
                 "tag": 120.05,
                 "cash": null,
                 "licensePlate": null,
@@ -114,10 +114,10 @@
                         "country": "USA",
                         "arrival": {
                             "distance": 30452.64,
-                            "time": "2023-12-22T07:41:10Z"
+                            "time": "2023-12-22T10:59:14Z"
                         },
-                        "timestamp_formatted": "2023-12-22T12:30:42Z",
-                        "timestamp_localized": "2023-12-22T07:30:42-05:00",
+                        "timestamp_formatted": "2023-12-22T15:48:53Z",
+                        "timestamp_localized": "2023-12-22T10:48:53-05:00",
                         "point": {
                             "type": "Feature",
                             "geometry": {
@@ -139,10 +139,10 @@
                         "country": "USA",
                         "arrival": {
                             "distance": 507684.13,
-                            "time": "2023-12-22T12:30:42Z"
+                            "time": "2023-12-22T15:48:53Z"
                         },
-                        "timestamp_formatted": "2023-12-22T12:30:42Z",
-                        "timestamp_localized": "2023-12-22T07:30:42-05:00",
+                        "timestamp_formatted": "2023-12-22T15:48:53Z",
+                        "timestamp_localized": "2023-12-22T10:48:53-05:00",
                         "point": {
                             "type": "Feature",
                             "geometry": {
@@ -186,10 +186,10 @@
                         "country": "USA",
                         "arrival": {
                             "distance": 560939.39,
-                            "time": "2023-12-22T12:59:13Z"
+                            "time": "2023-12-22T16:17:38Z"
                         },
-                        "timestamp_formatted": "2023-12-22T13:15:04Z",
-                        "timestamp_localized": "2023-12-22T08:15:04-05:00",
+                        "timestamp_formatted": "2023-12-22T16:33:43Z",
+                        "timestamp_localized": "2023-12-22T11:33:43-05:00",
                         "point": {
                             "type": "Feature",
                             "geometry": {
@@ -211,10 +211,10 @@
                         "country": "USA",
                         "arrival": {
                             "distance": 593720.7,
-                            "time": "2023-12-22T13:15:04Z"
+                            "time": "2023-12-22T16:33:43Z"
                         },
-                        "timestamp_formatted": "2023-12-22T13:15:04Z",
-                        "timestamp_localized": "2023-12-22T08:15:04-05:00",
+                        "timestamp_formatted": "2023-12-22T16:33:43Z",
+                        "timestamp_localized": "2023-12-22T11:33:43-05:00",
                         "point": {
                             "type": "Feature",
                             "geometry": {
@@ -260,7 +260,7 @@
                         "metric": "96",
                         "value": "96840"
                     },
-                    "trafficTime": "1 h 5 m",
+                    "trafficTime": "1 h 6 m",
                     "tollDistance": {
                         "unit": "meter",
                         "value": 30848
@@ -283,15 +283,15 @@
                     "value": 654559
                 },
                 "duration": {
-                    "text": "7 h 6 min",
-                    "value": 25615
+                    "text": "7 h 7 min",
+                    "value": 25647
                 },
                 "name": "I-76"
             },
             "costs": {
                 "tagAndCash": 30.3,
                 "minimumTollCost": 30.3,
-                "fuel": 181.93,
+                "fuel": 181.98,
                 "tag": 30.3,
                 "cash": null,
                 "licensePlate": 61.5,
@@ -330,10 +330,10 @@
                         "country": "USA",
                         "arrival": {
                             "distance": 30452.64,
-                            "time": "2023-12-22T07:41:10Z"
+                            "time": "2023-12-22T10:59:14Z"
                         },
-                        "timestamp_formatted": "2023-12-22T08:59:27Z",
-                        "timestamp_localized": "2023-12-22T03:59:27-05:00",
+                        "timestamp_formatted": "2023-12-22T12:17:24Z",
+                        "timestamp_localized": "2023-12-22T07:17:24-05:00",
                         "point": {
                             "type": "Feature",
                             "geometry": {
@@ -355,10 +355,10 @@
                         "country": "USA",
                         "arrival": {
                             "distance": 158381.83,
-                            "time": "2023-12-22T08:59:27Z"
+                            "time": "2023-12-22T12:17:24Z"
                         },
-                        "timestamp_formatted": "2023-12-22T08:59:27Z",
-                        "timestamp_localized": "2023-12-22T03:59:27-05:00",
+                        "timestamp_formatted": "2023-12-22T12:17:24Z",
+                        "timestamp_localized": "2023-12-22T07:17:24-05:00",
                         "point": {
                             "type": "Feature",
                             "geometry": {
@@ -378,6 +378,23 @@
             "territoryMileage": [
                 {
                     "territory": {
+                        "name": "Pennsylvania",
+                        "code": "PA",
+                        "type": "state"
+                    },
+                    "distance": {
+                        "text": "351",
+                        "metric": "565",
+                        "value": "565686"
+                    },
+                    "trafficTime": "6 h 8 m",
+                    "tollDistance": {
+                        "unit": "meter",
+                        "value": 143568
+                    }
+                },
+                {
+                    "territory": {
                         "name": "Ohio",
                         "code": "OH",
                         "type": "state"
@@ -391,23 +408,6 @@
                     "tollDistance": {
                         "unit": "meter",
                         "value": 1459
-                    }
-                },
-                {
-                    "territory": {
-                        "name": "Pennsylvania",
-                        "code": "PA",
-                        "type": "state"
-                    },
-                    "distance": {
-                        "text": "351",
-                        "metric": "565",
-                        "value": "565686"
-                    },
-                    "trafficTime": "6 h 7 m",
-                    "tollDistance": {
-                        "unit": "meter",
-                        "value": 143568
                     }
                 }
             ]

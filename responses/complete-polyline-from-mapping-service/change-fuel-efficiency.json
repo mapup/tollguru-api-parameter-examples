@@ -12,13 +12,13 @@
             "fuelEfficiencyUnit": "mpg",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2023-12-22T07:13:11.273145541Z",
-        "departureTime": "2023-12-22T07:13:11.273145541Z",
+        "departure_time": "2023-12-22T10:31:20.696624895Z",
+        "departureTime": "2023-12-22T10:31:20.696624895Z",
         "share": {
             "name": "Tollguru Route",
             "prefix": "Tollguru+Route",
-            "uuid": "694a2876-683e-45a1-aa79-7e16852d0420",
-            "timestamp": "2023-12-22T07:13:11.273141034Z",
+            "uuid": "9fc7806b-6ccb-4e23-a07d-a4a353005474",
+            "timestamp": "2023-12-22T10:31:20.696620548Z",
             "client": "polylineAPI"
         }
     },
@@ -70,10 +70,10 @@
                 "discountCarType": "All vehicles",
                 "arrival": {
                     "distance": 61553.76,
-                    "time": "2023-12-22T07:13:11Z"
+                    "time": "2023-12-22T10:31:20Z"
                 },
-                "timestamp_formatted": "2023-12-22T07:13:11Z",
-                "timestamp_localized": "2023-12-22T02:13:11-05:00",
+                "timestamp_formatted": "2023-12-22T10:31:20Z",
+                "timestamp_localized": "2023-12-22T05:31:20-05:00",
                 "point": {
                     "type": "Feature",
                     "geometry": {
@@ -139,10 +139,10 @@
                 "discountCarType": "Cars",
                 "arrival": {
                     "distance": 89825.37,
-                    "time": "2023-12-22T07:13:11Z"
+                    "time": "2023-12-22T10:31:20Z"
                 },
-                "timestamp_formatted": "2023-12-22T07:13:11Z",
-                "timestamp_localized": "2023-12-22T02:13:11-05:00",
+                "timestamp_formatted": "2023-12-22T10:31:20Z",
+                "timestamp_localized": "2023-12-22T05:31:20-05:00",
                 "point": {
                     "type": "Feature",
                     "geometry": {

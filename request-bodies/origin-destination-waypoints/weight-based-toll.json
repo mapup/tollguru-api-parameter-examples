@@ -5,6 +5,8 @@
     "to": {
         "address": "Akron, OH 44308, USA"
     },
-    "vehicleType": "5AxlesTruck",
-    "weight": 45000
+    "vehicle": {
+        "type": "5AxlesTruck",
+        "weight": { "value": 45000, "unit": "pounds" }
+    },
 }

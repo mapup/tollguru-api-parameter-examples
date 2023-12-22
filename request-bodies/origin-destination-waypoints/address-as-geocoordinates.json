@@ -7,5 +7,7 @@
         "lat": 39.265619,
         "lng": -74.595303
     },
-    "vehicleType": "2AxlesAuto"
+    "vehicle": {
+        "type": "2AxlesAuto"
+    }
 }

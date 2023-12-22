@@ -5,6 +5,8 @@
     "to": {
         "address": "Akron, OH 44308, USA"
     },
-    "vehicleType": "2AxlesAuto",
-    "height": 10
+    "vehicle": {
+        "type": "2AxlesAuto",
+        "height": { "value": 10, "unit": "feet" }
+    },
 }

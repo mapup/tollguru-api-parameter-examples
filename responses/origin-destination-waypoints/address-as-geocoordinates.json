@@ -40,13 +40,13 @@
             "fuelEfficiencyUnit": "MPG",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2023-12-22T07:13:22.052552945Z",
-        "departureTime": "2023-12-22T07:13:22.052552945Z",
+        "departure_time": "2023-12-22T10:31:32.411008938Z",
+        "departureTime": "2023-12-22T10:31:32.411008938Z",
         "share": {
             "name": "walt whitman brg, philadelphia, pa 19148, united states-301 22nd st, ocean city, nj 08226-2503, united states",
             "prefix": "walt+whitman+brg%2C+philadelphia%2C+pa+19148%2C+united+states-301+22nd+st%2C+ocean+city%2C+nj+08226-2503%2C+united+states",
-            "uuid": "b6219df1-cf37-4905-91ab-20ea8d908a91",
-            "timestamp": "2023-12-22T07:13:22.052565098Z",
+            "uuid": "7d398dc2-cb1e-4e3a-8338-b74de7c8c2b5",
+            "timestamp": "2023-12-22T10:31:32.411020246Z",
             "client": "api"
         },
         "source": "HERE"
@@ -67,15 +67,15 @@
                     "value": 98039
                 },
                 "duration": {
-                    "text": "1 h 4 min",
-                    "value": 3891
+                    "text": "1 h 5 min",
+                    "value": 3937
                 },
                 "name": "RT-42"
             },
             "costs": {
                 "tagAndCash": 6.57,
                 "minimumTollCost": 6.57,
-                "fuel": 7.5,
+                "fuel": 7.52,
                 "tag": 6.57,
                 "cash": 6.65,
                 "licensePlate": null,
@@ -113,10 +113,10 @@
                     "discountCarType": "All vehicles",
                     "arrival": {
                         "distance": 61137.61,
-                        "time": "2023-12-22T07:51:05Z"
+                        "time": "2023-12-22T11:09:15Z"
                     },
-                    "timestamp_formatted": "2023-12-22T07:51:05Z",
-                    "timestamp_localized": "2023-12-22T02:51:05-05:00",
+                    "timestamp_formatted": "2023-12-22T11:09:15Z",
+                    "timestamp_localized": "2023-12-22T06:09:15-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -182,10 +182,10 @@
                     "discountCarType": "Cars",
                     "arrival": {
                         "distance": 89409.26,
-                        "time": "2023-12-22T08:08:35Z"
+                        "time": "2023-12-22T11:26:45Z"
                     },
-                    "timestamp_formatted": "2023-12-22T08:08:35Z",
-                    "timestamp_localized": "2023-12-22T03:08:35-05:00",
+                    "timestamp_formatted": "2023-12-22T11:26:45Z",
+                    "timestamp_localized": "2023-12-22T06:26:45-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
