@@ -48,6 +48,9 @@ if __name__ == "__main__":
             continue
 
         for example in glob.glob(f"{folder}/*.json"):
+            if example != f"{folder}03-change-currency.json":
+                continue
+
             out_path = os.path.join(
                 responses_path, *os.path.normpath(example).split(os.sep)[1:]
             )

@@ -1,0 +1,11 @@
+{
+    "isAsync": false,
+    "mapProvider": "here",
+    "vehicleName": "truck",
+    "vehicle": {
+        "type": "2AxlesTruck"
+    },
+    "units": {
+      "currency": "MXN"
+    }
+}
