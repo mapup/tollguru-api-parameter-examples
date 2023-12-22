@@ -12,13 +12,13 @@
             "fuelEfficiencyUnit": "MPG",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2023-12-22T10:31:13.724716257Z",
-        "departureTime": "2023-12-22T10:31:13.724716257Z",
+        "departure_time": "2023-12-22T11:33:44.547311815Z",
+        "departureTime": "2023-12-22T11:33:44.547311815Z",
         "share": {
             "name": "Tollguru Route",
             "prefix": "Tollguru+Route",
-            "uuid": "58790a6e-af2e-4916-ac1a-5b1aa22ae9cb",
-            "timestamp": "2023-12-22T10:31:13.724709936Z",
+            "uuid": "b7ba3086-5826-498e-810b-936175dc1613",
+            "timestamp": "2023-12-22T11:33:44.54730601Z",
             "client": "polylineAPI"
         }
     },
@@ -71,10 +71,10 @@
                     "country": "USA",
                     "arrival": {
                         "distance": 30452.64,
-                        "time": "2023-12-22T10:31:13Z"
+                        "time": "2023-12-22T11:33:44Z"
                     },
-                    "timestamp_formatted": "2023-12-22T10:31:13Z",
-                    "timestamp_localized": "2023-12-22T05:31:13-05:00",
+                    "timestamp_formatted": "2023-12-22T11:33:44Z",
+                    "timestamp_localized": "2023-12-22T06:33:44-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -96,10 +96,10 @@
                     "country": "USA",
                     "arrival": {
                         "distance": 507684.13,
-                        "time": "2023-12-22T10:31:13Z"
+                        "time": "2023-12-22T11:33:44Z"
                     },
-                    "timestamp_formatted": "2023-12-22T10:31:13Z",
-                    "timestamp_localized": "2023-12-22T05:31:13-05:00",
+                    "timestamp_formatted": "2023-12-22T11:33:44Z",
+                    "timestamp_localized": "2023-12-22T06:33:44-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -143,10 +143,10 @@
                     "country": "USA",
                     "arrival": {
                         "distance": 560939.39,
-                        "time": "2023-12-22T10:31:13Z"
+                        "time": "2023-12-22T11:33:44Z"
                     },
-                    "timestamp_formatted": "2023-12-22T10:31:13Z",
-                    "timestamp_localized": "2023-12-22T05:31:13-05:00",
+                    "timestamp_formatted": "2023-12-22T11:33:44Z",
+                    "timestamp_localized": "2023-12-22T06:33:44-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -168,10 +168,10 @@
                     "country": "USA",
                     "arrival": {
                         "distance": 593720.7,
-                        "time": "2023-12-22T10:31:13Z"
+                        "time": "2023-12-22T11:33:44Z"
                     },
-                    "timestamp_formatted": "2023-12-22T10:31:13Z",
-                    "timestamp_localized": "2023-12-22T05:31:13-05:00",
+                    "timestamp_formatted": "2023-12-22T11:33:44Z",
+                    "timestamp_localized": "2023-12-22T06:33:44-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {

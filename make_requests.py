@@ -2,9 +2,14 @@ import glob
 import re
 import os
 from urllib.parse import urljoin
+import urllib.parse
 import requests
 import json
 
+def convert_value(value):
+    if isinstance(value, bool):
+        return str(value).lower()
+    return value
 
 def extract_match(glob_pattern, path):
     # Escape special characters in the glob pattern
@@ -23,6 +28,7 @@ def extract_match(glob_pattern, path):
     else:
         return None
 
+
 if __name__ == "__main__":
     api_key = os.environ.get("TOLLGURU_API_KEY")
     assert api_key != None, "TollGuru API key required"
@@ -31,11 +37,16 @@ if __name__ == "__main__":
     folder_glob = "request-bodies/*/"
     responses_path = "responses"
 
+    gps_file = open("request-bodies/gps-tracks-csv-upload/gps-tracks-test-case.csv", "r")
+
     for folder in glob.glob(folder_glob):
         endpoint = extract_match(folder_glob, folder)
         url = urljoin(base_url, endpoint)
+
         for example in glob.glob(f"{folder}/*.json"):
-            out_path = os.path.join(responses_path, *os.path.normpath(example).split(os.sep)[1:])
+            out_path = os.path.join(
+                responses_path, *os.path.normpath(example).split(os.sep)[1:]
+            )
             with open(example, "r+") as f:
                 data = f.read()
                 print(f"Requesting {example}")
@@ -43,18 +54,32 @@ if __name__ == "__main__":
                     print(f"  Skipping {example}")
                     continue
 
-                response_raw = requests.request(
-                    "POST",
-                    url,
-                    headers={
-                        "Content-Type": "application/json",
-                        "Accept": "application/json",
-                        "x-api-key": api_key,
-                    },
-                    data=data,
-                )
+                if endpoint == "gps-tracks-csv-upload":
+                    params = json.loads(data)
+                    params = [f"{urllib.parse.quote(key)}={urllib.parse.quote(str(convert_value(value)))}" for key, value in params.items()]
+                    response_raw = requests.request(
+                        "POST",
+                        f"{url}?",
+                        headers={
+                            "Content-Type": "text/csv",
+                            "Accept": "application/json",
+                            "x-api-key": api_key,
+                        },
+                        data=gps_file
+                    )
+                else:
+                    response_raw = requests.request(
+                        "POST",
+                        url,
+                        headers={
+                            "Content-Type": "application/json",
+                            "Accept": "application/json",
+                            "x-api-key": api_key,
+                        },
+                        data=data,
+                    )
                 response = response_raw.json()
-                del response['meta']
+                del response["meta"]
 
                 os.makedirs(os.path.dirname(out_path), exist_ok=True)
                 with open(out_path, "w+") as o:
@@ -63,3 +88,4 @@ if __name__ == "__main__":
                 print(f"  Successfully written {out_path}")
 
                 # break
+    gps_file.close()
