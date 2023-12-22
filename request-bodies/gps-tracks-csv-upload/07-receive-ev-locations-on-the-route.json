@@ -1,7 +1,0 @@
-{
-    "isAsync": false,
-    "mapProvider": "here",
-    "vehicle": {
-        "type": "2AxlesEV"
-    }
-}

@@ -1,6 +1,6 @@
 {
     "isAsync": false,
-    "mapProvider": "google",
+    "mapProvider": "osrm",
     "vehicleName": "truck",
     "vehicle": {
         "type": "2AxlesTruck"
