@@ -28,8 +28,8 @@ if __name__ == "__main__":
     assert api_key != None, "TollGuru API key required"
 
     base_url = "https://apis.tollguru.com/v2/"
-    folder_glob = "examples/*/"
-    responses_path = "reading-responses"
+    folder_glob = "request-bodies/*/"
+    responses_path = "responses"
 
     for folder in glob.glob(folder_glob):
         endpoint = extract_match(folder_glob, folder)
@@ -43,7 +43,7 @@ if __name__ == "__main__":
                     print(f"  Skipping {example}")
                     continue
 
-                response = requests.request(
+                response_raw = requests.request(
                     "POST",
                     url,
                     headers={
@@ -53,10 +53,12 @@ if __name__ == "__main__":
                     },
                     data=data,
                 )
+                response = response_raw.json()
+                del response['meta']
 
                 os.makedirs(os.path.dirname(out_path), exist_ok=True)
                 with open(out_path, "w+") as o:
-                    o.write(json.dumps(response.json(), indent=4))
+                    o.write(json.dumps(response, indent=4))
 
                 print(f"  Successfully written {out_path}")
 

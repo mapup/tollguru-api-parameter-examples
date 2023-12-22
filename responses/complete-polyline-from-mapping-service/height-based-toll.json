@@ -12,13 +12,13 @@
             "fuelEfficiencyUnit": "MPG",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2023-12-21T16:41:02.382797802Z",
-        "departureTime": "2023-12-21T16:41:02.382797802Z",
+        "departure_time": "2023-12-22T07:13:10.76536181Z",
+        "departureTime": "2023-12-22T07:13:10.76536181Z",
         "share": {
             "name": "Tollguru Route",
             "prefix": "Tollguru+Route",
-            "uuid": "ad949377-a884-4913-afd4-09149e283649",
-            "timestamp": "2023-12-21T16:41:02.382791347Z",
+            "uuid": "bd771979-d0d7-4aab-82cb-54e6122de39e",
+            "timestamp": "2023-12-22T07:13:10.765356292Z",
             "client": "polylineAPI"
         }
     },
@@ -71,10 +71,10 @@
                     "country": "USA",
                     "arrival": {
                         "distance": 30452.64,
-                        "time": "2023-12-21T16:41:02Z"
+                        "time": "2023-12-22T07:13:10Z"
                     },
-                    "timestamp_formatted": "2023-12-21T16:41:02Z",
-                    "timestamp_localized": "2023-12-21T11:41:02-05:00",
+                    "timestamp_formatted": "2023-12-22T07:13:10Z",
+                    "timestamp_localized": "2023-12-22T02:13:10-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -96,10 +96,10 @@
                     "country": "USA",
                     "arrival": {
                         "distance": 507684.13,
-                        "time": "2023-12-21T16:41:02Z"
+                        "time": "2023-12-22T07:13:10Z"
                     },
-                    "timestamp_formatted": "2023-12-21T16:41:02Z",
-                    "timestamp_localized": "2023-12-21T11:41:02-05:00",
+                    "timestamp_formatted": "2023-12-22T07:13:10Z",
+                    "timestamp_localized": "2023-12-22T02:13:10-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -143,10 +143,10 @@
                     "country": "USA",
                     "arrival": {
                         "distance": 560939.39,
-                        "time": "2023-12-21T16:41:02Z"
+                        "time": "2023-12-22T07:13:10Z"
                     },
-                    "timestamp_formatted": "2023-12-21T16:41:02Z",
-                    "timestamp_localized": "2023-12-21T11:41:02-05:00",
+                    "timestamp_formatted": "2023-12-22T07:13:10Z",
+                    "timestamp_localized": "2023-12-22T02:13:10-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -168,10 +168,10 @@
                     "country": "USA",
                     "arrival": {
                         "distance": 593720.7,
-                        "time": "2023-12-21T16:41:02Z"
+                        "time": "2023-12-22T07:13:10Z"
                     },
-                    "timestamp_formatted": "2023-12-21T16:41:02Z",
-                    "timestamp_localized": "2023-12-21T11:41:02-05:00",
+                    "timestamp_formatted": "2023-12-22T07:13:10Z",
+                    "timestamp_localized": "2023-12-22T02:13:10-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -188,13 +188,5 @@
             }
         ],
         "polyline": ""
-    },
-    "meta": {
-        "userId": "developer@tollguru.com",
-        "customerId": "cus_Gxf9jTs5iu6FtA",
-        "tx": 1,
-        "type": "api",
-        "client": "polylineAPI",
-        "source": ""
     }
 }

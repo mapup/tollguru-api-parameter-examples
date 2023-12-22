@@ -17,8 +17,8 @@
         "share": {
             "name": "Tollguru Route",
             "prefix": "Tollguru+Route",
-            "uuid": "705d1eb7-6dd8-49ab-99f8-369a5c5dd170",
-            "timestamp": "2023-12-21T16:40:58.584720634Z",
+            "uuid": "098c69f8-07b7-4484-aeea-e42a02da7d0b",
+            "timestamp": "2023-12-22T07:13:07.947072956Z",
             "client": "polylineAPI"
         }
     },
@@ -207,13 +207,5 @@
             }
         ],
         "polyline": ""
-    },
-    "meta": {
-        "userId": "developer@tollguru.com",
-        "customerId": "cus_Gxf9jTs5iu6FtA",
-        "tx": 1,
-        "type": "api",
-        "client": "polylineAPI",
-        "source": ""
     }
 }

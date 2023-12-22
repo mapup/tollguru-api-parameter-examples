@@ -12,13 +12,13 @@
             "fuelEfficiencyUnit": "MPG",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2023-12-21T16:41:01.53285137Z",
-        "departureTime": "2023-12-21T16:41:01.53285137Z",
+        "departure_time": "2023-12-22T07:13:10.326446659Z",
+        "departureTime": "2023-12-22T07:13:10.326446659Z",
         "share": {
             "name": "Tollguru Route",
             "prefix": "Tollguru+Route",
-            "uuid": "bb298b37-a1a8-4ef0-a67a-e0f3a1880a5e",
-            "timestamp": "2023-12-21T16:41:01.532846947Z",
+            "uuid": "ba485e7d-7cd0-447a-a26b-37b52c6b67b6",
+            "timestamp": "2023-12-22T07:13:10.326441513Z",
             "client": "polylineAPI"
         }
     },
@@ -70,10 +70,10 @@
                 "discountCarType": "All vehicles",
                 "arrival": {
                     "distance": 61553.76,
-                    "time": "2023-12-21T16:41:01Z"
+                    "time": "2023-12-22T07:13:10Z"
                 },
-                "timestamp_formatted": "2023-12-21T16:41:01Z",
-                "timestamp_localized": "2023-12-21T11:41:01-05:00",
+                "timestamp_formatted": "2023-12-22T07:13:10Z",
+                "timestamp_localized": "2023-12-22T02:13:10-05:00",
                 "point": {
                     "type": "Feature",
                     "geometry": {
@@ -139,10 +139,10 @@
                 "discountCarType": "Cars",
                 "arrival": {
                     "distance": 89825.37,
-                    "time": "2023-12-21T16:41:01Z"
+                    "time": "2023-12-22T07:13:10Z"
                 },
-                "timestamp_formatted": "2023-12-21T16:41:01Z",
-                "timestamp_localized": "2023-12-21T11:41:01-05:00",
+                "timestamp_formatted": "2023-12-22T07:13:10Z",
+                "timestamp_localized": "2023-12-22T02:13:10-05:00",
                 "point": {
                     "type": "Feature",
                     "geometry": {
@@ -158,13 +158,5 @@
             }
         ],
         "polyline": ""
-    },
-    "meta": {
-        "userId": "developer@tollguru.com",
-        "customerId": "cus_Gxf9jTs5iu6FtA",
-        "tx": 1,
-        "type": "api",
-        "client": "polylineAPI",
-        "source": ""
     }
 }

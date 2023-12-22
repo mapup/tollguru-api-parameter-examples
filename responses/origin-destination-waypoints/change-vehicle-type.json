@@ -40,13 +40,13 @@
             "fuelEfficiencyUnit": "MPG",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2023-12-21T16:41:10.250329364Z",
-        "departureTime": "2023-12-21T16:41:10.250329364Z",
+        "departure_time": "2023-12-22T07:13:16.076458581Z",
+        "departureTime": "2023-12-22T07:13:16.076458581Z",
         "share": {
             "name": "walt whitman brg, philadelphia, pa 19148, united states-834 asbury ave, ocean city, nj 08226-3657, united states",
             "prefix": "walt+whitman+brg%2C+philadelphia%2C+pa+19148%2C+united+states-834+asbury+ave%2C+ocean+city%2C+nj+08226-3657%2C+united+states",
-            "uuid": "33a1d2a3-fa6d-42a1-9593-7b61f841ffb4",
-            "timestamp": "2023-12-21T16:41:10.250337939Z",
+            "uuid": "cb77ae86-e281-4cfc-8cbf-7e70c3d1af6c",
+            "timestamp": "2023-12-22T07:13:16.076467133Z",
             "client": "api"
         },
         "source": "HERE"
@@ -68,14 +68,14 @@
                 },
                 "duration": {
                     "text": "1 h 4 min",
-                    "value": 3896
+                    "value": 3846
                 },
                 "name": "RT-42"
             },
             "costs": {
                 "tagAndCash": 10.49,
                 "minimumTollCost": 10.49,
-                "fuel": 12.29,
+                "fuel": 12.27,
                 "tag": 10.49,
                 "cash": 10.8,
                 "licensePlate": null,
@@ -113,10 +113,10 @@
                     "discountCarType": "All vehicles",
                     "arrival": {
                         "distance": 61553.76,
-                        "time": "2023-12-21T17:20:07Z"
+                        "time": "2023-12-22T07:52:13Z"
                     },
-                    "timestamp_formatted": "2023-12-21T17:20:07Z",
-                    "timestamp_localized": "2023-12-21T12:20:07-05:00",
+                    "timestamp_formatted": "2023-12-22T07:52:13Z",
+                    "timestamp_localized": "2023-12-22T02:52:13-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -182,10 +182,10 @@
                     "discountCarType": "Cars",
                     "arrival": {
                         "distance": 89825.37,
-                        "time": "2023-12-21T17:37:14Z"
+                        "time": "2023-12-22T08:09:20Z"
                     },
-                    "timestamp_formatted": "2023-12-21T17:37:14Z",
-                    "timestamp_localized": "2023-12-21T12:37:14-05:00",
+                    "timestamp_formatted": "2023-12-22T08:09:20Z",
+                    "timestamp_localized": "2023-12-22T03:09:20-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -226,7 +226,7 @@
                         "metric": "95",
                         "value": "95032"
                     },
-                    "trafficTime": "1 h 4 m",
+                    "trafficTime": "1 h 3 m",
                     "tollDistance": {
                         "unit": "meter",
                         "value": 66507
@@ -234,13 +234,5 @@
                 }
             ]
         }
-    ],
-    "meta": {
-        "userId": "developer@tollguru.com",
-        "customerId": "cus_Gxf9jTs5iu6FtA",
-        "tx": 4,
-        "type": "api",
-        "client": "api",
-        "source": ""
-    }
+    ]
 }

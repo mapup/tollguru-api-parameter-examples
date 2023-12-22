@@ -40,13 +40,13 @@
             "fuelEfficiencyUnit": "MPG",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2023-12-21T16:41:30.498438785Z",
-        "departureTime": "2023-12-21T16:41:30.498438785Z",
+        "departure_time": "2023-12-22T07:13:28.847458319Z",
+        "departureTime": "2023-12-22T07:13:28.847458319Z",
         "share": {
             "name": "walt whitman brg, philadelphia, pa 19148, united states-834 asbury ave, ocean city, nj 08226-3657, united states",
             "prefix": "walt+whitman+brg%2C+philadelphia%2C+pa+19148%2C+united+states-834+asbury+ave%2C+ocean+city%2C+nj+08226-3657%2C+united+states",
-            "uuid": "5bb62cf9-3f73-4f34-9646-080848bfb322",
-            "timestamp": "2023-12-21T16:41:30.498446616Z",
+            "uuid": "377dc06e-38aa-48eb-8e21-45fa66f0eee4",
+            "timestamp": "2023-12-22T07:13:28.847467263Z",
             "client": "api"
         },
         "source": "HERE"
@@ -67,15 +67,15 @@
                     "value": 96076
                 },
                 "duration": {
-                    "text": "1 h 3 min",
-                    "value": 3783
+                    "text": "1 h 1 min",
+                    "value": 3693
                 },
                 "name": "RT-42"
             },
             "costs": {
                 "tagAndCash": 6.57,
                 "minimumTollCost": 6.57,
-                "fuel": 7.33,
+                "fuel": 7.31,
                 "tag": 6.57,
                 "cash": 6.65,
                 "licensePlate": null,
@@ -113,10 +113,10 @@
                     "discountCarType": "All vehicles",
                     "arrival": {
                         "distance": 61553.76,
-                        "time": "2023-12-21T17:19:34Z"
+                        "time": "2023-12-22T07:51:32Z"
                     },
-                    "timestamp_formatted": "2023-12-21T17:19:34Z",
-                    "timestamp_localized": "2023-12-21T12:19:34-05:00",
+                    "timestamp_formatted": "2023-12-22T07:51:32Z",
+                    "timestamp_localized": "2023-12-22T02:51:32-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -182,10 +182,10 @@
                     "discountCarType": "Cars",
                     "arrival": {
                         "distance": 89825.37,
-                        "time": "2023-12-21T17:37:05Z"
+                        "time": "2023-12-22T08:09:03Z"
                     },
-                    "timestamp_formatted": "2023-12-21T17:37:05Z",
-                    "timestamp_localized": "2023-12-21T12:37:05-05:00",
+                    "timestamp_formatted": "2023-12-22T08:09:03Z",
+                    "timestamp_localized": "2023-12-22T03:09:03-05:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -245,7 +245,7 @@
                     },
                     "html_instructions": "Take exit 7S toward Garden State Parkway South/Cape May onto Garden State Pkwy. Go for 7.3 mi.",
                     "distance": 11668,
-                    "duration": 436
+                    "duration": 438
                 },
                 {
                     "position": {
@@ -254,7 +254,7 @@
                     },
                     "html_instructions": "Take exit 30 toward Somers Point/Ocean City Downtown onto RT-52 (W Laurel Dr). Go for 1.7 mi.",
                     "distance": 2802,
-                    "duration": 248
+                    "duration": 196
                 },
                 {
                     "position": {
@@ -263,7 +263,7 @@
                     },
                     "html_instructions": "Continue on Stainton Memorial Cswy (RT-52 S). Go for 2.1 mi.",
                     "distance": 3408,
-                    "duration": 164
+                    "duration": 153
                 },
                 {
                     "position": {
@@ -272,7 +272,7 @@
                     },
                     "html_instructions": "Continue on W 9th St (RT-52). Go for 0.3 mi.",
                     "distance": 539,
-                    "duration": 88
+                    "duration": 59
                 },
                 {
                     "position": {
@@ -294,13 +294,5 @@
                 }
             ]
         }
-    ],
-    "meta": {
-        "userId": "developer@tollguru.com",
-        "customerId": "cus_Gxf9jTs5iu6FtA",
-        "tx": 4,
-        "type": "api",
-        "client": "api",
-        "source": ""
-    }
+    ]
 }
