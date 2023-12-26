@@ -1,4 +1,4 @@
-# GPS Tracks CSV Upload
+# TollTally - GPS Tracks CSV Upload
 
 The `/gps-tracks-csv-upload` endpoint calculates toll information about a particular route using its GPS points uploaded as CSV file.
 
