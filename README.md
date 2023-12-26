@@ -1,9 +1,9 @@
 
-# TollGuru API Sample Use Cases
+# TollGuru API Request Parameters
 
 ## Overview
 
-This repo contains some sample use cases for the TollGuru Toll API, which provides developers with access to toll cost calculations for various routes, enabling integration of toll information into applications and systems.
+This repo provides list of parameters and corresponding JSON to use with the TollGuru Toll API to receive specific responses.
 
 Each endpoint is represented by a folder under the `request-bodies` directory, which contains a sample request for each use case and the `responses` folder contains their corresponding responses from the TollGuru API.
 
