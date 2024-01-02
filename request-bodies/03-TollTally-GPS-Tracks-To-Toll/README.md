@@ -20,13 +20,13 @@ Some examples for the different ways a request to this endpoint can be customize
 
 | ID | Name                                      | Request                                        | Response                                      |
 |----|-------------------------------------------|------------------------------------------------|-----------------------------------------------|
-| 01 | Sync Upload for Small Files               | [View](./03-TollTally-GPS-Tracks-To-Toll/01-sync-upload-for-small-files.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/01-sync-upload-for-small-files.json) |
-| 02 | Async Upload for Large Files              | [View](./03-TollTally-GPS-Tracks-To-Toll/02-async-upload-for-large-files.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/02-async-upload-for-large-files.json) |
-| 03 | Specify Currency                         | [View](./03-TollTally-GPS-Tracks-To-Toll/03-specify-currency.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/03-specify-currency.json) |
-| 04 | Specify Mapping Provider                  | [View](./03-TollTally-GPS-Tracks-To-Toll/04-specify-mapping-provider.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/04-specify-mapping-provider.json) |
-| 05a | Specify Vehicle Type                     | [View](./03-TollTally-GPS-Tracks-To-Toll/05a-specify-vehicle-type.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/05a-specify-vehicle-type.json) |
-| 05b | Height-Based Toll                        | [View](./03-TollTally-GPS-Tracks-To-Toll/05b-height-based-toll.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/05b-height-based-toll.json) |
-| 05c | Weight-Based Toll                        | [View](./03-TollTally-GPS-Tracks-To-Toll/05c-weight-based-toll.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/05c-weight-based-toll.json) |
-| 06a | Specify Fuel Cost                        | [View](./03-TollTally-GPS-Tracks-To-Toll/06a-specify-fuel-cost.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/06a-specify-fuel-cost.json) |
-| 06b | Specify Fuel Efficiency                  | [View](./03-TollTally-GPS-Tracks-To-Toll/06b-specify-fuel-efficiency.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/06b-specify-fuel-efficiency.json) |
+| 01 | Sync Upload for Small Files               | [View](03-TollTally-GPS-Tracks-To-Toll/01-sync-upload-for-small-files.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/01-sync-upload-for-small-files.json) |
+| 02 | Async Upload for Large Files              | [View](03-TollTally-GPS-Tracks-To-Toll/02-async-upload-for-large-files.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/02-async-upload-for-large-files.json) |
+| 03 | Specify Currency                         | [View](03-TollTally-GPS-Tracks-To-Toll/03-specify-currency.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/03-specify-currency.json) |
+| 04 | Specify Mapping Provider                  | [View](03-TollTally-GPS-Tracks-To-Toll/04-specify-mapping-provider.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/04-specify-mapping-provider.json) |
+| 05a | Specify Vehicle Type                     | [View](03-TollTally-GPS-Tracks-To-Toll/05a-specify-vehicle-type.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/05a-specify-vehicle-type.json) |
+| 05b | Height-Based Toll                        | [View](03-TollTally-GPS-Tracks-To-Toll/05b-height-based-toll.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/05b-height-based-toll.json) |
+| 05c | Weight-Based Toll                        | [View](03-TollTally-GPS-Tracks-To-Toll/05c-weight-based-toll.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/05c-weight-based-toll.json) |
+| 06a | Specify Fuel Cost                        | [View](03-TollTally-GPS-Tracks-To-Toll/06a-specify-fuel-cost.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/06a-specify-fuel-cost.json) |
+| 06b | Specify Fuel Efficiency                  | [View](03-TollTally-GPS-Tracks-To-Toll/06b-specify-fuel-efficiency.json) | [View](../../responses/03-TollTally-GPS-Tracks-To-Toll/06b-specify-fuel-efficiency.json) |
 
