@@ -1,11 +1,10 @@
-
-# TollGuru API Request Parameters
+# TollGuru API Request Parameters Examples
 
 ## Overview
 
-This repo provides list of parameters and corresponding JSON to use with the TollGuru Toll API to receive specific responses.
+This repo is a collection of parameters and corresponding JSON to use with the TollGuru Toll API endpoints to receive specific responses.
 
-Each endpoint is represented by a folder under the `request-bodies` directory, which contains a sample request for each use case and the `responses` folder contains their corresponding responses from the TollGuru API.
+Examples for each API endpoint are provided in the `request-bodies` directory. Similarly, responses for the corresponding examples are provided in the `responses` folder.
 
 ## Endpoints
 
