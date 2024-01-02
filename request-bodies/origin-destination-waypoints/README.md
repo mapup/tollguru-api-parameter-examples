@@ -1,6 +1,6 @@
 # Origin Destination and Waypoints
 
-The `/origin-destination-waypoints` endpoint deals with obtaining toll information about a particular route by specifying its origin and destination and a list of waypoints. The use cases of this endpoint are as follows:
+The `/origin-destination-waypoints` endpoint provides toll information, route information, xxx toll information about a particular route by specifying its origin and destination and a list of waypoints. The use cases of this endpoint are as follows:
 
 | Use Case Name | Request File | Response File |
 |---------------|--------------|---------------|
