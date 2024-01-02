@@ -6,10 +6,12 @@ import urllib.parse
 import requests
 import json
 
+
 def convert_value(value):
     if isinstance(value, bool):
         return str(value).lower()
     return value
+
 
 def extract_match(glob_pattern, path):
     # Escape special characters in the glob pattern
@@ -33,24 +35,24 @@ if __name__ == "__main__":
     api_key = os.environ.get("TOLLGURU_API_KEY")
     assert api_key != None, "TollGuru API key required"
 
+    aliases = {
+        "01-Origin-Destination-Cost-Tradeoff": "origin-destination-waypoints",
+        "02-Complete-Polyline-To-Toll": "complete-polyline-from-mapping-service",
+        "03-TollTally-GPS-Tracks-To-Toll": "gps-tracks-csv-upload",
+    }
+
     base_url = "https://apis.tollguru.com/v2/"
     folder_glob = "request-bodies/*/"
     responses_path = "responses"
 
     for folder in glob.glob(folder_glob):
-        endpoint = extract_match(folder_glob, folder)
+        endpoint = aliases[str(extract_match(folder_glob, folder))]
         url = urljoin(base_url, endpoint)
 
-        if endpoint == "gps-tracks-csv-download":
-            continue
-
-        if endpoint != "gps-tracks-csv-upload":
-            continue
+        # if endpoint != "gps-tracks-csv-upload":
+        #     continue
 
         for example in glob.glob(f"{folder}/*.json"):
-            if example != f"{folder}03-change-currency.json":
-                continue
-
             out_path = os.path.join(
                 responses_path, *os.path.normpath(example).split(os.sep)[1:]
             )
@@ -63,17 +65,25 @@ if __name__ == "__main__":
 
                 if endpoint == "gps-tracks-csv-upload":
                     params = json.loads(data)
-                    params = [f"{urllib.parse.quote(key)}={urllib.parse.quote(str(convert_value(value)))}" for key, value in params.items()]
-                    with open("request-bodies/gps-tracks-csv-upload/gps-tracks-test-case.csv", "r") as gps_file:
+                    params = "&".join(
+                        [
+                            f"{urllib.parse.quote(key)}={urllib.parse.quote(str(convert_value(value)))}"
+                            for key, value in params.items()
+                        ]
+                    )
+                    with open(
+                        "request-bodies/03-TollTally-GPS-Tracks-To-Toll/gps-tracks-test-case.csv",
+                        "r",
+                    ) as gps_file:
                         response_raw = requests.request(
                             "POST",
-                            f"{url}?",
+                            f"{url}?{params}",
                             headers={
                                 "Content-Type": "text/csv",
                                 "Accept": "application/json",
                                 "x-api-key": api_key,
                             },
-                            data=gps_file
+                            data=gps_file,
                         )
                 else:
                     response_raw = requests.request(

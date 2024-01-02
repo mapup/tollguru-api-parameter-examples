@@ -10,6 +10,6 @@ Examples for each API endpoint are provided in the `request-bodies` directory. S
 
 The following are the endpoints provided by the TollGuru Toll API.
 
-- [Origin Destination Waypoints](./request-bodies/origin-destination-waypoints)
-- [Complete Polyline from Mapping Service](./request-bodies/complete-polyline-from-mapping-service)
-- [GPS Tracks CSV Upload](./request-bodies/gps-tracks-csv-upload)
+- [Origin Destination Waypoints](./request-bodies/01-Origin-Destination-Cost-Tradeoff/)
+- [Complete Polyline from Mapping Service](./request-bodies/02-Complete-Polyline-To-Toll/)
+- [GPS Tracks CSV Upload](./request-bodies/03-TollTally-GPS-Tracks-To-Toll/)
