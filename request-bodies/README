@@ -1,4 +1,7 @@
 The TollGuru API includes multiple endpoints
+Origin-Destination-Cost-Tradeoff
+Complete-Polyline-to-Toll
+TollTally-GPS-Track-to-Toll
 Toll cost calculation between origin, destination, and waypoints: Retrieves route details, toll info, and fuel expenses using geo coordinates.
 
 Toll cost for polyline routes: Calculates tolls for encoded polylines from an external mapping provider or TollGuru, eliminating the need for explicit start/endpoints.
