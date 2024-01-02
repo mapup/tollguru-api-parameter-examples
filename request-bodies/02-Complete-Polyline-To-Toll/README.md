@@ -4,7 +4,7 @@ The `/complete-polyline-from-mapping-service` endpoint allows users to obtain ro
 
 | ID | Name                                   | Request                                      | Response                                    |
 |----|----------------------------------------|----------------------------------------------|---------------------------------------------|
-| 01a | Polyline as Encoded String            | [View](02-Complete-Polyline-To-Toll/01a-polyline-as-encoded-string.json) | [View](../../responses/02-Complete-Polyline-To-Toll/01a-polyline-as-encoded-string.json) |
+| 01a | Polyline as Encoded String            | [View](request-bodies/02-Complete-Polyline-To-Toll/01a-polyline-as-encoded-string.json) | [View](../../responses/02-Complete-Polyline-To-Toll/01a-polyline-as-encoded-string.json) |
 | 01b | Polyline as Decoded Path              | [View](02-Complete-Polyline-To-Toll/01b-polyline-as-decoded-path.json) | [View](../../responses/02-Complete-Polyline-To-Toll/01b-polyline-as-decoded-path.json) |
 | 02a | Polyline with Timestamps              | [View](02-Complete-Polyline-To-Toll/02a-polyline-with-timestamps.json) | [View](../../responses/02-Complete-Polyline-To-Toll/02a-polyline-with-timestamps.json) |
 | 02b | Path with Timestamps                  | [View](02-Complete-Polyline-To-Toll/02b-path-with-timestamps.json) | [View](../../responses/02-Complete-Polyline-To-Toll/02b-path-with-timestamps.json) |
