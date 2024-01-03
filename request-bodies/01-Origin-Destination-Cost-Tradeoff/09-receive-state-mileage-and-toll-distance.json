@@ -1,0 +1,12 @@
+{
+    "from": {
+        "address": "Walt Whitman Brg Philadelphia, PA 19148, USA"
+    },
+    "to": {
+        "address": "Ocean City, NJ 08226, USA"
+    },
+    "vehicle": {
+        "type": "5AxlesTruck"
+    },
+    "state_mileage": true
+}

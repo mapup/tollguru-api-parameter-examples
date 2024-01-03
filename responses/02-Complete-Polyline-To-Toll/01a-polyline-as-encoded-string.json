@@ -1,0 +1,192 @@
+{
+    "status": "OK",
+    "summary": {
+        "countries": [
+            "USA"
+        ],
+        "currency": "USD",
+        "vehicleType": "2AxlesAuto",
+        "vehicleDescription": "Car, SUV or Pickup truck without 4 tires on rear axle",
+        "units": {
+            "currencyUnit": "USD",
+            "fuelEfficiencyUnit": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "departure_time": "2024-01-07T17:09:33.18491485Z",
+        "departureTime": "2024-01-07T17:09:33.18491485Z",
+        "share": {
+            "name": "Tollguru Route",
+            "prefix": "Tollguru+Route",
+            "uuid": "0d43f1ba-0283-4fde-a9f7-25ba6960ac7d",
+            "timestamp": "2024-01-07T17:09:33.184908525Z",
+            "client": "polylineAPI"
+        }
+    },
+    "route": {
+        "hasTolls": true,
+        "distance": {
+            "text": "407 mi",
+            "metric": "655 km",
+            "value": 655325
+        },
+        "costs": {
+            "fuel": 52.31,
+            "tag": 42.14,
+            "cash": null,
+            "licensePlate": null,
+            "prepaidCard": 42.14,
+            "tagAndCash": 42.14,
+            "minimumTollCost": 42.14
+        },
+        "tolls": [
+            {
+                "type": "ticketSystem1",
+                "tagCost": 40.64,
+                "tagPriCost": 40.64,
+                "tagSecCost": null,
+                "cashCost": null,
+                "licensePlateCost": 82.53,
+                "prepaidCardCost": 40.64,
+                "currency": "USD",
+                "tagPrimaryNames": [
+                    "E-ZPass"
+                ],
+                "prepaidCardNames": [],
+                "tagPrimary": [
+                    "E-ZPass"
+                ],
+                "tagSecondary": [],
+                "licensePlateNames": [
+                    "Toll By Plate"
+                ],
+                "discountCarDetails": null,
+                "discountCarType": null,
+                "start": {
+                    "id": 130004400,
+                    "lat": 40.088282,
+                    "lng": -75.40304,
+                    "name": "326 - Valley Forge",
+                    "road": "Pennsylvania Tpke",
+                    "state": "PA",
+                    "country": "USA",
+                    "arrival": {
+                        "distance": 30452.64,
+                        "time": "2024-01-07T17:09:33Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:09:33Z",
+                    "timestamp_localized": "2024-01-07T12:09:33-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -75.40304,
+                                40.088282
+                            ]
+                        }
+                    }
+                },
+                "end": {
+                    "id": 130000000,
+                    "lat": 40.654895,
+                    "lng": -80.072658,
+                    "name": "30 - Warrendale",
+                    "road": "Pennsylvania Tpke",
+                    "state": "PA",
+                    "country": "USA",
+                    "arrival": {
+                        "distance": 507684.13,
+                        "time": "2024-01-07T17:09:33Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:09:33Z",
+                    "timestamp_localized": "2024-01-07T12:09:33-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -80.072658,
+                                40.654895
+                            ]
+                        }
+                    }
+                },
+                "height": null,
+                "tagRequested": "tagPriCost"
+            },
+            {
+                "type": "ticketSystem1",
+                "tagCost": 1.5,
+                "tagPriCost": 1.5,
+                "tagSecCost": null,
+                "cashCost": 2.25,
+                "licensePlateCost": null,
+                "prepaidCardCost": 1.5,
+                "currency": "USD",
+                "tagPrimaryNames": [
+                    "E-ZPass"
+                ],
+                "prepaidCardNames": [],
+                "tagPrimary": [
+                    "E-ZPass"
+                ],
+                "tagSecondary": [],
+                "discountCarDetails": null,
+                "discountCarType": null,
+                "start": {
+                    "id": 128006000,
+                    "lat": 40.923901,
+                    "lng": -80.557105,
+                    "name": "239 - Eastgate",
+                    "road": "Ohio Tpke",
+                    "state": "OH",
+                    "country": "USA",
+                    "arrival": {
+                        "distance": 560939.39,
+                        "time": "2024-01-07T17:09:33Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:09:33Z",
+                    "timestamp_localized": "2024-01-07T12:09:33-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -80.557105,
+                                40.923901
+                            ]
+                        }
+                    }
+                },
+                "end": {
+                    "id": 128005400,
+                    "lat": 41.112246,
+                    "lng": -80.83685,
+                    "name": "218 - Niles-Youngstown",
+                    "road": "Ohio Tpke",
+                    "state": "OH",
+                    "country": "USA",
+                    "arrival": {
+                        "distance": 593720.7,
+                        "time": "2024-01-07T17:09:33Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:09:33Z",
+                    "timestamp_localized": "2024-01-07T12:09:33-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -80.83685,
+                                41.112246
+                            ]
+                        }
+                    }
+                },
+                "height": 7.5,
+                "tagRequested": "tagPriCost"
+            }
+        ],
+        "polyline": ""
+    }
+}

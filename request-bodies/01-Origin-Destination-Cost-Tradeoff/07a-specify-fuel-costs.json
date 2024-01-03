@@ -1,0 +1,18 @@
+{
+    "from": {
+        "address": "Walt Whitman Brg Philadelphia, PA 19148, USA"
+    },
+    "to": {
+        "address": "Ocean City, NJ 08226, USA"
+    },
+    "vehicle": {
+        "type": "2AxlesAuto"
+    },
+    "fuelOptions": {
+        "fuelCost": {
+            "value": 4.38,
+            "currency": "USD",
+            "units": "$/gallon"
+        }
+    }
+}

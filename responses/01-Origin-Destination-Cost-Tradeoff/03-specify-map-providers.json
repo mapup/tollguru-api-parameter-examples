@@ -1,0 +1,391 @@
+{
+    "status": "OK",
+    "summary": {
+        "route": [
+            {
+                "location": {
+                    "lat": 39.9071808,
+                    "lng": -75.1404421
+                },
+                "address": "Walt Whitman Brg, Philadelphia, PA 19148, USA"
+            },
+            {
+                "location": {
+                    "lat": 39.2615034,
+                    "lng": -74.60838439999999
+                },
+                "address": "Ocean City, NJ 08226, USA"
+            }
+        ],
+        "countries": [
+            "USA"
+        ],
+        "currency": "USD",
+        "vehicleType": "2AxlesAuto",
+        "vehicleDescription": "Car, SUV or Pickup truck without 4 tires on rear axle",
+        "fuelPrice": {
+            "value": 3.65,
+            "currency": "USD",
+            "units": "USD/gallon",
+            "fuelUnit": "gallon"
+        },
+        "fuelEfficiency": {
+            "city": 23.4,
+            "hwy": 30,
+            "units": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "units": {
+            "currencyUnit": "USD",
+            "fuelEfficiencyUnit": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "departure_time": "2024-01-07T17:08:30.848807869Z",
+        "departureTime": "2024-01-07T17:08:30.848807869Z",
+        "share": {
+            "name": "walt whitman brg, philadelphia, pa 19148, usa-ocean city, nj 08226, usa",
+            "prefix": "walt+whitman+brg%2C+philadelphia%2C+pa+19148%2C+usa-ocean+city%2C+nj+08226%2C+usa",
+            "uuid": "b7d85e2f-6a0b-4302-a665-9bca189db085",
+            "timestamp": "2024-01-07T17:08:30.848816116Z",
+            "client": "api"
+        },
+        "source": "GMAPS"
+    },
+    "routes": [
+        {
+            "summary": {
+                "hasTolls": true,
+                "hasExpressTolls": false,
+                "diffs": {
+                    "cheapest": 1.53,
+                    "fastest": 0
+                },
+                "url": "https://www.google.com/maps/?saddr=39.907181,-75.140442&daddr=39.770303,-75.048963+to:39.515067,-74.688927+to:39.416435,-74.559233+to:39.412173,-74.555826+to:39.264743,-74.641561+to:39.261503,-74.608384+to:39.261503,-74.608384&via=1,2,3,4,5,6",
+                "distance": {
+                    "text": "65 mi",
+                    "metric": "105 km",
+                    "value": 105572
+                },
+                "duration": {
+                    "text": "1 h 3 min",
+                    "value": 3810
+                },
+                "durationInTraffic": {
+                    "text": "1 h 3 min",
+                    "value": 3810
+                },
+                "name": "Atlantic City Expy E"
+            },
+            "costs": {
+                "tagAndCash": 11.72,
+                "minimumTollCost": 11.72,
+                "fuel": 8.05,
+                "tag": 11.72,
+                "cash": 11.8,
+                "licensePlate": null,
+                "prepaidCard": 11.72
+            },
+            "tolls": [
+                {
+                    "id": 111901400,
+                    "lat": 39.9103070895255,
+                    "lng": -75.1543830247675,
+                    "name": "WWB : Walt Whitman Br",
+                    "road": "Walt Whitman Bridge",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 5,
+                    "tagPriCost": 5,
+                    "tagSecCost": null,
+                    "cashCost": 5,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 5,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass"
+                    ],
+                    "tagSecondary": [],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Monthly Volume Discount: E-ZPass NJ must be used in 18+ round-trip bridge crossings during a calendar month for $18.00 discount.",
+                    "discountCarType": "Vehicles less than 7,000 lb",
+                    "arrival": {
+                        "distance": 1242.68,
+                        "time": "2024-01-07T17:09:39Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:09:39Z",
+                    "timestamp_localized": "2024-01-07T12:09:39-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -75.1543830247675,
+                                39.9103070895255
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                },
+                {
+                    "id": 112001300,
+                    "lat": 39.513676,
+                    "lng": -74.686696,
+                    "name": "AEH : Egg Harbor Mainline Barrier",
+                    "road": "Atlantic City Expy",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 4.7,
+                    "tagPriCost": 4.7,
+                    "tagSecCost": null,
+                    "cashCost": 4.7,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 4.7,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass"
+                    ],
+                    "tagSecondary": [],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Monthly Volume Discount: E-ZPass NJ must be used 30 times in 35-day period.",
+                    "discountCarType": "All vehicles",
+                    "arrival": {
+                        "distance": 65988.03,
+                        "time": "2024-01-07T17:46:44Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:46:44Z",
+                    "timestamp_localized": "2024-01-07T12:46:44-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -74.686696,
+                                39.513676
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                },
+                {
+                    "id": 112106200,
+                    "lat": 39.306802,
+                    "lng": -74.61805,
+                    "name": "Great Egg",
+                    "road": "Garden State Parkway",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 2.02,
+                    "tagPriCost": 2.02,
+                    "tagSecCost": 2.02,
+                    "cashCost": 2.1,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 2.02,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass NJ"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass NJ"
+                    ],
+                    "tagSecondary": [
+                        "E-ZPass",
+                        "E-ZPass DE",
+                        "Uni",
+                        "I-Pass",
+                        "E-ZPass Skyway",
+                        "E-ZPass IN",
+                        "RiverLink",
+                        "E-ZPass ME",
+                        "E-ZPass MD",
+                        "E-ZPass MA",
+                        "MnPass",
+                        "E-ZPass NH",
+                        "E-ZPass NY",
+                        "E-ZPass NC",
+                        "E-ZPass OH",
+                        "E-ZPass PA",
+                        "E-ZPass RI",
+                        "E-ZPass VA",
+                        "E-ZPass WV",
+                        "E-Zpass Flex"
+                    ],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Other discounts: 65+ Senior citizens receive a 10% discount on the off-peak rate as Senior Citizen Discount. Vehicles with fuel efficiency 45 MPG and meeting California Super Ultra Low Emission Vehicle (SULEV) standard receive a 10% discount on the off-peak rate as Green Pass Discount. Must have NJ E-ZPass.",
+                    "discountCarType": "Cars",
+                    "arrival": {
+                        "distance": 95956.84,
+                        "time": "2024-01-07T18:02:22Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T18:02:22Z",
+                    "timestamp_localized": "2024-01-07T13:02:22-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -74.61805,
+                                39.306802
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                }
+            ],
+            "polyline": "{jqrFvzriMi@tFQfBUxBOzAGp@Gl@Gn@In@Gn@Ef@Gl@Gl@Gl@Gl@Gn@OvAGl@Gl@e@xEAHCXY|CKdA_@`EMpAOxAe@dFGl@Ej@C\\CNAJALCJCLCLAJCJELCLEPERERERG`@I^MbAKp@UxBo@pGOfA]dC?De@fDYbCGp@E^OjBCZEf@GhAC^Ef@??UT?@A@EZCLAFABAFCDCDEHMJIDCBE@E@G@G@GAE?IAEAGCGCGECEECACAAEICECGAGCGAG?E?CAG?E?G?KBU@O??PW@CBEDGFE@ABADCDAFCt@Sv@Jb@Fb@F`@Fd@FbAN??h@f@FF@DBBDF@D@@@D@F@F@H@L?J@NAL??YxAGXWhA??ORGDGFGDEDE@?@IBG@M@Q@UIKGKEKGAAMMGGCGCGAEAE?ACQ?I?I@e@AICGEM??Fy@HuAFw@@SJyA@QNwBD_@Fy@Hu@BYLw@Jw@Lu@F]Lo@@CNs@F[Ps@Ps@XoAH[@ILi@Lw@Ny@Hm@Hu@@GFq@Dc@Fs@?K@QB[@[Bs@JuAB[@[@]@ODi@BUB[Fg@Dc@B]BWHu@BY?ABUBW@GB[D[Fq@Hy@LsAJaAJgAHy@LmAHaAFo@`@sDFm@Dc@BQb@yED]Hu@v@iIf@}EB[j@aGFk@D[JmABWD_@?C@EDi@@C?CD[H{@?EBQH{@Fe@LuAFi@JiALsAJ_AJkAh@qFf@cFf@eFFm@d@yEBUFq@Fq@?KDe@Fq@Ds@Fq@\\uDN{AFm@N{ADm@JcAH{@D]Fm@?ADk@N{AFm@D_@@KDa@@KDa@@KBa@Fm@@KBa@BKFm@Hq@NsA@GLuA?C?Ah@cF@GBW?CBY?E@?Bg@HcAHs@@KH{@BWJiAZ}C@QD]JaA@MDi@Dc@BQPkBHy@VgCXmCF]Hm@PeADQF]DQLk@FSBMDKH[\\eAFQL[L[JUDKJUR_@R]HOJQPYPUJOJMBC\\c@PQJOHGVYTU^[RQFGDE@ADC?AdAw@@ATQZUz@k@PKJGNKFEBCv@e@\\U^U@?FE^UVOLIXOFC@AHEFC\\Ql@WHEPGNIdD{Af@Sl@U`A]l@W`@O`E_BbA]|@[lAa@v@Wn@Up@QfA_@hA]x@Ux@Wn@Qt@StCu@z@Wn@Qb@Kx@WxA]|A[JCNENCVGl@MFAXGREREh@KVGPEZGNCREVEXENCTELCFATCRE@?j@IPCZERCPCTCFAd@GVE`CUZE\\Eh@EbAMd@Gb@C`BQnDW~@G`@C^E^AZCjAGp@El@E|@Eb@Eh@EhAKf@C\\Ch@Cj@ETCRA@?\\CPA@?TCTATARCNAF?TCRATCTCf@CNCH?RCTANCD?TCRAXCLAXCVCLATAVC@?LANA\\CLAFAJ?NCH?BAJ?HAHAD?JAF?DA@?LAPAPCNATAD?HATA@APAB?VAPABATAx@GPATCRA@?LAPAFARATATCL???NAPAR?VA@?V?N@L@XBj@@F?h@BN?j@Bj@Dh@@l@B@?h@BnB?NARAF?JALANAFATETEt@OXINEPEh@O@?fA]`@MTG|@UTGTGh@GjAMHAbAOpBWxASXELCx@OdAOTEb@Iz@OHCXEFAFCXEdB_@REh@ONEZGh@OvHkBhBe@^If@MbBa@@?h@MzA_@~Ac@NEJC^Kn@OVIrA[@A`@I^Kl@OXGjAYHCh@MVGJCx@SjBc@tA[lAYXGPEnCk@VGVGRETGh@MLEfBYz@Wl@OdAY|A_@\\IVE`Ck@TGpBc@j@MbBa@`B_@vBg@pA]bBa@XGNErCq@LCXIlBe@rCq@f@OhDw@~Bk@v@SLC|@UZIp@OxCo@vFsA^I^In@OXGt@Sl@OLE^KB?d@QzBu@DAn@Ul@S`@QPEf@UTITK~@c@l@Y|@c@RKvAu@n@]d@YXQPKVO\\UvAaAHGTQFEVQx@m@b@]fAy@x@q@f@c@|@y@fAgAxAyA^a@LMJMFGLO`@e@TWNSb@i@LO\\c@DEv@gAT[RYl@{@\\g@@ANSNSNSLSf@q@JQLO`AuAv@kA`@i@LS`@k@z@mANUNSZg@RWf@w@fAcBn@eAj@aAZk@R]@CXg@Zm@DGFMRa@Zk@`@w@JUHOP]JWJUNYTi@JUvAeD\\y@Rg@@?Pc@Na@HSBEJWRg@Tk@@Cb@eARi@lCuGJYHQPa@Re@HULWJWJWp@{AHQHQl@qAdAwB\\o@Te@LSXk@LUN[p@mAR]P[PY\\m@LSNYLSLSNULSLSBEh@y@R[d@s@f@u@j@y@JM`@k@HMNQJQf@q@Z_@T[HK^e@V]V[NQTYZ]LQ\\_@TY\\_@RWXWHMNQNONQPOPSDE`AcAh@g@v@u@d@e@`@_@TS`@_@dA}@r@k@f@a@PO`Au@t@g@`@[f@]nBuAzBuAbBaAf@Yh@[RKPKdBaAb@Wz@g@|A}@n@_@d@WbCwA|A{@BAXQr@a@ZSXQNGvAy@v@c@HGt@c@PIRM`@Ud@YLIPI?AZQbAk@p@_@`@WFC^U`@U`@Sv@c@`@Ud@UFCf@Wd@U~Au@rAm@`Ac@ZM@?p@WVMb@Ox@[\\Mv@WZM`@Md@O^M@?\\Mz@Wp@Sh@MfA[p@Qn@OREHCpAYPEbASZGr@MXG`AQJA`AQp@Id@Ij@IZEPARCLCv@Ij@Gh@GhAKxAK^Cn@E`@CNAxAIVAxAE~AEd@AbACn@?p@?FAn@?j@?`A?r@?p@@f@?l@?|@?b@?l@?pE?fA?fC?L?n@?t@?B?b@?f@?fB?dA?V?z@?\\?P?L?\\?`A?lA?D?P?^?~@?N?h@?j@?\\?`A?bBAj@?p@?N?H?T?h@?V?R?`A?T?\\?`@?V?R?T?T?T?dB?\\?Z?b@?b@?D?l@?fA?hA???bBKTCLAVERCREHAJATGRETGRGRIRITIRKPIFEJERMPMPMROPMPOJKTSPQPONOb@a@Z[VUNQb@a@r@q@r@q@b@a@JI`@_@b@_@h@a@POPOPMPOPMROPMPMPMRMPOBALIRMPMFEJGPMRKPMh@[t@c@RKf@Yd@W^Sv@c@HCPKRMd@WRKRKVOLIRKPKRKPKRMRMPKRMPKRMPMPOPMLIDCPOPMPOPOPONOPQPOPQNOPQNQNQPQNQNQNSNQNSNQNSLSNSHKDGLSLS\\i@BGHMLULSLUJULULWJULWJSDIDKLWJWHSFMDMJUJWL[f@oA^}@Vo@Rg@P_@Vo@HUJWb@eAJUb@gAFMLYRg@N_@N]JWN]^{@JUL[^y@LYNYN_@Xm@Tg@Zo@JUTc@?ATc@@Cp@sATe@NYJQLWBEFMLUTe@P[NYNWTa@HQVc@FM@AJSNWZi@BEHOVc@R]Xe@LSFMR]l@_Ad@w@b@q@NULS\\i@\\g@NUJQNU^g@l@{@LSX_@R[PWJONS@?\\e@NU`@g@Ze@\\c@RULQFKHINS^e@\\c@TYJK\\c@NSRS^e@PS^c@RUZ]RU\\a@NQFGLM|@cALM\\_@Z]NOb@c@JKLMBCNOf@g@f@g@Z[d@e@j@i@RSPQNORQRSZYRUPOPQNOPQPONQPOb@a@NQPOPQNOFGZ[vBuB\\]VSPSNOb@a@\\]RSLKBE^]VUp@q@`@a@PQPQPONOPQPQ\\[fBeBx@w@PQxAwA`AaA`@a@n@q@fAgAr@s@p@s@b@e@X[|@_ARSv@{@HIpAoAj@m@XYjDgDt@u@\\[@AFGHI@ATSpAoAr@q@b@a@POr@o@XW@ArCgChC_C|AyAPOPQTUFGFGLKr@s@dAcAf@g@NMdBcBNOPQfBeB`@a@nHgHhEeEhAgAVW|@{@vBuBFEHIPQ`@a@lBiBxA{ALOt@u@j@o@LOPQ\\_@x@_Al@s@\\a@X]x@aA^e@p@y@\\e@NSNQ~@oAp@}@\\e@l@}@\\c@fAaBLSb@o@LSj@}@b@q@Zg@BEFIJSNULUFIDINULSLULSLULULUBCHQLULSLULSBEHQLULSLUtAaCh@aALSLUHO^q@v@uALULULULSFMR]h@aALULSLULUZk@LSLUPYJUXg@j@_ALULUDIFKLULU`BuCLULULUR]HMJUZi@NU@CVg@LWLULUJULWJUJWJULWHU@CTm@JWJWJWHWBIFOHWHWTq@BKDKJYRo@DOX{@Tq@^iAh@_BHY^iATq@HYJWHYHWHYHWHYHWFYPo@@AFWHYFYHYFYLi@Pq@TeAFWF]@ERaAF[F[FYDYF[DULu@D[FY@IPiAD[D[Ju@D[DY@GBSD[Hu@Ju@D[Hu@DYNmADa@DYD[D[D[BYD[D]Ju@D]D[D[DYB[DYJw@DYBYD]D[D[DYBYF]BWD]D[DYDYD[BYD[D[D[D[BYJu@BWJw@DYFe@@QD[D[Ju@BY@GBUJs@D]D[D[Hq@D[D[D[BYF[BYJw@@GBQDY?CDYD[BW@GHo@D[D[DYD[BYD[D]DWD]D[VkBHs@PqANiA@IVmBPoAD[Js@Lw@Jw@Hi@@IJs@Lw@Js@RoALw@Lu@Js@Lu@F[Lu@D[F[DYFYD[FWD]DQ@GDWF[D[F[FYD[FYDWF[F[DWF[FYD[FWFYF]DQ@GDYFYFYF[F[DWH[F[DWF[No@F]BOBIFYF]FWH[DWNu@Lm@@CH]DWFYViAH[FWXkAF]FWHYFYFWPs@Ns@Pq@Ps@H[HYFWZmAJa@Li@FUJ]Po@Ru@Ps@Po@Pq@J[FWJ[ZkARq@HYPo@Rs@JYPo@HYHYf@cBHWL_@Rq@Pm@FUBEH[HWHWHYRq@Rq@h@eBHWRo@Lc@X{@H[r@}BHYTq@Po@J[HWHWHYHWBIFUPi@h@eBHWPm@lDkLNe@V}@Rq@fAmD\\gAHYRo@HYHWJYHWHYJYRm@HYFOBIHWBEFQHWHWJYHWJYHUJWTq@To@Tm@J[HUJWJYJWJY^_A^aA\\}@b@gA~@_C^{@~@yBTg@\\u@\\w@Vk@d@eAZo@lAiCl@mAZm@Te@\\q@p@sAVe@Tc@~@gB~@cBfAmBv@uA~CgFrAwBJQLSNULSLSNSNSLUNSLSNSNUZe@~@sAJONSNSNSl@{@NSPUj@w@NSJMPU`@i@LONSNSNONUPULONQNSNQNQNQPSNSNSNQPQLQPQNSNQNQNQ@ANONQNSLMRSPSNOJOPQRUNO@ANQLOPQNQPQNQPQNQPONQPQNQPQNQHIVYPQNQNOPQPQNQPQ^a@JKDEPQNQPQ^a@PQNQPQNQNOPQNQb@c@NQNQPQNQNOPQb@c@NQPQNQNONQPQNQPQPQNQNOPQPQNQNQ`@a@^a@PQNQbAeAPQNQPQp@u@`AeAPOp@u@PQXYlAoAZ]h@k@LMPQNOPSrAwA`@c@TYz@_At@y@JM`@e@^c@PSNQNQr@w@^a@`@c@NQ`@c@PQnAwANQPONQNQPQNOPQNQPQNOb@e@TULOn@q@r@u@v@y@j@o@POr@w@j@m@`@a@~@cA\\_@PQ^a@`AcAjAoAvAyAn@q@l@o@NQNONQNO`@a@NQrAwA\\_@p@s@~@cA^_@LORQ\\a@PO^c@^a@n@o@^c@^a@p@q@\\a@`@a@n@q@`@c@\\]PSNONOPQPSl@m@NQPONQNO@AJMNOPQNQPQLMNOPSNONO^a@NONOn@s@`AaA`@a@TWXYn@s@\\]LMRU^_@LQTWTWnEuEbAeAlBqB?A`@a@p@u@^_@FGPUZ[LOLMJKHKLMPSRSVYTUl@m@NSNOJM`@a@VWLMVYVWPQNQVWRUFEPSX[NOPQ\\_@VWBETUZ]NOdAiAx@}@POFG\\_@LMTW\\]PQ\\]NQLONOJKPQLMb@e@JKHKRSHIX[RUNONOLMNQZ[TWRSLMHKHIFGBC^_@NONSNMRUPQPQZ]PSLMRSLO\\]Z]RSRS\\_@NOTUPSLOZ[NOLMNONOJMJMHIPOV[Z[TWPOLQPO@APSPQLMNQZ[RUNOPSLMLMf@i@LM@Cj@m@\\_@PO\\_@`@c@NOPSJKNMVY`@c@VYX[JIJKTU~@eAJK`@c@z@}@t@w@\\]TWd@e@BE`@c@HGTW\\]JKTWPSPQj@o@JMJKVYV[`@e@JMDEPQ\\e@Z[DI`@c@f@o@HKf@m@BCp@y@`@k@LOJMv@eAJMBC^e@^i@JO\\e@PWTYXa@b@m@l@{@h@u@h@y@BCv@kAj@}@T[Zg@PW^m@v@qAtA}Bd@w@d@u@d@u@d@w@j@aAVa@`AaBR_@HMR[j@}@b@w@DGf@}@PYf@y@BEx@uA@AZg@^q@f@y@f@y@n@gAP[HMZk@\\i@fAmBTa@T]fAkBNWLSTa@DG\\i@\\k@PYXe@l@aAv@iA@Cd@s@d@s@jAcBNQzA}Bl@_A\\i@LSj@_AT_@T]x@wANWf@}@j@}@n@gAt@qAh@}@p@iA^o@j@aAZi@T]Ta@DIh@}@j@aAb@u@Va@LUZg@NWJQ\\m@V_@BI\\i@jAqBZk@JM^o@HOZi@j@aAVa@\\m@\\k@\\m@rA{BdAeBBG\\k@NWZi@Xg@p@eAX_@NWb@o@fAaBR[Ze@z@sAh@w@j@_Ap@cAh@y@PWJOLULSBER[FIz@uA\\i@h@}@\\k@\\k@b@u@`@q@P[Va@Ze@NUNWx@uAj@_AZk@\\i@\\k@@AVe@^o@JOR]x@sA\\k@Xe@\\k@\\k@Zg@^m@Vc@BEj@_A?A^o@JQT]T_@Zi@NUZi@\\i@DIVc@h@{@f@y@P[^o@t@mAb@u@HMz@wAh@}@j@aAFITa@v@oALWFINUp@iAPYNU\\m@d@u@Zi@BCx@uAr@kAf@y@FMn@eAJQj@aAx@qANYLSZi@f@y@BGdAeBj@_AVc@DIx@sAZi@Zi@HM`@q@p@iAVe@t@oAh@_ADIjAqBDGp@kAJOd@{@r@mADEt@qAP]BCJQR[r@mANWNWDGh@{@R]JOb@q@LULS\\g@|@sAZe@NUHMR[NSLU@?Zg@NULS@ALSZg@NULSNULSLUZg@Zk@h@}@LSXi@b@u@JQlAuBtA_Ch@_AVe@R]Vc@v@sAd@{@FIXg@r@mA@C\\m@xAgCPYpA{BNWR[jFeJpDqGBEFKNYt@uAxFgKDIHOFIDGpAaC|AuCd@y@DGv@yA`ByCz@{A^s@nA{B|@uAf@w@hCaEFMrAsBn@cAfAkB|AqCpAyBvBuDvBwDTa@tAaCd@y@jAqBP[nA{Bn@gATa@z@}AbAgBHOh@}@x@wAfB}C`BuC|AoC|AkCr@oALUvAeCjBeDr@mAd@{@Vc@pA{BvAgC`BsCdAiBjAsBP[n@iArA_CNYnBkDVe@PYd@w@r@mAZg@DGVa@r@mAn@aA^k@l@}@dAwAn@{@bAsAf@o@z@cARYn@u@bBuBLQ~AoB`@g@^e@p@y@~@iA^e@`@g@z@eAX_@@Ap@y@d@m@r@}@Z_@r@{@\\c@~@iA`@g@^e@~@kAPS^e@n@w@zAkB`@i@JKFIp@y@n@y@Za@b@i@dAqA^c@\\a@@ClA{Ad@k@j@q@HKv@aA^e@Za@p@y@`AmA^c@@A^c@@C^e@NQ\\a@JMbAoAJKd@m@RUf@o@FIb@i@RUVYNQRYj@q@b@k@\\c@^e@`@g@HKd@k@`@e@NQ^g@`@g@`@e@xAkBv@_A`AmAJOb@g@\\c@@Cn@w@n@y@`@e@^e@RYX[^e@^e@^c@Za@BC^e@`@g@\\e@^e@`@e@^e@b@i@HKp@y@^e@^e@n@w@^e@\\c@@A`@e@\\e@^c@`@e@NQNS\\c@`@e@|@iA`@g@`@e@^e@^e@LOPUTWHK^e@^c@^e@^c@HKTYLQp@y@~@kA^e@^c@`@g@JS\\a@`@i@r@y@^e@~@mAn@w@Z_@b@i@p@{@PSNQNQNSNSp@y@NQNSNSNQPU^e@LQ`@i@LQNS\\g@NSNSLSNSNSNULSNULSLSNULSNULSLULULSFKFILULULULULSNWFMP[Ta@Ra@LSLULULULULULULULULUJULUNWRa@R_@LUf@}@h@cAh@cAv@wALSLWLSLULWLUJULULUDGFMLULULULULULULULULUJSNWR_@Ra@LWdDcGLUh@aAh@cALULUJS@CJQJQh@cArBuDd@}@dAmBLULUXi@Zk@LUZm@Zk@Zk@Zk@\\o@lA{BrAeCNW@CHQLUv@wAv@yAv@wAh@cAXg@\\o@Zk@h@aAh@cALSLWLUZm@LSJULUZi@LULWLWNUXk@v@yALSh@cALUZk@f@aALUZk@LUNWpAeCNUXi@NWLU`@q@Ta@Ve@Zi@Zg@\\k@LULS\\k@NULS\\i@Zi@NU\\i@LQZg@\\i@z@uANU\\g@h@{@x@sAVa@??DU@AVc@\\o@Zg@|@_BZk@@Ar@qAFKNUZg@~AeC`@o@~@oANU~@qAp@{@@APGfAeBXg@pAqBT]\\k@f@y@JOT_@rA{BT]l@eA`@o@@AXi@tAeCz@wAXg@h@{@Vc@T_@rBeDZi@dAeBbAaBRY~AkCVa@h@{@v@oA^k@t@gAl@}@PW~@sALOb@o@LQ^i@`@m@v@iAz@oAPWJQ\\i@x@qA^i@BEl@aAVc@LOz@uAd@u@\\k@hBsCh@}@HKPYVa@DIdBoCNWDENYXe@r@eAt@mAPWHMZg@HO~BuD|BqD^m@FIR]Zg@^k@Zg@\\i@\\i@\\i@T_@DI\\i@Zg@\\i@Zi@T]FINYLQZg@\\k@\\g@\\k@\\i@\\i@\\i@LSLSLUNSLSNULSNWLSLS\\i@\\g@Zg@NUNULULQ\\k@LSLQ\\i@PWJQ\\i@\\i@\\k@\\g@Zi@\\i@NULSZi@@AXa@@EZg@\\i@\\i@\\i@LS\\i@LS\\i@\\i@\\i@\\i@Zi@\\i@\\i@\\g@Zi@\\i@Zg@^k@LS\\i@R]HMZg@\\i@\\i@h@}@l@}@Zi@\\i@\\g@Zi@\\i@BCXe@\\i@j@}@@AZg@\\i@Zi@\\i@b@q@T_@\\k@\\g@\\i@\\i@\\i@\\k@Zi@Zc@HOR[Zg@\\i@l@_A\\k@\\i@Zg@R[JO\\i@\\i@j@_Aj@}@Xe@BCLS\\k@\\g@@CBEJMJQDIHMLQVa@Xc@HKLUT[T_@PUFKDE^g@`@i@X]Z_@TWFGNQ\\_@RSHKHI\\]n@m@h@i@b@a@|@u@|AsAVQ^Y@ARO^YBCHEp@g@^WDAt@i@HEZSb@Yf@W^UVOh@Yb@STMTMJERKn@YRKj@WVK`@OVKdAa@RIl@SBAt@Wd@ODAVIr@S|Aa@@AZId@KHAf@Ml@MJAFAJCVEfASd@G~@O~@M~AOJATClAKr@GJ?ZCp@Gn@EbAIfAITCrBOr@E~AMFAf@EXC@?f@Ej@Ej@Eh@EHALAj@E\\CLAj@EPA^Ef@Ch@Ep@GPAj@Ej@Ej@Gl@Ej@Gj@GXEt@KbAOB?|@O|@QZGRE^ILCh@Mf@MPElA[TIx@W^Kf@Qh@QPGTIXKPGh@UNEr@[f@Uj@U^Qj@[b@STMFC`@UHCFEn@]PKJG^Ul@_@NKTOf@]@Ab@Yd@[NMTONMTQZWx@o@VSHIVSd@_@d@c@VWHIb@a@`@a@@A`@a@LMRU^_@@Cb@c@BE`@c@HK\\_@@CHIHKx@cAFI^g@NS^g@?A^e@\\i@NQ?APYLQLQLUNU`@o@b@s@^o@Xg@\\m@R_@DGZo@P]FOXi@LY\\q@Pc@\\s@Vm@Vo@BERi@Vq@b@gANc@Rg@@GRi@@CTu@FONc@L_@@Eb@uAPk@Ts@\\mAf@iBV_AXgANo@BKt@}Cf@uBj@cCPu@@CJk@FU\\{APy@p@uCrA{F^aBFYXkAFYBILk@Pu@FWFYFWViAZsAXmA@I^_B`@eBVmAXoAJa@TaAh@aCTaABGH]DUZuADQFU@IBILg@XmA?APs@VmAPu@Ps@`@cB`@iB`@eB@IT}@Ha@Pq@DWH[FWFYFYHYFYFWFY`@iBTaALg@Ns@Pq@F]HYFYXkATcAH]@EZoAXkAZoALa@DKBKDOHUHYJYNa@J]^_Af@mAJY\\w@LYTc@JUXi@LYFKVc@Tc@\\m@Vc@Zg@DGXg@`@k@\\g@HMTYf@q@BCX_@RWTY^a@RW`@c@b@c@X[XYFGb@c@NMJKRQRS`@_@POPQNOROPQPQJIDCVWXWPODERQNOLMVSNOLMXWj@g@`@_@d@c@p@m@PQVUNKNOh@g@RSVUFGn@m@NOPQRSPQX]fAoAX[v@cAZc@b@k@\\e@^k@Vc@`@o@Zg@\\m@h@_At@yAd@cAf@gATi@FMPa@b@iA`@eAZ}@Pc@Vs@To@HQHWXu@^eAFOPg@Pg@BCTo@Rk@Zy@@ANc@L]Na@FQZw@L_@Pc@L_@\\_AN_@@CFSL[Vo@J[Ri@L_@hAyCh@}Av@uBZy@z@aC~@iCf@sAjEuLPe@jA_Dp@kBbAoCfCcHd@qA`@gA??RC@AJUJULSNSRSLM?ANMPQZUr@k@jByAFGpAcAv@m@POPOPMPOROPMPORMPKPKRKPKRK@APIFCHCRIRIXKFCNEB???ZKj@Kf@KTCRCTAJ?HAT?T?d@BXDTBRD\\HdAT`@HNDl@JzA\\vBb@~@PD@rE~@^CrBh@r@PpA\\zA^ZJZHtCr@xBj@h@Nf@Pj@Rf@PLFDBh@Th@TNHXNHDp@\\dC|AbBdAl@^l@`@zBrAdBdAp@`@r@`@pAv@rAz@@@`BbAxCfB~BxAv@d@~AbAh@b@pA`A\\XnAdAt@n@dB`BzAzArAtA|AfBp@r@vAfBrAdBr@~@~@pAfBhCv@fAjHdKXb@bB`CvBzCd@p@f@p@VZf@l@XZd@h@TVXZTV^\\NNx@|@|@v@zAlAXTj@b@fAv@v@j@jAt@jAr@XR~@n@PJ|@l@PJRNlAz@fBnAx@n@JFDDLHr@f@l@r@rA`ARNf@\\^V`@XrBnAb@ZRJPNRJRNPJd@XPLRJRJPLRJBBNFPLRJRJTJVNv@^PHTLNFRJRHRHRJRHRHTHB@NFRHRHRHRFVJPFRHTFRHRFRFTHRFTFRFTFRFRFTDRFTFRDTFRDXFNDTDTFRDVDPDTDTDTDRBJBH@~@PRBTDVDRDRBTDRD~@NTDRDTDVDRBRDTDh@HTDTDVDTDXDJBTDRDRDRFRDRDVFPDRFTFRFTFRFF@JDTFDBLBTHRF@@PFTHRFVJPFf@RVJPFRJRHTJPHTJRJTJv@b@RJTLPHRLRJPLRJRLPLRLPJRNRLPLRLPLRNPLRPPLPLPNPNPNPNPNPNRRNLPNPPPNNNPPPPPPNNPPNPPPNPPPNPPPNPNPRRRTNPr@t@^`@NN`@b@PPJJBDNPDDJJVVHJPPNPPPNPPPNPPPNPPPNPPPNPPPJJTV^b@`@b@`@b@b@b@`@b@JJTVNPPN`@`@TTLJ`@`@b@^b@`@`@\\b@\\d@^b@\\d@\\b@Zd@\\d@Zd@Zd@Xd@X\\RFDVLNHFD\\Rf@Vf@TXNJDNFXNLFXJf@TXLB@HBf@Rf@Ph@Pf@P\\JJDf@Ph@Nh@PbAZn@PPFVHTHRFTH`@LDBRFFBLDRHRHTHRHRJh@Tf@Vd@Vf@Xf@Xd@Zb@Zd@ZVR^Xd@^b@\\b@\\\\XFDPLb@^d@^b@\\d@\\NLRPb@ZlB|AHHlA`AvAjAh@`@^X^VRNp@d@ZTZRl@\\pAv@\\RTLPHRJPJRHf@TRJPHVJTJRHRHDBLFRHLDHBDBFBB?BBB@D@B@FBB@LDJDHBLDf@PRFJDHBLDLDLDRFNDHBFBHBFBVF?@NBLFRFPDTFXHPFb@LTHRFTFRFVHPFTFRFTH@?PFRFTFJDF@RHRFTFRFRHf@PRHRHTHRJRHRJB@LFRJTLPHPLPHRLPJNJRLBBLHRNPLRLRNNLFDJHPLPNNNLJJHDFRP`A|@VXPPJLBBPPLPRTNPLNNPNRBBLNNPNPLPPRLNPRNRLP`@d@NPNPBBJLNRNPNPLNPTNPLN@BNPNPNPNRPRLPNPNPNPJLTVLPNPNRNN?@NRNPLN@BNPNPNPJLBBLPPRNPNPNR@@LPRTLLNRNNLNFF\\^NPFFRR\\\\PPNLXVf@d@RPNNDBLJTPPN\\XVRNLRLTPVP^X\\RNJRLPLRLLFVPFBVNf@XVLd@Vd@Td@TRHRJf@Rf@Rf@Pd@Rf@Pf@Pf@Nd@Nf@Lf@Ld@Lf@Lh@Jj@Jj@Jh@HPDB?PBRBTDP@@@TBf@D@?f@D@?R@R@R@@?P?R@P?T@R?T?R?D?N?T?B?PAR?TARATARAVAb@ETCRCTCTCTCTERCRELAFCRETERERERGTERGPGTGRGPGJEFCRGRGRGPGTIPGTGRIFAJEPGTIPGRGRIRGRGRGRITGRGRGRIRGTIPGRGTGRGPGh@Qf@QVId@QRGRITId@Wf@Uj@O^Gd@GpBQLCd@CNCRAl@Cl@Aj@@L@F?T@R@T@T@TBT@T@TBl@DPBj@Dj@Fh@Hn@HTBTDVBRDTDTBVFTBTFPBB@TDj@LRFTFh@NTDLDZJj@Pf@Nj@Pf@Ph@Nh@PZJNDPFVHf@Ph@Pj@Ph@Rf@Pj@Rf@Ph@Pf@Nj@Ph@Pz@Vh@Nh@PLB`@LdBl@dBj@xAf@RFh@Pj@Pj@Rf@NZJNDh@Pf@Pd@NB@\\JJBTHRFj@Pf@P@?^LJBTHRFh@Pj@P\\LJBh@PNDXJj@P^LHBVHPFj@PD@`@LB@^JHBVHPFh@PF@`@Lh@Pj@Pj@Ph@PRFRFVHd@PB?h@Ph@Ph@Ph@Nj@PPDVHHBPDLDh@Lh@Nh@Lh@Lb@HHBh@Jd@JD@h@Lj@Jh@Lj@JTFRDj@Lh@Jj@Lh@Lj@LVFh@LRDTDJBHBTDh@LZFLBrAXh@LRDTFRDF@LDRDRFRFTFRFRFRFTHRFRHRHRFRHTHRHRJ`@PB@RJFBJFRHRJRJRJRJPJRJPLRJPLPLRLPLRLPLPLPLTNd@^PNNLRNb@`@PNNNRPNPPNPPNNPPJLRTPPLNNP`@d@LPNPNRNRLPNRj@v@LT\\f@NTLTNTLRXf@NVLTJPLTNVJRJNNXZh@NTn@hAFHJTLR\\h@LRPXBDT\\BBd@r@`@j@^h@X^`@f@LLRVX^LLRV`@`@JL@@p@r@PRTTl@l@b@^LL@@PNLLRNNLPNPLPNRNRNPLRNPLRLPNRLPLPJTNPJPJXP`@TTLPJHDHFn@\\ZRRJFBFDf@XNHTLPJPLRJRJPLRJFDHDVLZP??BT@@j@j@l@n@HHXZ`@b@??d@d@RRBB|AzAHHrAtA??TNjA{B@Ex@{AHOt@sA??Ve@b@{@h@cADITa@@C@GBSr@kAnA{BDIv@uAtCiFlE_IdAkBr@oABGPWDINY`@q@pAaCxAgCtBuDf@}@|BaEv@qALYJUHMRa@@ELWBEPa@DKJWFMBGFSRo@Ng@FSH]Jc@FYP{@TkADUXwAFW@Kb@wBVmAHe@Ju@De@DY@S@K@Q@W@KBa@?M@_@@G?a@?C@Y?UCiAAm@E{ACs@EwAIeCMeEWqISoGMyDASGwBOiEAgA@u@Fu@??w@{@wA}AgCsC{DiEo@s@kF}FmF}FiFyFmF}F??o@hAo@hAu@tAy@xA"
+        },
+        {
+            "summary": {
+                "hasTolls": true,
+                "hasExpressTolls": false,
+                "diffs": {
+                    "cheapest": 0,
+                    "fastest": 14.57
+                },
+                "url": "https://www.google.com/maps/?saddr=39.907181,-75.140442&daddr=39.770303,-75.048963+to:39.515067,-74.688927+to:39.447951,-74.736008+to:39.266835,-74.740592+to:39.261503,-74.608384+to:39.261503,-74.608384&via=1,2,3,4,5",
+                "distance": {
+                    "text": "68 mi",
+                    "metric": "110 km",
+                    "value": 110773
+                },
+                "duration": {
+                    "text": "1 h 18 min",
+                    "value": 4684
+                },
+                "durationInTraffic": {
+                    "text": "1 h 18 min",
+                    "value": 4684
+                },
+                "name": "Atlantic City Expy E and NJ-50 S"
+            },
+            "costs": {
+                "tagAndCash": 9.7,
+                "minimumTollCost": 9.7,
+                "fuel": 8.54,
+                "tag": 9.7,
+                "cash": 9.7,
+                "licensePlate": null,
+                "prepaidCard": 9.7
+            },
+            "tolls": [
+                {
+                    "id": 111901400,
+                    "lat": 39.9103070895255,
+                    "lng": -75.1543830247675,
+                    "name": "WWB : Walt Whitman Br",
+                    "road": "Walt Whitman Bridge",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 5,
+                    "tagPriCost": 5,
+                    "tagSecCost": null,
+                    "cashCost": 5,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 5,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass"
+                    ],
+                    "tagSecondary": [],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Monthly Volume Discount: E-ZPass NJ must be used in 18+ round-trip bridge crossings during a calendar month for $18.00 discount.",
+                    "discountCarType": "Vehicles less than 7,000 lb",
+                    "arrival": {
+                        "distance": 1242.68,
+                        "time": "2024-01-07T17:09:39Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:09:39Z",
+                    "timestamp_localized": "2024-01-07T12:09:39-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -75.1543830247675,
+                                39.9103070895255
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                },
+                {
+                    "id": 112001300,
+                    "lat": 39.513676,
+                    "lng": -74.686696,
+                    "name": "AEH : Egg Harbor Mainline Barrier",
+                    "road": "Atlantic City Expy",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 4.7,
+                    "tagPriCost": 4.7,
+                    "tagSecCost": null,
+                    "cashCost": 4.7,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 4.7,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass"
+                    ],
+                    "tagSecondary": [],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Monthly Volume Discount: E-ZPass NJ must be used 30 times in 35-day period.",
+                    "discountCarType": "All vehicles",
+                    "arrival": {
+                        "distance": 65988.03,
+                        "time": "2024-01-07T17:46:45Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:46:45Z",
+                    "timestamp_localized": "2024-01-07T12:46:45-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -74.686696,
+                                39.513676
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                }
+            ],
+            "polyline": "{jqrFvzriMi@tFQfBUxBOzAGp@Gl@Gn@In@Gn@Ef@Gl@Gl@Gl@Gl@Gn@OvAGl@Gl@e@xEAHCXY|CKdA_@`EMpAOxAe@dFGl@Ej@C\\CNAJALCJCLCLAJCJELCLEPERERERG`@I^MbAKp@UxBo@pGOfA]dC?De@fDYbCGp@E^OjBCZEf@GhAC^Ef@??UT?@A@EZCLAFABAFCDCDEHMJIDCBE@E@G@G@GAE?IAEAGCGCGECEECACAAEICECGAGCGAG?E?CAG?E?G?KBU@O??PW@CBEDGFE@ABADCDAFCt@Sv@Jb@Fb@F`@Fd@FbAN??h@f@FF@DBBDF@D@@@D@F@F@H@L?J@NAL??YxAGXWhA??ORGDGFGDEDE@?@IBG@M@Q@UIKGKEKGAAMMGGCGCGAEAE?ACQ?I?I@e@AICGEM??Fy@HuAFw@@SJyA@QNwBD_@Fy@Hu@BYLw@Jw@Lu@F]Lo@@CNs@F[Ps@Ps@XoAH[@ILi@Lw@Ny@Hm@Hu@@GFq@Dc@Fs@?K@QB[@[Bs@JuAB[@[@]@ODi@BUB[Fg@Dc@B]BWHu@BY?ABUBW@GB[D[Fq@Hy@LsAJaAJgAHy@LmAHaAFo@`@sDFm@Dc@BQb@yED]Hu@v@iIf@}EB[j@aGFk@D[JmABWD_@?C@EDi@@C?CD[H{@?EBQH{@Fe@LuAFi@JiALsAJ_AJkAh@qFf@cFf@eFFm@d@yEBUFq@Fq@?KDe@Fq@Ds@Fq@\\uDN{AFm@N{ADm@JcAH{@D]Fm@?ADk@N{AFm@D_@@KDa@@KDa@@KBa@Fm@@KBa@BKFm@Hq@NsA@GLuA?C?Ah@cF@GBW?CBY?E@?Bg@HcAHs@@KH{@BWJiAZ}C@QD]JaA@MDi@Dc@BQPkBHy@VgCXmCF]Hm@PeADQF]DQLk@FSBMDKH[\\eAFQL[L[JUDKJUR_@R]HOJQPYPUJOJMBC\\c@PQJOHGVYTU^[RQFGDE@ADC?AdAw@@ATQZUz@k@PKJGNKFEBCv@e@\\U^U@?FE^UVOLIXOFC@AHEFC\\Ql@WHEPGNIdD{Af@Sl@U`A]l@W`@O`E_BbA]|@[lAa@v@Wn@Up@QfA_@hA]x@Ux@Wn@Qt@StCu@z@Wn@Qb@Kx@WxA]|A[JCNENCVGl@MFAXGREREh@KVGPEZGNCREVEXENCTELCFATCRE@?j@IPCZERCPCTCFAd@GVE`CUZE\\Eh@EbAMd@Gb@C`BQnDW~@G`@C^E^AZCjAGp@El@E|@Eb@Eh@EhAKf@C\\Ch@Cj@ETCRA@?\\CPA@?TCTATARCNAF?TCRATCTCf@CNCH?RCTANCD?TCRAXCLAXCVCLATAVC@?LANA\\CLAFAJ?NCH?BAJ?HAHAD?JAF?DA@?LAPAPCNATAD?HATA@APAB?VAPABATAx@GPATCRA@?LAPAFARATATCL???NAPAR?VA@?V?N@L@XBj@@F?h@BN?j@Bj@Dh@@l@B@?h@BnB?NARAF?JALANAFATETEt@OXINEPEh@O@?fA]`@MTG|@UTGTGh@GjAMHAbAOpBWxASXELCx@OdAOTEb@Iz@OHCXEFAFCXEdB_@REh@ONEZGh@OvHkBhBe@^If@MbBa@@?h@MzA_@~Ac@NEJC^Kn@OVIrA[@A`@I^Kl@OXGjAYHCh@MVGJCx@SjBc@tA[lAYXGPEnCk@VGVGRETGh@MLEfBYz@Wl@OdAY|A_@\\IVE`Ck@TGpBc@j@MbBa@`B_@vBg@pA]bBa@XGNErCq@LCXIlBe@rCq@f@OhDw@~Bk@v@SLC|@UZIp@OxCo@vFsA^I^In@OXGt@Sl@OLE^KB?d@QzBu@DAn@Ul@S`@QPEf@UTITK~@c@l@Y|@c@RKvAu@n@]d@YXQPKVO\\UvAaAHGTQFEVQx@m@b@]fAy@x@q@f@c@|@y@fAgAxAyA^a@LMJMFGLO`@e@TWNSb@i@LO\\c@DEv@gAT[RYl@{@\\g@@ANSNSNSLSf@q@JQLO`AuAv@kA`@i@LS`@k@z@mANUNSZg@RWf@w@fAcBn@eAj@aAZk@R]@CXg@Zm@DGFMRa@Zk@`@w@JUHOP]JWJUNYTi@JUvAeD\\y@Rg@@?Pc@Na@HSBEJWRg@Tk@@Cb@eARi@lCuGJYHQPa@Re@HULWJWJWp@{AHQHQl@qAdAwB\\o@Te@LSXk@LUN[p@mAR]P[PY\\m@LSNYLSLSNULSLSBEh@y@R[d@s@f@u@j@y@JM`@k@HMNQJQf@q@Z_@T[HK^e@V]V[NQTYZ]LQ\\_@TY\\_@RWXWHMNQNONQPOPSDE`AcAh@g@v@u@d@e@`@_@TS`@_@dA}@r@k@f@a@PO`Au@t@g@`@[f@]nBuAzBuAbBaAf@Yh@[RKPKdBaAb@Wz@g@|A}@n@_@d@WbCwA|A{@BAXQr@a@ZSXQNGvAy@v@c@HGt@c@PIRM`@Ud@YLIPI?AZQbAk@p@_@`@WFC^U`@U`@Sv@c@`@Ud@UFCf@Wd@U~Au@rAm@`Ac@ZM@?p@WVMb@Ox@[\\Mv@WZM`@Md@O^M@?\\Mz@Wp@Sh@MfA[p@Qn@OREHCpAYPEbASZGr@MXG`AQJA`AQp@Id@Ij@IZEPARCLCv@Ij@Gh@GhAKxAK^Cn@E`@CNAxAIVAxAE~AEd@AbACn@?p@?FAn@?j@?`A?r@?p@@f@?l@?|@?b@?l@?pE?fA?fC?L?n@?t@?B?b@?f@?fB?dA?V?z@?\\?P?L?\\?`A?lA?D?P?^?~@?N?h@?j@?\\?`A?bBAj@?p@?N?H?T?h@?V?R?`A?T?\\?`@?V?R?T?T?T?dB?\\?Z?b@?b@?D?l@?fA?hA???bBKTCLAVERCREHAJATGRETGRGRIRITIRKPIFEJERMPMPMROPMPOJKTSPQPONOb@a@Z[VUNQb@a@r@q@r@q@b@a@JI`@_@b@_@h@a@POPOPMPOPMROPMPMPMRMPOBALIRMPMFEJGPMRKPMh@[t@c@RKf@Yd@W^Sv@c@HCPKRMd@WRKRKVOLIRKPKRKPKRMRMPKRMPKRMPMPOPMLIDCPOPMPOPOPONOPQPOPQNOPQNQNQPQNQNQNSNQNSNQNSLSNSHKDGLSLS\\i@BGHMLULSLUJULULWJULWJSDIDKLWJWHSFMDMJUJWL[f@oA^}@Vo@Rg@P_@Vo@HUJWb@eAJUb@gAFMLYRg@N_@N]JWN]^{@JUL[^y@LYNYN_@Xm@Tg@Zo@JUTc@?ATc@@Cp@sATe@NYJQLWBEFMLUTe@P[NYNWTa@HQVc@FM@AJSNWZi@BEHOVc@R]Xe@LSFMR]l@_Ad@w@b@q@NULS\\i@\\g@NUJQNU^g@l@{@LSX_@R[PWJONS@?\\e@NU`@g@Ze@\\c@RULQFKHINS^e@\\c@TYJK\\c@NSRS^e@PS^c@RUZ]RU\\a@NQFGLM|@cALM\\_@Z]NOb@c@JKLMBCNOf@g@f@g@Z[d@e@j@i@RSPQNORQRSZYRUPOPQNOPQPONQPOb@a@NQPOPQNOFGZ[vBuB\\]VSPSNOb@a@\\]RSLKBE^]VUp@q@`@a@PQPQPONOPQPQ\\[fBeBx@w@PQxAwA`AaA`@a@n@q@fAgAr@s@p@s@b@e@X[|@_ARSv@{@HIpAoAj@m@XYjDgDt@u@\\[@AFGHI@ATSpAoAr@q@b@a@POr@o@XW@ArCgChC_C|AyAPOPQTUFGFGLKr@s@dAcAf@g@NMdBcBNOPQfBeB`@a@nHgHhEeEhAgAVW|@{@vBuBFEHIPQ`@a@lBiBxA{ALOt@u@j@o@LOPQ\\_@x@_Al@s@\\a@X]x@aA^e@p@y@\\e@NSNQ~@oAp@}@\\e@l@}@\\c@fAaBLSb@o@LSj@}@b@q@Zg@BEFIJSNULUFIDINULSLULSLULULUBCHQLULSLULSBEHQLULSLUtAaCh@aALSLUHO^q@v@uALULULULSFMR]h@aALULSLULUZk@LSLUPYJUXg@j@_ALULUDIFKLULU`BuCLULULUR]HMJUZi@NU@CVg@LWLULUJULWJUJWJULWHU@CTm@JWJWJWHWBIFOHWHWTq@BKDKJYRo@DOX{@Tq@^iAh@_BHY^iATq@HYJWHYHWHYHWHYHWFYPo@@AFWHYFYHYFYLi@Pq@TeAFWF]@ERaAF[F[FYDYF[DULu@D[FY@IPiAD[D[Ju@D[DY@GBSD[Hu@Ju@D[Hu@DYNmADa@DYD[D[D[BYD[D]Ju@D]D[D[DYB[DYJw@DYBYD]D[D[DYBYF]BWD]D[DYDYD[BYD[D[D[D[BYJu@BWJw@DYFe@@QD[D[Ju@BY@GBUJs@D]D[D[Hq@D[D[D[BYF[BYJw@@GBQDY?CDYD[BW@GHo@D[D[DYD[BYD[D]DWD]D[VkBHs@PqANiA@IVmBPoAD[Js@Lw@Jw@Hi@@IJs@Lw@Js@RoALw@Lu@Js@Lu@F[Lu@D[F[DYFYD[FWD]DQ@GDWF[D[F[FYD[FYDWF[F[DWF[FYD[FWFYF]DQ@GDYFYFYF[F[DWH[F[DWF[No@F]BOBIFYF]FWH[DWNu@Lm@@CH]DWFYViAH[FWXkAF]FWHYFYFWPs@Ns@Pq@Ps@H[HYFWZmAJa@Li@FUJ]Po@Ru@Ps@Po@Pq@J[FWJ[ZkARq@HYPo@Rs@JYPo@HYHYf@cBHWL_@Rq@Pm@FUBEH[HWHWHYRq@Rq@h@eBHWRo@Lc@X{@H[r@}BHYTq@Po@J[HWHWHYHWBIFUPi@h@eBHWPm@lDkLNe@V}@Rq@fAmD\\gAHYRo@HYHWJYHWHYJYRm@HYFOBIHWBEFQHWHWJYHWJYHUJWTq@To@Tm@J[HUJWJYJWJY^_A^aA\\}@b@gA~@_C^{@~@yBTg@\\u@\\w@Vk@d@eAZo@lAiCl@mAZm@Te@\\q@p@sAVe@Tc@~@gB~@cBfAmBv@uA~CgFrAwBJQLSNULSLSNSNSLUNSLSNSNUZe@~@sAJONSNSNSl@{@NSPUj@w@NSJMPU`@i@LONSNSNONUPULONQNSNQNQNQPSNSNSNQPQLQPQNSNQNQNQ@ANONQNSLMRSPSNOJOPQRUNO@ANQLOPQNQPQNQPQNQPONQPQNQPQNQHIVYPQNQNOPQPQNQPQ^a@JKDEPQNQPQ^a@PQNQPQNQNOPQNQb@c@NQNQPQNQNOPQb@c@NQPQNQNONQPQNQPQPQNQNOPQPQNQNQ`@a@^a@PQNQbAeAPQNQPQp@u@`AeAPOp@u@PQXYlAoAZ]h@k@LMPQNOPSrAwA`@c@TYz@_At@y@JM`@e@^c@PSNQNQr@w@^a@`@c@NQ`@c@PQnAwANQPONQNQPQNOPQNQPQNOb@e@TULOn@q@r@u@v@y@j@o@POr@w@j@m@`@a@~@cA\\_@PQ^a@`AcAjAoAvAyAn@q@l@o@NQNONQNO`@a@NQrAwA\\_@p@s@~@cA^_@LORQ\\a@PO^c@^a@n@o@^c@^a@p@q@\\a@`@a@n@q@`@c@\\]PSNONOPQPSl@m@NQPONQNO@AJMNOPQNQPQLMNOPSNONO^a@NONOn@s@`AaA`@a@TWXYn@s@\\]LMRU^_@LQTWTWnEuEbAeAlBqB?A`@a@p@u@^_@FGPUZ[LOLMJKHKLMPSRSVYTUl@m@NSNOJM`@a@VWLMVYVWPQNQVWRUFEPSX[NOPQ\\_@VWBETUZ]NOdAiAx@}@POFG\\_@LMTW\\]PQ\\]NQLONOJKPQLMb@e@JKHKRSHIX[RUNONOLMNQZ[TWRSLMHKHIFGBC^_@NONSNMRUPQPQZ]PSLMRSLO\\]Z]RSRS\\_@NOTUPSLOZ[NOLMNONOJMJMHIPOV[Z[TWPOLQPO@APSPQLMNQZ[RUNOPSLMLMf@i@LM@Cj@m@\\_@PO\\_@`@c@NOPSJKNMVY`@c@VYX[JIJKTU~@eAJK`@c@z@}@t@w@\\]TWd@e@BE`@c@HGTW\\]JKTWPSPQj@o@JMJKVYV[`@e@JMDEPQ\\e@Z[DI`@c@f@o@HKf@m@BCp@y@`@k@LOJMv@eAJMBC^e@^i@JO\\e@PWTYXa@b@m@l@{@h@u@h@y@BCv@kAj@}@T[Zg@PW^m@v@qAtA}Bd@w@d@u@d@u@d@w@j@aAVa@`AaBR_@HMR[j@}@b@w@DGf@}@PYf@y@BEx@uA@AZg@^q@f@y@f@y@n@gAP[HMZk@\\i@fAmBTa@T]fAkBNWLSTa@DG\\i@\\k@PYXe@l@aAv@iA@Cd@s@d@s@jAcBNQzA}Bl@_A\\i@LSj@_AT_@T]x@wANWf@}@j@}@n@gAt@qAh@}@p@iA^o@j@aAZi@T]Ta@DIh@}@j@aAb@u@Va@LUZg@NWJQ\\m@V_@BI\\i@jAqBZk@JM^o@HOZi@j@aAVa@\\m@\\k@\\m@rA{BdAeBBG\\k@NWZi@Xg@p@eAX_@NWb@o@fAaBR[Ze@z@sAh@w@j@_Ap@cAh@y@PWJOLULSBER[FIz@uA\\i@h@}@\\k@\\k@b@u@`@q@P[Va@Ze@NUNWx@uAj@_AZk@\\i@\\k@@AVe@^o@JOR]x@sA\\k@Xe@\\k@\\k@Zg@^m@Vc@BEj@_A?A^o@JQT]T_@Zi@NUZi@\\i@DIVc@h@{@f@y@P[^o@t@mAb@u@HMz@wAh@}@j@aAFITa@v@oALWFINUp@iAPYNU\\m@d@u@Zi@BCx@uAr@kAf@y@FMn@eAJQj@aAx@qANYLSZi@f@y@BGdAeBj@_AVc@DIx@sAZi@Zi@HM`@q@p@iAVe@t@oAh@_ADIjAqBDGp@kAJOd@{@r@mADEt@qAP]BCJQR[r@mANWNWDGh@{@R]JOb@q@LULS\\g@|@sAZe@NUHMR[NSLU@?Zg@NULS@ALSZg@NULSNULSLUZg@Zk@h@}@LSXi@b@u@JQlAuBtA_Ch@_AVe@R]Vc@v@sAd@{@FIXg@r@mA@C\\m@xAgCPYpA{BNWR[jFeJpDqGBEFKNYt@uAxFgKDIHOFIDGpAaC|AuCd@y@DGv@yA`ByCz@{A^s@nA{B|@uAf@w@hCaEFMrAsBn@cAfAkB|AqCpAyBvBuDvBwDTa@tAaCd@y@jAqBP[nA{Bn@gATa@z@}AbAgBHOh@}@x@wAfB}C`BuC|AoC|AkCr@oALUvAeCjBeDr@mAd@{@Vc@pA{BvAgC`BsCdAiBjAsBP[n@iArA_CNYnBkDVe@PYd@w@r@mAZg@DGVa@r@mAn@aA^k@l@}@dAwAn@{@bAsAf@o@z@cARYn@u@bBuBLQ~AoB`@g@^e@p@y@~@iA^e@`@g@z@eAX_@@Ap@y@d@m@r@}@Z_@r@{@\\c@~@iA`@g@^e@~@kAPS^e@n@w@zAkB`@i@JKFIp@y@n@y@Za@b@i@dAqA^c@\\a@@ClA{Ad@k@j@q@HKv@aA^e@Za@p@y@`AmA^c@@A^c@@C^e@NQ\\a@JMbAoAJKd@m@RUf@o@FIb@i@RUVYNQRYj@q@b@k@\\c@^e@`@g@HKd@k@`@e@NQ^g@`@g@`@e@xAkBv@_A`AmAJOb@g@\\c@@Cn@w@n@y@`@e@^e@RYX[^e@^e@^c@Za@BC^e@`@g@\\e@^e@`@e@^e@b@i@HKp@y@^e@^e@n@w@^e@\\c@@A`@e@\\e@^c@`@e@NQNS\\c@`@e@|@iA`@g@`@e@^e@^e@LOPUTWHK^e@^c@^e@^c@HKTYLQp@y@~@kA^e@^c@`@g@JS\\a@`@i@r@y@^e@~@mAn@w@Z_@b@i@p@{@PSNQNQNSNSp@y@NQNSNSNQPU^e@LQ`@i@LQNS\\g@NSNSLSNSNSNULSNULSLSNULSNULSLULULSFKFILULULULULSNWFMP[Ta@Ra@LSLULULULULULULULULUJULUNWRa@R_@LUf@}@h@cAh@cAv@wALSLWLSLULWLUJULULUDGFMLULULULULULULULULUJSNWR_@Ra@LWdDcGLUh@aAh@cALULUJS@CJQJQh@cArBuDd@}@dAmBLULUXi@Zk@LUZm@Zk@Zk@Zk@\\o@lA{BrAeCNW@CHQLUv@wAv@yAv@wAh@cAXg@\\o@Zk@h@aAh@cALSLWLUZm@LSJULUZi@LULWLWNUXk@v@yALSh@cALUZk@f@aALUZk@LUNWpAeCNUXi@NWLU`@q@Ta@Ve@Zi@Zg@\\k@LULS\\k@NULS\\i@Zi@NU\\i@LQZg@\\i@z@uANU\\g@h@{@x@sAVa@??DU@AVc@\\o@Zg@|@_BZk@@Ar@qAFKNUZg@~AeC`@o@~@oANU~@qAp@{@@APGfAeBXg@pAqBT]\\k@f@y@JOT_@??TEPUNSHIFILKPM\\UNIPINEPENCPAb@?p@@x@@p@?LAJENGNKLKJOVa@HONWxDqGtBkDNUn@eA??f@l@t@x@RVn@v@|BdCtAzAn@t@dBnBTZdApAFFDFJFjAtAZ\\t@z@nAzAhBtB~@fA\\^fE`FrFpGnFfGzAfB`KnLlEhF@?dCtCbDvDZ^~DtEbAjAjCzChHjIX\\\\`@~CrDfGfHv@z@j@r@^`@jArADFlFhGHHfApApAzA^b@d@f@p@x@`@d@hE~Eb@h@Z\\lBxBPRtBbCX\\z@bA`AfA~BnCzAbBv@bAR\\PVzAfBh@p@j@n@`AhAHJv@|@`@d@`@f@lBxB~@fA`AbAjBxBPRFHHJTZLPLRVb@FJp@jAN\\Tb@P\\R^NVPTV^PTZ\\NNJJVVLJXRVPXPVLj@V|BbArCnAd@Rh@TjF|B~@`@rFbC`@PpF`C^PpD|ApCnAhAd@bAd@\\NlAh@rItDpCjAnClApClAtCnArCnArCnApCnApClAnEvBt@Zr@\\NFhBz@|@^B@b@Nd@LZHNBt@PD@ZFLB@?b@H`@FF@\\FB@^JZLVJp@^ZVFDJHNLNN^f@d@x@Xh@Pf@L`@HZFZFZFj@F^@VBT?F@HB|A@^JlECH?@?HDzC@t@@V?TBr@FhBD~ABnB???NH?rA?l@@n@?xAA|@CTAPALAB?HAPGvAKbBOd@El@Gj@E|AMbAI`@ARAf@Ap@?h@BrABlFRtABpEN`CHlCFbBFnCHjDH`CJv@@`IV~CHd@Dh@DTF^JNFVJLDVNf@\\b@\\zA|AFFn@t@t@z@VXNV|@tAbAzAv@hAfBtC`@j@l@v@h@l@f@f@VTVRZTj@`@ZR~AhA@@\\Rr@d@j@\\r@\\~BhAfBx@rG|Cv@XVJVJ|@ZbEtA\\JVFb@H`@D\\BZBT?P?TAL?RC`@Ej@K\\I`AYdA[XI`@MxNiEhA[`@Mx@UvDiA|Bs@dBe@bAWfB_@zDq@jIyAvCi@t@OXEXE^EVANAtACd@@^BdAFXD\\DXFNBRF`@JpD~@rBh@xBh@~@VnA\\tA`@nAb@bBp@v@ZlAl@LH`@PHFlBfAz@h@fAv@DBv@j@\\V\\XzB~ApBlAlAn@hJdFvAv@fCnAbAf@p@ZhAl@h@Xp@b@b@\\\\ZLJTVp@t@T\\d@p@tDtGn@fAdBzC`FvIh@z@r@z@NPNLd@b@x@j@@@PJ\\Px@^l@NLDB@\\F@@`@Fl@H`MzAxAP~C^b@D`@FtEh@fAL~H~@HB~APrDb@xEj@h@FlEh@dALjH|@x@H`@Fd@FtBT|ARlFn@hD`@vAN|@JXBX@`@@\\A\\AP?TA^E\\EPEZIZKbAYb@MnA_@xAe@NGhA]JEPEhBk@VIrDiAjDgA@?^Mp@S`Bg@^M^Kd@Il@K`@Cb@CxDIjCEbACpBErDGb@Ab@A\\AvGML?b@ApBEhCEVAjCGvCEp@AR?V?h@B\\@^Dl@Fv@NJ@j@NTF\\Jn@V\\Nx@`@b@RpI~DjBz@jBz@lDbBn@Xp@ZPHpB`A`@RD@XNrCpAp@Zn@Z~@b@`@RrAl@pB`AtBbApB|@vBdAhBz@rCrAfAf@bChAtB`AlEtBfAf@^PDBvB`Ap@ZxAn@`Bv@XLFBjJfEdDzAvAn@~BdAlB|@tDbB~LtFxI~DPFLFRFPFXD\\F^BJ@P?R?\\?LANAJAREXENETGh@OtBo@r@S`@Mb@MbAY`AYjCw@dA[jSaGNERG`@Kz@WbA]jDiAvAg@vAc@^Mh@Qb@OVKZMZMTMNKRMRKJIPMZU`@[f@g@j@o@t@y@lAuAx@aAX]~AiBhGgH|AkB\\c@RYzAwBtF}HdE}FPY^e@LQ`AuArFyHh@s@zBmD`DcFRYZa@\\a@\\_@TQVUh@_@jAq@xAy@p@a@`Ai@d@YXOVKPIXGZIVEPCNAXCV?V?\\@RBd@Fd@FxCd@|@Lv@LL@dAP`ANvAP^Fb@HVD`ANx@LRDLBLBb@NbAZB?^L~@XfA\\^JJDx@Tz@VB@TF`@JXFb@L\\Hf@LVHd@JXFLB^BJ?JAFADAB?DATKPGTMRMPINGZMb@Ql@Uv@[RIPG~JyD`@OhEaBbI_DzB{@vCiAfK}DjEcBfG_Cb@Q`Bo@FClAe@HC~@_@x@[^O`@OZOh@[\\SbAq@l@a@lAw@zAcA|AeAlCgB~CuBhAu@z@k@d@[^UzDiCbBeALEvA{@x@e@dAu@bCaB`Aq@pA{@??AK?_@@S@SHe@?CP{@Lo@X_BZ_BToALk@Jm@Nw@BMRaA\\kB@E^oB\\kBf@iCRiAZaBPaAr@uDLq@TkAXyA\\mBtEmV`@uB^oBTkAVuAxA}HtAqHLk@rAgH\\iB^uBTgAPcAP}@Lo@@ILm@Lq@Ls@Je@Fg@D_@D_@Be@@[?U?U?WAu@AUCUEk@CKGe@u@cFUwAM}@Iw@C[G{@GcAAWc@{Hi@{IOiCOiCq@}KOiCIyAAQGwACoAA_A?}@@{@?M?O@k@Be@@e@Di@Du@Bi@B[Dc@Hq@NwARuBToBpFki@TwBb@aE^sDnAcMfDa\\`AqJ`BuODo@@[@Q?G?c@?k@Cc@Aa@Gi@Ea@Ig@I_@CICOu@yCe@mBg@iBQm@M_@Qc@IOS]Yc@]a@[[]YSOeAs@s@g@_@W]UoBsASOaBiAuDgCCAUQWSQOYWKMSWMQCGIKWe@Sa@M[IYK]GYI[Km@QmAs@uEOgAi@oDQiAQkAOiA[oBq@uEs@uEiAuHWeBAI?AQkA_@cCi@oDe@aDe@cDUuA??QmAIg@q@qEMu@Ge@E]Go@??Ao@?y@FgAHm@DUH[Nk@b@iA\\q@t@qAj@aAnA{Bf@_AJCBABCBGHOLUr@wAl@gATc@l@gAJM|@mBP]Zq@n@oAJU@CBG@GB]\\k@P[rAcCf@{@b@u@XOjA{B@Ex@{AHOt@sA??Ve@b@{@h@cADITa@@C@GBSr@kAnA{BDIv@uAtCiFlE_IdAkBr@oABGPWDINY`@q@pAaCxAgCtBuDf@}@|BaEv@qALYJUHMRa@@ELWBEPa@DKJWFMBGFSRo@Ng@FSH]Jc@FYP{@TkADUXwAFW@Kb@wBVmAHe@Ju@De@DY@S@K@Q@W@KBa@?M@_@@G?a@?C@Y?UCiAAm@E{ACs@EwAIeCMeEWqISoGMyDASGwBOiEAgA@u@Fu@??w@{@wA}AgCsC{DiEo@s@kF}FmF}FiFyFmF}F??o@hAo@hAu@tAy@xA"
+        }
+    ]
+}

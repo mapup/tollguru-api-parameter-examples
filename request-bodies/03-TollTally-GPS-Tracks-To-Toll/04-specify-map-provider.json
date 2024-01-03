@@ -1,0 +1,8 @@
+{
+    "isAsync": false,
+    "mapProvider": "osrm",
+    "vehicleName": "truck",
+    "vehicle": {
+        "type": "5AxlesTruck"
+    }
+}

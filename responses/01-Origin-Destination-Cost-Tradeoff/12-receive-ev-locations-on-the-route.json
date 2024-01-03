@@ -1,0 +1,4208 @@
+{
+    "status": "OK",
+    "summary": {
+        "route": [
+            {
+                "location": {
+                    "lat": 39.90724,
+                    "lng": -75.14148
+                },
+                "address": "Walt Whitman Brg, Philadelphia, PA 19148, United States"
+            },
+            {
+                "location": {
+                    "lat": 39.27952,
+                    "lng": -74.57579
+                },
+                "address": "834 Asbury Ave, Ocean City, NJ 08226-3657, United States"
+            }
+        ],
+        "countries": [
+            "USA"
+        ],
+        "currency": "USD",
+        "vehicleType": "2AxlesEV",
+        "vehicleDescription": "EV",
+        "fuelPrice": {
+            "value": 0.15,
+            "currency": "USD",
+            "units": "USD/kWh",
+            "fuelUnit": "kWh"
+        },
+        "fuelEfficiency": {
+            "city": 31,
+            "hwy": 35,
+            "units": "kWh/100 mi",
+            "fuelUnit": "kWh"
+        },
+        "units": {
+            "currencyUnit": "USD",
+            "fuelEfficiencyUnit": "kWh/100 mi",
+            "fuelUnit": "kWh"
+        },
+        "departure_time": "2024-01-07T17:08:28.308606163Z",
+        "departureTime": "2024-01-07T17:08:28.308606163Z",
+        "share": {
+            "name": "walt whitman brg, philadelphia, pa 19148, united states-834 asbury ave, ocean city, nj 08226-3657, united states",
+            "prefix": "walt+whitman+brg%2C+philadelphia%2C+pa+19148%2C+united+states-834+asbury+ave%2C+ocean+city%2C+nj+08226-3657%2C+united+states",
+            "uuid": "dd206419-67eb-49b4-86ed-964c96da1b15",
+            "timestamp": "2024-01-07T17:08:28.308614605Z",
+            "client": "api"
+        },
+        "source": "HERE"
+    },
+    "routes": [
+        {
+            "summary": {
+                "hasTolls": true,
+                "hasExpressTolls": false,
+                "diffs": {
+                    "cheapest": 0,
+                    "fastest": 0
+                },
+                "url": "https://www.google.com/maps/?saddr=39.907240,-75.141480&daddr=39.905190,-75.129570+to:39.868230,-75.102130+to:39.771060,-75.048940+to:39.325670,-74.615870+to:39.279402,-74.575553+to:39.279520,-74.575790&via=1,2,3,4,5",
+                "distance": {
+                    "text": "59 mi",
+                    "metric": "96 km",
+                    "value": 96076
+                },
+                "duration": {
+                    "text": "1 h 3 min",
+                    "value": 3791
+                },
+                "name": "RT-42"
+            },
+            "costs": {
+                "tagAndCash": 6.72,
+                "minimumTollCost": 6.72,
+                "fuel": 2.1,
+                "tag": 6.72,
+                "cash": 6.8,
+                "licensePlate": null,
+                "prepaidCard": 6.72
+            },
+            "tolls": [
+                {
+                    "id": 112001300,
+                    "lat": 39.513676,
+                    "lng": -74.686696,
+                    "name": "AEH : Egg Harbor Mainline Barrier",
+                    "road": "Atlantic City Expy",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 4.7,
+                    "tagPriCost": 4.7,
+                    "tagSecCost": null,
+                    "cashCost": 4.7,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 4.7,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass"
+                    ],
+                    "tagSecondary": [],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Monthly Volume Discount: E-ZPass NJ must be used 30 times in 35-day period.",
+                    "discountCarType": "All vehicles",
+                    "arrival": {
+                        "distance": 61553.6,
+                        "time": "2024-01-07T17:46:32Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T17:46:32Z",
+                    "timestamp_localized": "2024-01-07T12:46:32-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -74.686696,
+                                39.513676
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                },
+                {
+                    "id": 112106000,
+                    "lat": 39.3230070016561,
+                    "lng": -74.6161949840383,
+                    "name": "Somers Point",
+                    "road": "Garden State Parkway",
+                    "state": "NJ",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 2.02,
+                    "tagPriCost": 2.02,
+                    "tagSecCost": 2.02,
+                    "cashCost": 2.1,
+                    "licensePlateCost": null,
+                    "prepaidCardCost": 2.02,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass NJ"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass NJ"
+                    ],
+                    "tagSecondary": [
+                        "E-ZPass",
+                        "E-ZPass DE",
+                        "Uni",
+                        "I-Pass",
+                        "E-ZPass Skyway",
+                        "E-ZPass IN",
+                        "RiverLink",
+                        "E-ZPass ME",
+                        "E-ZPass MD",
+                        "E-ZPass MA",
+                        "MnPass",
+                        "E-ZPass NH",
+                        "E-ZPass NY",
+                        "E-ZPass NC",
+                        "E-ZPass OH",
+                        "E-ZPass PA",
+                        "E-ZPass RI",
+                        "E-ZPass VA",
+                        "E-ZPass WV",
+                        "E-Zpass Flex"
+                    ],
+                    "licensePlateNames": [
+                        "Tolls by Mail"
+                    ],
+                    "discountCarDetails": "Other discounts: 65+ Senior citizens receive a 10% discount on the off-peak rate as Senior Citizen Discount. Vehicles with fuel efficiency 45 MPG and meeting California Super Ultra Low Emission Vehicle (SULEV) standard receive a 10% discount on the off-peak rate as Green Pass Discount. Must have NJ E-ZPass.",
+                    "discountCarType": "Cars",
+                    "arrival": {
+                        "distance": 89825.66,
+                        "time": "2024-01-07T18:04:03Z"
+                    },
+                    "timestamp_formatted": "2024-01-07T18:04:03Z",
+                    "timestamp_localized": "2024-01-07T13:04:03-05:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -74.6161949840383,
+                                39.3230070016561
+                            ]
+                        }
+                    },
+                    "height": null,
+                    "tagRequested": "tagPriCost"
+                }
+            ],
+            "polyline": "ekqrFfasiM\\yDb@oEBUB[De@F_@Z_Dj@cGT_CH_A\\aD@YTcCXoC|@cJ^eEj@oFZsDXoCf@iFDc@LqATcC^yDTuBL_BLuAn@wGJ_AHs@^cEv@gJd@wEFo@Fe@Dk@LiAJaALqAJw@NcAHe@Lq@R_ALg@J[La@Le@Xw@`@_ARc@T_@Vc@Xc@`@k@^i@V[f@g@h@g@r@o@NMz@s@b@]`@Y\\Up@c@TOz@i@x@g@j@]|@g@j@[d@Wj@Yt@]t@]t@]ZMXK^Mv@]r@[n@WlAg@pBu@rBu@jC_A|@Yx@Wl@SrAc@f@O^KTGf@Oh@Od@Mt@Sd@MlA[dBc@tBg@x@Qz@QnAW`ASp@Mv@O~@Qn@Mv@Mf@IdAQrBYr@K^Eb@Gf@GZCJALCj@Gl@GdBOpBWr@K|AMtBMbBKr@En@ExAInAIt@ETALALAz@G`DS`F[bAIfAItCSd@EnAM~BSbCQdAGr@Er@E~@IrAIh@GTCXCZ?xABbA@j@@lCJt@BbAF`ABTAZC^CVC^G\\GNCn@O~@W\\Il@Q`@MXI`@K^Id@M\\Gz@Kp@I\\E^EjAOXE^GfDg@`AO^GbASXGHCVGp@Sr@ObDu@rD}@bB_@bFmAzBi@hCo@xA_@r@QvD}@VGn@M|Bk@f@KZK`AUf@M`@KjEgAjBa@tCo@|@Sv@Q~@Uj@O~@UhBc@rJ{BtKeCbCm@jG{AbBa@j@MbFiAzCs@zCs@hHcB|EkAnAWlA[fBe@r@Uf@OhDmAb@Qd@SdBu@vAo@b@Ql@Yn@_@j@]tBoAvAy@bCiBtBaBtAmAj@g@~@y@\\[b@c@f@g@v@y@hAmAxAgBt@}@t@aAt@eARY\\g@NS\\c@~AcC~A}BT[xAuB|D{Fh@y@d@u@p@iA~@_Bt@sAt@wA`AoBv@_Bt@_Bl@uAt@gBvBoFbBcE`D_InAwCl@oAv@}ArBeEp@sAv@qA|@eBf@{@rAuBbAcBjAiBp@cAdBaCbAuAdByBfAqAtA_BxAaBdEiEz@y@b@_@h@g@n@k@vAmAf@a@hA}@vAcA`Aq@bCaBfC{AjDqBtBkAxA{@xA{@fDmBhEcC\\STONI|BqA|BqAnBiAjEeC`B_AjDiBnDaB~BcAnDuAbA_@lC}@zC}@lCu@~Bg@xBe@zAYbBY|AWtDc@rBSpAKxAUn@Ej@Ep@Er@CbAEpBG`BCzAEfBAjFEfG@jGD~FA|HEtJ?dCAxBCf@?lA?`DA|A?|@@hFDb@?n@?z@Ar@Ch@?lAA^?XAZCPAVCb@Gt@Ov@SPGXKn@Yh@WZSXS\\Y`Ay@dCaClDeDh@g@d@a@n@i@f@a@h@a@f@_@bAs@v@i@fAs@`CwA~BqATMnGkDnBkA|AiA`Aw@~@_AvA{ApA}A~@oAfAcB`AcBx@cBjCiGfBkEdAeCZw@nA_Dt@eBr@aBx@kBz@kBrAqCnB{D`AmBp@oAx@{A|AoCnAwBjB}CpB{ClAeBpAkBp@cAnAgBfAwAxBqClBaC~AkBpAyAdCkC|CgDfEcEfCcCtEqE|DwDvMkMxFwFzByBvAuALOf@i@fAcA|AgBjCoCrIoIZ[VWdEyDxAsAbByAr@q@l@i@dB}Al@k@l@k@bBaBtBsB~B}BdE_EjDiDrAoAfCeCjCgCfFcFfBcBhBkB|CcDhAoA~@eAzAgB~@iAlBaCrAeBjA_BlAeB|@qAjAgB`A{AjAkBd@w@fB{CjAsBxCkFnFsJnC}Ex@yA~@_BvA_C^o@p@mA^s@dBaD|@gBx@kBv@oB~BcHp@sBJ]Pi@dAcDrAiELc@tBaIP}@XwAH]VwA^mB`@cC^gCrA}KVmBj@sEt@iGt@eGr@_Gf@cEt@eGh@gEf@eEf@eEbAiIh@cEdA{Hz@yF|@wFpA}HbA}FzA}HhBcJtCoMfBsHj@{BZmALg@Li@hAkE`AsDhAyDvA{Eh@gBPm@Ro@~FuR`P}h@fBuFpAyDjBmFfBwE\\cAb@iAnA_Dr@eBz@qBjAiChAcC|@oBtAuChBmDbBcDjBiDpBmDfAiBlB}ClB{CfAcBvB}C`B_CxAqBlBgCbC}ChAuAvAcBxAeBdAmAhBoBzDeElDuDnCsCvSoT`CiCnGyGrBqB~CaDl@m@pDyE~AkBrA{AtAyArGcHRSHIVWdGoGnWoXjHyHb^m_@hCoC|JoKp@q@nBuBp@s@v@{@|AaBtD{D~FiGfDmD\\_@jRcS~_@ia@nH{HjBqBrAuApAuArA{ApAyAnAyAlAwApBeCrBmCvEoG`DuEvAyBdBqC|AcCn@cAd@u@Xc@rC{EbHmLpDgGzEoIT_@T_@rEsHbCwDxBgDx@mArCiEv@mAl@aAtC{E|AgCj@aAnFkJnBgDb@s@fGwJ|@_BVg@hBeDXe@jEmH`@s@T_@bBmCr@cAxA}Bf@y@xEmHdBmC`IuMxE_Ib@s@|GcLvHgMdI_NvFiJxG}K`HkLrDeG|HyMbDyFTa@T_@dDuFl@aAdA_BbA}ApB{CjAiB~@yAdAcBhB{Cr@mAt@qAjAuB|FaKzIoO~DcHhCoEbD_GlMuUTa@Xe@Tc@\\o@\\o@Zi@p@mAr@oAx@yAt@oAz@uAjAiBl@_At@kAf@y@p@gAv@mA~@_Bv@sA~AoCf@{@j@cAl@iAv@wAz@yAdD{FzGqLbBwC`FuIlAwBZk@xAkCtEcIpFqJfD}FrDoGbAiB~@cB~BcElAsBl@eAh@_Ad@w@f@y@n@eA|@wA`@o@h@w@h@w@r@aAx@gA|@kAhAuApCkDpBeCdGqHdFoGjMyOtIoK\\c@Z_@jEoFpHgJdAqAt@}@lLwNxKaNfGsHp@{@dKmMjEoF|EaGxJyL|GoIjIcKlB_CxAkBdAuAp@_Ax@kA|@sAt@kAv@oAt@oAn@gAh@cAfAoBfAqB`CoEfHuMlDuGpK}RfDmG`HmMtGyLrFeKhDgGjC}EdCuElA{BpBwDh@aAj@cA`@s@b@u@P[Xg@f@{@f@{@dAeB|AeClCeExCgF~B_EvCcFv@sAz@sAz@sA|@qAxB}CvDyFvAuBj@_An@aAxC}EtBeDbA}A|AoCfCmEVa@`BqCXa@l@cAnAsBn@gAl@aAR[JOLSHMLSJOLSPWNULQPW`@k@`AuA`B_C~AaC`CmDnB}C|AgChBuC`BiC|IqNpWya@tc@}r@dVw_@~Xyc@~BuDR[PYV_@PWRYZc@PWNSRWPSZ_@|@eA^c@XYVWv@w@b@c@XWVURQ^]h@e@j@c@XUVSTQROTQPMRO\\UPMVSNKNKTOd@[j@]r@a@v@c@TMRKRKZOVMTKTKXMPITKRK\\MVKRIRKRINGz@]^O^Kx@WRGRGRGRGXITGZIZI\\Ib@Kb@MRCXGZGTEZGl@Kh@I^Gj@I`@Gn@Ib@G`@Ej@Gd@Eh@Eh@Ev@Gv@Gh@Ef@E`DUvAKvAKbQqA|D[ZCVCVCVEVCRCTCZEXEh@Il@Ib@I^Gt@Op@MREPEJCPEVGfAWxC}@zAi@|Ai@vAg@`Ae@\\O^Qb@QbB{@nAs@j@[pAy@~AgAlA{@nA_ApAgArAkAnAkAnAmA|BiC`@e@X]nAyAjBgCdA_BbA}AbAaB`AeBf@aAd@}@jA_Cx@kBjB{EL]Tm@Pc@To@\\eAhAoDjCwIh@eC`@iBhFcUt@eDpAyFnQcw@pH{[j@eCz@uDf@qBj@qBn@qBJWf@wAZw@p@eBZy@|@gBv@cApAwBR[b@s@n@cAV_@X_@`@g@t@}@fAoAhAmAdAcAbAaAjAeAdB{A`CyBf@g@r@q@dC}BdC}BxAuAxA}AhAsApAaBjA}AfAaBhAkBbAkB`AoBz@mBz@uBz@}Bp@kBp@gB`AiCPc@Pc@~AoErByFpAoDnAiDnAgDt@oBhBcFv@sB^cAfBwErGaQnAiDp@iBbCuGf@o@\\i@TYj@m@|@s@nB}AxAmAv@o@t@o@^Ub@_@`@Ur@a@j@[TMXMpAc@l@Mt@Kh@Gx@Ah@@n@DjARzAZv@NdAP~AXbARfAThB^dATh@H`@Fd@DrAJhBf@pCt@|Bj@jB`@jBf@f@Nb@N~@\\tBbAb@T|@h@jAr@|BzAn@`@PJhAp@nAv@zCnB|@j@|@f@bIbFzClBXP|@j@|@l@d@\\z@n@n@f@j@d@`@\\jAbAz@x@r@p@~A~ApAtAr@x@\\^\\`@r@z@j@p@h@p@z@hAf@p@`@j@v@fAzAvBpGfJz@nAb@p@f@r@~@pAp@~@l@x@j@t@f@n@j@r@n@v@n@t@j@l@h@h@h@h@~@z@d@b@XV`@\\h@b@d@^`@Zf@^x@l@v@h@r@d@n@`@nAx@~@n@`Ap@bGhE`BjAtEhDbAt@r@f@t@f@j@^t@d@~@j@d@Xj@Zp@^n@Z`@Rh@Vz@`@r@Zj@Tz@\\|@\\n@Tx@Xh@Pt@Tr@Rt@Rx@R|@Rx@Pt@Np@LbFz@xEx@~B^d@HZFVDj@J`AR`ATp@Pr@R`AZx@Vl@RjBr@tAl@z@`@`Af@|BnAl@^^Th@\\h@^t@h@p@f@f@`@f@`@f@b@j@h@vAtAtAxAvAzA~AdBjHzHfErEjCtC~A`BdAbAl@h@v@p@l@f@f@`@t@j@`Ar@pA|@p@b@p@`@n@^p@^n@\\|@b@fAf@dAd@d@Rn@Vh@Rh@P~@Zz@X~@X`Bf@lA^vBr@d@Pj@Tl@Vr@Zr@\\v@b@~@j@z@j@x@l@dKdIn@f@d@^r@j@rB~AbAv@n@f@r@h@h@^b@Xf@Zj@\\bAl@`@Th@X~@d@\\PZNTJPHXLRHVJVJb@Pp@Vl@Tl@TXJTHZJ|DnAd@Nf@LfA\\x@VVHtDhAb@Nn@Tv@Zp@Xx@`@z@d@l@\\l@^j@^l@b@h@`@`@\\j@f@|@z@l@l@l@p@z@`An@t@t@|@lDjEhBxBhBzBvBjC^b@zBpCjAtAb@bAJ\\F`@Dj@?t@CdAC`A?`@B\\FZJZNRRRTJTDTAVCXMb@g@|@mAZo@x@wANU~AsCvAcCn@gAhAmBn@mAh@_ATa@NW^q@`@s@v@sADIHMl@eAb@u@pGyK@CDG\\m@t@qAb@u@Va@`@q@nBeD`@s@`A_Bl@aAj@gAP[b@eAFQPk@Rs@T_@LYFO^{@\\u@r@mAn@gAb@s@`AyAn@aADGFW\\e@TYLO^a@VWRSRSZY`@]POVSd@]TOTM`@WXONITMNINILGLGNGTITIPGVIt@UlA[nA[p@QXIPGl@Ql@SlAa@x@W`@SRKTMPKLItA}@v@i@TOpBuAjA_Al@e@t@q@p@q@l@u@r@aAzAyBv@kAt@iAf@s@b@k@f@m@h@k@f@i@x@u@t@k@nA{@nA{@|A_AhBaAzAw@p@a@fDyBpBsAzAiAz@i@hEqC`CeBlBuA`DeCvAcAdLaIbBoAtDmCdD_Ct@k@z@m@tB{A~@o@l@_@r@]r@Yp@Sz@Sx@Mx@Gt@Cp@?n@@R@Z@lAFpADj@@t@C`@Cl@In@Qd@Qd@U`@W\\YZ[VYTYXo@bAwA`@m@z@mAp@aAf@q@V]`@m@T[bAwAr@cAx@kA|@oAf@m@jAwAoBmC",
+            "chargingPoints": [
+                {
+                    "id": 45704,
+                    "evStation": {
+                        "name": "Woodbury Nissan",
+                        "address": "439 Mantua Ave, Woodbury, NJ, 08096, US",
+                        "contact": {
+                            "phone": "856-853-0150"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.1581,
+                                        39.83206
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Non-Networked",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 3
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "Car Dealer",
+                        "accessTime": "Dealership business hours",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 48406,
+                    "evStation": {
+                        "name": "Atlantic County Utilities Authority",
+                        "address": "6700 Delilah Rd, Egg Harbor Township, NJ, 08234, US",
+                        "contact": {
+                            "phone": "609-272-6950"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.53968,
+                                        39.417467
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Non-Networked",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "Utility",
+                        "accessTime": "7am-5pm M-F, 7am-12pm Sat",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 49912,
+                    "evStation": {
+                        "name": "Nissan of Turnersville",
+                        "address": "3400 Route 42, Turnersville, NJ, 08012, US",
+                        "contact": {
+                            "phone": "856-629-1900"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.031104,
+                                        39.727845
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Non-Networked",
+                        "connectorType": "CHAdeMO, J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            },
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "Car Dealer",
+                        "accessTime": "Dealership business hours",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 62427,
+                    "evStation": {
+                        "name": "ATLANTIC CITY STATION 01",
+                        "address": "6037 Black Horse Pike, Egg Harbor Township, NJ, 08234, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.613812,
+                                        39.435912
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 67028,
+                    "evStation": {
+                        "name": "NAVY YARD CY NAVY YARD",
+                        "address": "1001 Intrepid Ave, Philadelphia, PA, 19112, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.171484,
+                                        39.89583
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 70450,
+                    "evStation": {
+                        "name": "Nissan of Atlantic City",
+                        "address": "6021 E Black Horse Pike, Egg Harbor Township, NJ, 08234, US",
+                        "contact": {
+                            "phone": ""
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.616268,
+                                        39.438013
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Non-Networked",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "Car Dealer",
+                        "accessTime": "Service center use only",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 78278,
+                    "evStation": {
+                        "name": "GARAGE STATION STATION R-1",
+                        "address": "1500 Locust St Level R, Philadelphia, PA, 19102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.166917,
+                                        39.94836
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 86243,
+                    "evStation": {
+                        "name": "DOCKSIDE DOCKSIDE 1",
+                        "address": "717 S Christopher Columbus Blvd, Philadelphia, PA, 19147, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.141357,
+                                        39.938982
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 99702,
+                    "evStation": {
+                        "name": "EAST MARKET 1100MARKET2",
+                        "address": "15 S 12th Street, Philadelphia, PA, 19107, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.159694,
+                                        39.951393
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 99882,
+                    "evStation": {
+                        "name": "CITY HALL 01 CITY HALL 01",
+                        "address": "840 Central Ave, Ocean City, NJ, 08226, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.575552,
+                                        39.278662
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 102294,
+                    "evStation": {
+                        "name": "JR's Fresh Market - Tesla Supercharger",
+                        "address": "3121 Fire Road, Egg Harbor Township, NJ, 08234, US",
+                        "contact": {
+                            "phone": "877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.562619,
+                                        39.393663
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Supercharger",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 8
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 114758,
+                    "evStation": {
+                        "name": "Hampton Inn Atlantic City - Tesla Destination",
+                        "address": "338 E White Horse Pike, Absecon, NJ, 08205, US",
+                        "contact": {
+                            "phone": "609-385-0801; 877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.520397,
+                                        39.439309
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Destination",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "Hotel",
+                        "accessTime": "",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 117732,
+                    "evStation": {
+                        "name": "Rodin Place Garage - Tesla Supercharger",
+                        "address": "420 North 20th Street, Philadelphia, PA, 19130, US",
+                        "contact": {
+                            "phone": "877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.172246,
+                                        39.961844
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Supercharger",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 10
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "Parking Garage",
+                        "accessTime": "6am-12am daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 122465,
+                    "evStation": {
+                        "name": "Hidden Creek Golf Club - Tesla Destination",
+                        "address": "75 Asbury Rd, Egg Harbor Township, NJ, 08234, US",
+                        "contact": {
+                            "phone": "609-909-2990; 877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.686033,
+                                        39.394978
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Destination",
+                        "connectorType": "J1772, Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 122466,
+                    "evStation": {
+                        "name": "Swan Lake Resort - Tesla Destination",
+                        "address": "106 E Moss Mill Rd, Galloway, NJ, 08205, US",
+                        "contact": {
+                            "phone": "609-652-1577; 877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.511829,
+                                        39.504038
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Destination",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 122467,
+                    "evStation": {
+                        "name": "Best Western Plus Philadelphia Pennsauken - Tesla Destination",
+                        "address": "7050 NJ-38, Pennsauken, NJ, 08109, US",
+                        "contact": {
+                            "phone": "856-333-0900; 877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.077618,
+                                        39.933634
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Destination",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 3
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 122526,
+                    "evStation": {
+                        "name": "Philadelphia Museum of Art - Tesla Destination",
+                        "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA, 19130, US",
+                        "contact": {
+                            "phone": "215-763-8100; 877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.181341,
+                                        39.967117
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Destination",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 143188,
+                    "evStation": {
+                        "name": "GREENLIFE GREENLIFE",
+                        "address": "6754 Washington Ave, Egg Harbor Township, NJ, 08234, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.55359,
+                                        39.4046
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 147047,
+                    "evStation": {
+                        "name": "ROWAN AT GC ROWAN AT SJ1",
+                        "address": "1400 Tanyard Rd, Deptford Township, NJ, 08080, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.123055,
+                                        39.779728
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 148195,
+                    "evStation": {
+                        "name": "430901 : Dalian on the Park",
+                        "address": "500 North 21st Street, Philadelphia, PA, 19130, US",
+                        "contact": {
+                            "phone": "800-663-5633"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.1731952,
+                                        39.9629139
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "FREE"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 149262,
+                    "evStation": {
+                        "name": "Target 1085 - Cherry Hill, NJ",
+                        "address": "2137 NJ-38, Cherry Hill, NJ, 08002, US",
+                        "contact": {
+                            "phone": "833-632-2778"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.02644,
+                                        39.93478
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Electrify America",
+                        "connectorType": "CHAdeMO, J1772, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            },
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 3
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 149270,
+                    "evStation": {
+                        "name": "APTMTS-SS HADDON ST1",
+                        "address": "225 Haddon Ave, Haddon Township, NJ, 08108, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.046893,
+                                        39.90987
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 149343,
+                    "evStation": {
+                        "name": "East Market - Tesla Supercharger",
+                        "address": "34 South 11th Street, Philadelphia, PA, 19107, US",
+                        "contact": {
+                            "phone": "877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.158569,
+                                        39.951387
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Supercharger",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 6
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 150428,
+                    "evStation": {
+                        "name": "Central United Methodist Church",
+                        "address": "5 Marvin Ave, Linwood, NJ, 08221, US",
+                        "contact": {
+                            "phone": ""
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.56111,
+                                        39.357783
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Non-Networked",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "Place of Worship",
+                        "accessTime": "",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 150429,
+                    "evStation": {
+                        "name": "City of Ocean City",
+                        "address": "861 Asbury Ave, Ocean City, NJ, 08226, US",
+                        "contact": {
+                            "phone": ""
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.575798,
+                                        39.278858
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Non-Networked",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "Municipal Government",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 152431,
+                    "evStation": {
+                        "name": "3 EXECUTIVE NORTHWEST EVCS",
+                        "address": "3 Executive Campus, Cherry Hill, NJ, 08002, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.05099,
+                                        39.931835
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 153204,
+                    "evStation": {
+                        "name": "Walmart 4456 Somerdale",
+                        "address": "1 Coopertowne Blvd, Somerdale, NJ, 08083, US",
+                        "contact": {
+                            "phone": "833-632-2778"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.02287,
+                                        39.8541
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Electrify America",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 8
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 163944,
+                    "evStation": {
+                        "name": "Rittenhouse Parking Garage",
+                        "address": "2000 Walnut Street, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "866-816-7584"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.174115,
+                                        39.950438
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "EV Connect",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 164263,
+                    "evStation": {
+                        "name": "Edgewater Apartments",
+                        "address": "2323 Race Street, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "800-663-5633"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.1781076,
+                                        39.9586233
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 6
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "$0.00-$3.00/Hr Variable Parking Fee, $0.30/kWh Energy Fee"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 165118,
+                    "evStation": {
+                        "name": "Deptford Mall - Tesla Supercharger",
+                        "address": "1750 Deptford Center Road, Deptford, NJ, 08096, US",
+                        "contact": {
+                            "phone": "877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.097916,
+                                        39.833479
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Supercharger",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 12
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "Shopping Mall",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 167530,
+                    "evStation": {
+                        "name": "Museum Parking Garage",
+                        "address": "3220 South Street, Philadelphia, PA, 19104, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.190366,
+                                        39.948935
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 168355,
+                    "evStation": {
+                        "name": "LOCUST SHARED STATION 1",
+                        "address": "201 S 25th St, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.180532,
+                                        39.950038
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 171369,
+                    "evStation": {
+                        "name": "Crowne Plaza",
+                        "address": "2349 Marlton Pike West, Cherry Hill, NJ, 08002, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.05352,
+                                        39.9263586
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 172084,
+                    "evStation": {
+                        "name": "BDN - CIRA STATION 01",
+                        "address": "2929 Walnut St, Philadelphia, PA, 19104, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.183788,
+                                        39.952093
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 173309,
+                    "evStation": {
+                        "name": "EAST MARKET 1100 MARKET1",
+                        "address": "15 S 12th Street, Philadelphia, PA, 19107, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.159699,
+                                        39.951322
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 182991,
+                    "evStation": {
+                        "name": "10 RITTENHOUSE EV 1",
+                        "address": "130 S 18th St, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.170903,
+                                        39.950652
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "Mon 12:00am - 12:00am; Tue 12:00am - 12:00am; Wed 12:00am - 12:00am; Thu 12:00am - 12:00am; Fri 12:00am - 12:00am; Sat 12:00am - 12:00am; Sun 12:00am - 12:00am",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 182992,
+                    "evStation": {
+                        "name": "10 RITTENHOUSE EV 2",
+                        "address": "130 S 18th St, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.170902,
+                                        39.950647
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "Mon 12:00am - 12:00am; Tue 12:00am - 12:00am; Wed 12:00am - 12:00am; Thu 12:00am - 12:00am; Fri 12:00am - 12:00am; Sat 12:00am - 12:00am; Sun 12:00am - 12:00am",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 183367,
+                    "evStation": {
+                        "name": "PIDC-NAVY YARD PSU-1",
+                        "address": "1001 Kitty Hawk Ave, Philadelphia, PA, 19112, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.17103,
+                                        39.890358
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "Mon 7:00am - 5:00pm; Tue 7:00am - 5:00pm; Wed 7:00am - 5:00pm; Thu 7:00am - 5:00pm; Fri 7:00am - 5:00pm; Sat 7:00am - 5:00pm; Sun 7:00am - 5:00pm",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 183368,
+                    "evStation": {
+                        "name": "PIDC-NAVY YARD FSI-1",
+                        "address": "1001 Intrepid Ave, Philadelphia, PA, 19112, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.17109,
+                                        39.895428
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "Mon 7:00am - 5:00pm; Tue 7:00am - 5:00pm; Wed 7:00am - 5:00pm; Thu 7:00am - 5:00pm; Fri 7:00am - 5:00pm; Sat 7:00am - 5:00pm; Sun 7:00am - 5:00pm",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 184532,
+                    "evStation": {
+                        "name": "FAA - William J. Hughes Technical Center (WJHTC)",
+                        "address": "Atlantic City International Airport, Pomona, NJ, 08405, US",
+                        "contact": {
+                            "phone": ""
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.573885,
+                                        39.45157
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Non-Networked",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 6
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "Federal Government",
+                        "accessTime": "",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 186133,
+                    "evStation": {
+                        "name": "GREEN TEAM RUNNEMEDE BORO1",
+                        "address": "24 N Black Horse Pike, Runnemede, NJ, 08078, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.07254,
+                                        39.8498
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 186697,
+                    "evStation": {
+                        "name": "Hammonton Health Park",
+                        "address": "219 N Whitehorse Pike, Hammonton, NJ, 8037, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.7939703,
+                                        39.6535872
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 186730,
+                    "evStation": {
+                        "name": "LIBERTY PROP STATION 1",
+                        "address": "1800 Arch St, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.17041,
+                                        39.95495
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 187286,
+                    "evStation": {
+                        "name": "Riverwalk (PMC)",
+                        "address": "60 North 23rd Street, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "888-264-2208"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.177984,
+                                        39.956541
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Volta",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "Mon 6:00am - 11:59pm; Tue 6:00am - 11:59pm; Wed 6:00am - 11:59pm; Thu 6:00am - 11:59pm; Fri 6:00am - 11:59pm; Sat 6:00am - 11:59pm; Sun 6:00am - 11:59pm",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 187550,
+                    "evStation": {
+                        "name": "EHT Health Park - Building 400",
+                        "address": "2500 English Creek Ave, Egg Harbor Township, NJ, 8234, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.605444,
+                                        39.436861
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 187551,
+                    "evStation": {
+                        "name": "EHT Health Park - Building 1200",
+                        "address": "2500 English Creek Ave, Egg Harbor Township, NJ, 8234, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.606,
+                                        39.435002
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 189455,
+                    "evStation": {
+                        "name": "EV GARAGE CP03",
+                        "address": "900 Packer Ave, Philadelphia, PA, 19148, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.163964,
+                                        39.909989
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 189458,
+                    "evStation": {
+                        "name": "EV GARAGE CP01",
+                        "address": "900 Packer Ave, Philadelphia, PA, 19148, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.163782,
+                                        39.909833
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 189593,
+                    "evStation": {
+                        "name": "EV GARAGE CP02",
+                        "address": "900 Packer Ave, Philadelphia, PA, 19148, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.163803,
+                                        39.909471
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 190474,
+                    "evStation": {
+                        "name": "Wawa - Tesla Supercharger",
+                        "address": "904 Haddonfield Road, Cherry Hill, NJ, 08002, US",
+                        "contact": {
+                            "phone": "877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.03243593,
+                                        39.92584959
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Supercharger",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 8
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "Convenience Store",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 192937,
+                    "evStation": {
+                        "name": "8TH&FILBERT LV4 8TH&FILBERTMEZ2",
+                        "address": "800-08 Arch St, Philadelphia, PA, 19107, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.15362,
+                                        39.952588
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 192938,
+                    "evStation": {
+                        "name": "8TH&FILBERT LV4 8TH&FILBERTMEZ3",
+                        "address": "800-08 Arch St, Philadelphia, PA, 19107, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.153609,
+                                        39.952675
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 192939,
+                    "evStation": {
+                        "name": "8TH&FILBERT LV4 8TH&FILBERTMEZ4",
+                        "address": "800-08 Arch St, Philadelphia, PA, 19107, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.153593,
+                                        39.952712
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 192940,
+                    "evStation": {
+                        "name": "8TH&FILBERT LV4 8TH&FILBERTMEZ1",
+                        "address": "800-08 Arch St, Philadelphia, PA, 19107, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.153599,
+                                        39.952691
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 194848,
+                    "evStation": {
+                        "name": "Oxford Mills",
+                        "address": "100 W. Oxford Street, Philadelphia, PA, 19122, US",
+                        "contact": {
+                            "phone": "800-663-5633"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.1346219,
+                                        39.9742461
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "$1.50-$5.00/Hr Variable Parking Fee"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 194849,
+                    "evStation": {
+                        "name": "530902 : Three Logan Square",
+                        "address": "1717 Arch Street, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "800-663-5633"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.1692673,
+                                        39.9553097
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "FREE"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 195513,
+                    "evStation": {
+                        "name": "100 Essex Ave",
+                        "address": "100 Essex Avenue, Bellmawr, NJ, 08031, US",
+                        "contact": {
+                            "phone": "800-663-5633"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.104368984656,
+                                        39.866819134842
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "$0.00-$5.00/Hr Variable Parking Fee"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 200729,
+                    "evStation": {
+                        "name": "CHMB STATION 1",
+                        "address": "2151 Rte 70 W, Cherry Hill, NJ, 08002, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.038857,
+                                        39.920852
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 200730,
+                    "evStation": {
+                        "name": "CHMB STATION 2",
+                        "address": "2151 Rte 70 W, Cherry Hill, NJ, 08002, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.03868,
+                                        39.920753
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 200731,
+                    "evStation": {
+                        "name": "CHMB STATION 3",
+                        "address": "2151 Rte 70 W, Cherry Hill, NJ, 08002, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.03861,
+                                        39.920844
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 200881,
+                    "evStation": {
+                        "name": "CHMB STATION 4",
+                        "address": "2151 Rte 70 W, Cherry Hill, NJ, 08002, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.038621,
+                                        39.920844
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 201050,
+                    "evStation": {
+                        "name": "South Port Plaza",
+                        "address": "1600 S Christopher Columbus Blvd, Philadelphia, PA, 19148, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.14554,
+                                        39.927123
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 201943,
+                    "evStation": {
+                        "name": "Giant Co. 1403 South Christopher Columbus Boulevard",
+                        "address": "1403 South Christopher Columbus Boulevard, Philadelphia, PA, 19147, US",
+                        "contact": {
+                            "phone": "888-264-2208"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.142693639,
+                                        39.928755186
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Volta",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "Mon 6:00am - 11:59pm; Tue 6:00am - 11:59pm; Wed 6:00am - 11:59pm; Thu 6:00am - 11:59pm; Fri 6:00am - 11:59pm; Sat 6:00am - 11:59pm; Sun 6:00am - 11:59pm",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 202970,
+                    "evStation": {
+                        "name": "Target T2181 (Sicklerville, NJ)",
+                        "address": "487 Cross Keys Rd, Sicklerville, NJ, 08081, US",
+                        "contact": {
+                            "phone": "833-632-2778"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.9946,
+                                        39.74633
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Electrify America",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 202994,
+                    "evStation": {
+                        "name": "GEHRHSD ABSEGAMI HS 2",
+                        "address": "201 S Wrangleboro Rd, Galloway, NJ, 08205, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.516889,
+                                        39.480061
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 202995,
+                    "evStation": {
+                        "name": "GEHRHSD ABSEGAMI HS 1",
+                        "address": "201 S Wrangleboro Rd, Galloway, NJ, 08205, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.516942,
+                                        39.480194
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 202996,
+                    "evStation": {
+                        "name": "GEHRHSD CEDAR CREEK HS2",
+                        "address": "1701 New York Ave, Egg Harbor City, NJ, 08215, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.628038,
+                                        39.551762
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 202998,
+                    "evStation": {
+                        "name": "GEHRHSD OAK CREST 1",
+                        "address": "1824 Dr. Dennis Forman Dr, Mays Landing, NJ, 08330, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.676354,
+                                        39.45577
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 205089,
+                    "evStation": {
+                        "name": "Cedar Realty Quartermaster Plaza (Philadelphia, PA",
+                        "address": "2129 Oregon Ave, Philadelphia, PA, 19145, US",
+                        "contact": {
+                            "phone": "833-632-2778"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.18597,
+                                        39.91828
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Electrify America",
+                        "connectorType": "CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 207334,
+                    "evStation": {
+                        "name": "INTERPARK CHERRY ST",
+                        "address": "1815 Cherry St, Philadelphia, PA, 19103, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.170334,
+                                        39.955803
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 207440,
+                    "evStation": {
+                        "name": "GEHRHSD OAK CREST HS 2",
+                        "address": "1824 Dr Dennis Forman Dr, Mays Landing, NJ, 08330, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.675356,
+                                        39.454851
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 213810,
+                    "evStation": {
+                        "name": "Township of Winslow - Coopers Folly Road",
+                        "address": "33 Coopers Folly Road, Atco, NJ, 8004, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.906063,
+                                        39.750299
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 214919,
+                    "evStation": {
+                        "name": "Macerich Deptford Mall (Deptford, NJ)",
+                        "address": "1750 Deptford Center Rd, Deptford, NJ, 08096, US",
+                        "contact": {
+                            "phone": "833-632-2778"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.0991,
+                                        39.83314
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Electrify America",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 215049,
+                    "evStation": {
+                        "name": "Township of Winslow - Courthouse Entrance",
+                        "address": "125 South Route 73, Braddock, NJ, 08037, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.896034,
+                                        39.701847
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 215050,
+                    "evStation": {
+                        "name": "Township of Winslow - Police Records",
+                        "address": "125 South Route 73, Braddock, NJ, 8037, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.896078,
+                                        39.700909
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 215057,
+                    "evStation": {
+                        "name": "PCC GARAGE STATION 07",
+                        "address": "1102 Arch St, Philadelphia, PA, 19107, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.15827,
+                                        39.953163
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 220696,
+                    "evStation": {
+                        "name": "Elwood, NJ - Tesla Supercharger",
+                        "address": "Milepost 21.3 on the Atlantic City Expressway, Elwood, NJ, 08217, US",
+                        "contact": {
+                            "phone": "877-798-3752"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.7351861,
+                                        39.5515659
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Tesla Supercharger",
+                        "connectorType": "Tesla",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 8
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "Travel Center",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 221888,
+                    "evStation": {
+                        "name": "W GARAGE STATION 1",
+                        "address": "1439 Chestnut Street, Philadelphia, PA, 19102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.16506,
+                                        39.95152
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 221889,
+                    "evStation": {
+                        "name": "W GARAGE STATION 5",
+                        "address": "1439 Chestnut Street, Philadelphia, PA, 19102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.165048,
+                                        39.95152
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 221890,
+                    "evStation": {
+                        "name": "W GARAGE STATION 6",
+                        "address": "1439 Chestnut Street, Philadelphia, PA, 19102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.165059,
+                                        39.95152
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 221974,
+                    "evStation": {
+                        "name": "GEHRHSD CEDAR CREEK HS1",
+                        "address": "1701 New York Ave, Egg Harbor City, NJ, 08215, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.627794,
+                                        39.550843
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 221975,
+                    "evStation": {
+                        "name": "W GARAGE STATION 2",
+                        "address": "1439 Chestnut Street, Philadelphia, PA, 19102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.165038,
+                                        39.95152
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 223406,
+                    "evStation": {
+                        "name": "W GARAGE STATION 3",
+                        "address": "1431 Chestnut St, Philadelphia, PA, 19102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.165306,
+                                        39.951305
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 223407,
+                    "evStation": {
+                        "name": "W GARAGE STATION4",
+                        "address": "1439 Chestnut Street, Philadelphia, PA, 19102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.165048,
+                                        39.951496
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 223681,
+                    "evStation": {
+                        "name": "Camden County College",
+                        "address": "200 N Broadway, Camden, NJ, 08102, US",
+                        "contact": {
+                            "phone": ""
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.118035,
+                                        39.946697
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "Parking Garage",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 228536,
+                    "evStation": {
+                        "name": "Farley Travel Plaza",
+                        "address": "20 Atlantic City Expy, Hammonton, NJ, 08037, US",
+                        "contact": {
+                            "phone": "877-455-3833"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.73487,
+                                        39.55068
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "EVgo",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 228666,
+                    "evStation": {
+                        "name": "Quartermaster Plaza",
+                        "address": "2300 W Oregon Ave, Philadelphia, PA, 19145, US",
+                        "contact": {
+                            "phone": "877-455-3833"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.187504,
+                                        39.916321
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "EVgo",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 7
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 228733,
+                    "evStation": {
+                        "name": "Fishtown Crossing",
+                        "address": "2401 Aramingo Ave # 2499, Philadelphia, PA, 19125, US",
+                        "contact": {
+                            "phone": "877-455-3833"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.1207073,
+                                        39.9752798
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "EVgo",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 228819,
+                    "evStation": {
+                        "name": "ACME Woodbury #3970",
+                        "address": "631 Mantua Pike, West Deptford, NJ, 08096, US",
+                        "contact": {
+                            "phone": "877-455-3833"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.16048,
+                                        39.826026
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "EVgo",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 228850,
+                    "evStation": {
+                        "name": "SHORE TOYOTA TOY- SHORE-DC",
+                        "address": "4236 E Black Horse Pike, Hamilton, NJ, 08330, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.627402,
+                                        39.444282
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 233504,
+                    "evStation": {
+                        "name": "SALES CHARGER SHOWROOM",
+                        "address": "3400 E Black Horse Pike, Washington Township, NJ, 08080, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.031084,
+                                        39.72879
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 234717,
+                    "evStation": {
+                        "name": "PIAZZA ALTA FOURTH FLOOR #1",
+                        "address": "1075-1099 Germantown Ave, Philadelphia, PA, 19123, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.139223,
+                                        39.967493
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236710,
+                    "evStation": {
+                        "name": "Westville Town Center",
+                        "address": "165 Broadway, Westville, NJ, 08093, US",
+                        "contact": {
+                            "phone": "877-455-3833"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.126399,
+                                        39.870895
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "EVgo",
+                        "connectorType": "CHAdeMO, CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236781,
+                    "evStation": {
+                        "name": "CAMDEN COUNTY BLACKWOOD PS2",
+                        "address": "200 College dr, Gloucester Township, NJ, 08012, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.039345,
+                                        39.78409
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236783,
+                    "evStation": {
+                        "name": "CAMDEN COUNTY CCC-CAMDEN PS2",
+                        "address": "622-698 Penn St, Camden, NJ, 08102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.118576,
+                                        39.94746
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236784,
+                    "evStation": {
+                        "name": "CAMDEN COUNTY CCC-CAMDEN PS1",
+                        "address": "622-698 Penn St, Camden, NJ, 08102, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.11855,
+                                        39.947468
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236788,
+                    "evStation": {
+                        "name": "CAMDEN COUNTY BLACKWOOD PS1",
+                        "address": "200 College Dr, Gloucester Township, NJ, 08012, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.039358,
+                                        39.784035
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236789,
+                    "evStation": {
+                        "name": "CAMDEN COUNTY LIBRARY S PS1",
+                        "address": "35 Cooper Folly Rd, Winslow Township, NJ, 08004, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.90515,
+                                        39.750744
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236791,
+                    "evStation": {
+                        "name": "CAMDEN COUNTY BOATHOUSE PS1",
+                        "address": "7050 N Park Dr, Pennsauken Township, NJ, 08109, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.072933,
+                                        39.927005
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 1
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236793,
+                    "evStation": {
+                        "name": "CAMDEN COUNTY VOTECH PS2",
+                        "address": "343 Berlin - Cross Keys Rd, Gloucester Township, NJ, 08081, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.976036,
+                                        39.762928
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236794,
+                    "evStation": {
+                        "name": "CAMDEN COUNTY VOTECH PS1",
+                        "address": "343 Berlin - Cross Keys Rd, Gloucester Township, NJ, 08081, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.97609,
+                                        39.762897
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236927,
+                    "evStation": {
+                        "name": "COLLINGSWOOD NJ LUMBERYARD",
+                        "address": "602 N Atlantic Ave, Collingswood, NJ, 08108, US",
+                        "contact": {
+                            "phone": "888-758-4389"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.07154,
+                                        39.91618
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "ChargePoint",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 236945,
+                    "evStation": {
+                        "name": "Cedar Realty Riverview (Philadelphia, PA)",
+                        "address": "1100 S Christopher Columbus Blvd, Philadelphia, PA, 19147, US",
+                        "contact": {
+                            "phone": "833-632-2778"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -75.14395,
+                                        39.93286
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Electrify America",
+                        "connectorType": "CCS",
+                        "powerFeedTypes": [
+                            {
+                                "id": 5,
+                                "name": "DC Fast",
+                                "totalNumberOfConnectors": 4
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Unknown"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 238016,
+                    "evStation": {
+                        "name": "Township of Winslow - Animal Control",
+                        "address": "125 South Route 73, Braddock, NJ, 8037, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.896669,
+                                        39.701175
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                },
+                {
+                    "id": 241193,
+                    "evStation": {
+                        "name": "Mainland Hospital Campus - Visitors Parking",
+                        "address": "65 W Jimmie Leeds Rd, Pomona, NJ, 8240, US",
+                        "contact": {
+                            "phone": "888-998-2546"
+                        },
+                        "position": {
+                            "point": {
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        -74.542733,
+                                        39.480326
+                                    ]
+                                }
+                            }
+                        },
+                        "brand": "Blink",
+                        "connectorType": "J1772",
+                        "powerFeedTypes": [
+                            {
+                                "id": 2,
+                                "name": "Level 2",
+                                "totalNumberOfConnectors": 2
+                            }
+                        ],
+                        "pricingStructureType": {
+                            "description": "Free"
+                        },
+                        "facilityType": "",
+                        "accessTime": "24 hours daily",
+                        "otherInfo": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

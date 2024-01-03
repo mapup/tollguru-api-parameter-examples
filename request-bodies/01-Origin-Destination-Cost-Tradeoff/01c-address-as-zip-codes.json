@@ -1,0 +1,11 @@
+{
+    "from": {
+      "address": "75050, USA"
+    },
+    "to": {
+      "address": "75050, MEX"
+    },
+    "vehicle": {
+        "type": "2AxlesAuto"
+    }
+}
