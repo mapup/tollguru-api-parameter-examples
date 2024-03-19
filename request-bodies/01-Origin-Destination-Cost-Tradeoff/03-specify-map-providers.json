@@ -1,5 +1,5 @@
 {
-    "serviceProvider": "gmaps",
+    "serviceProvider": "here",
     "from": {
         "address": "Walt Whitman Brg Philadelphia, PA 19148, USA"
     },
