@@ -23,3 +23,4 @@ Some examples for the different ways a request to this endpoint can be customize
 | 10 | Add Driver Costs                            | [View](./10-add-driver-costs.json) | [View](../../responses/01-Origin-Destination-Cost-Tradeoff/10-add-driver-costs.json) |
 | 11 | Receive Hours of Service                    | [View](./11-receive-hours-of-service.json) | [View](../../responses/01-Origin-Destination-Cost-Tradeoff/11-receive-hours-of-service.json) |
 | 12 | Receive EV Locations on the Route           | [View](./12-receive-ev-locations-on-the-route.json) | [View](../../responses/01-Origin-Destination-Cost-Tradeoff/12-receive-ev-locations-on-the-route.json) |
+| 13 | Receive Vehicle Stops on the Route           | [View](./13-recieve-vehicle-stops-on-the-route.json) | [View](../../responses/01-Origin-Destination-Cost-Tradeoff/13-recieve-vehicle-stops-on-the-route.json) |

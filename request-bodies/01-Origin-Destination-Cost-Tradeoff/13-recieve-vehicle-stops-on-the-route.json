@@ -1,0 +1,12 @@
+{
+    "from": {
+        "address": "1250 Tuscany Dr, Valparaiso, IN 46385, USA"
+    },
+    "to": {
+        "address": "US-24, Waterville, OH 43566, USA"
+    },
+    "vehicleType": "3AxlesTruck",
+    "serviceProvider": "tollguru",
+    "getPathPolygon": true,
+    "getVehicleStops": true
+}

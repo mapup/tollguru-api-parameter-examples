@@ -1,0 +1,2671 @@
+{
+    "status": "OK",
+    "summary": {
+        "route": [
+            {
+                "location": {
+                    "lat": 41.44524,
+                    "lng": -87.07588
+                }
+            },
+            {
+                "location": {
+                    "lat": 41.50268,
+                    "lng": -83.75813
+                }
+            }
+        ],
+        "countries": [
+            "USA"
+        ],
+        "currency": "USD",
+        "vehicleType": "3AxlesTruck",
+        "vehicleDescription": "Truck - 3 Axles",
+        "fuelPrice": {
+            "value": 3.74,
+            "currency": "USD",
+            "units": "USD/gallon",
+            "fuelUnit": "gallon"
+        },
+        "fuelEfficiency": {
+            "city": 7.3,
+            "hwy": 9.4,
+            "units": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "units": {
+            "currencyUnit": "USD",
+            "fuelEfficiencyUnit": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "departure_time": "2024-07-12T16:06:14.083844+05:30",
+        "departureTime": "2024-07-12T16:06:14.083844+05:30",
+        "share": {
+            "name": "-",
+            "prefix": "-",
+            "uuid": "7f7b56a8-308b-415f-a076-d2a5be1a91fb",
+            "timestamp": "2024-07-12T16:06:14.084102+05:30",
+            "client": "api"
+        },
+        "source": "TOLLGURU"
+    },
+    "routes": [
+        {
+            "summary": {
+                "hasTolls": true,
+                "hasExpressTolls": false,
+                "diffs": {
+                    "cheapest": 0,
+                    "fastest": 0
+                },
+                "url": "https://www.google.com/maps/?saddr=41.445240,-87.075880&daddr=41.664077,-86.736384+to:41.729159,-86.146389+to:41.747786,-85.671191+to:41.735512,-84.999194+to:41.590957,-84.324525+to:41.516018,-83.781874+to:41.502675,-83.758119+to:41.502680,-83.758130&via=1,2,3,4,5,6,7",
+                "distance": {
+                    "text": "201 mi",
+                    "metric": "324 km",
+                    "value": 324511
+                },
+                "duration": {
+                    "text": "4 h 44 min",
+                    "value": 17087
+                },
+                "name": ""
+            },
+            "costs": {
+                "tagAndCash": 7.25,
+                "minimumTollCost": 7.25,
+                "fuel": 82.39,
+                "tag": 7.25,
+                "cash": 10.25,
+                "licensePlate": 9.25,
+                "prepaidCard": 7.25
+            },
+            "tolls": [
+                {
+                    "id": 128100000,
+                    "lat": 41.628798,
+                    "lng": -84.754353,
+                    "name": "4 - Westgate",
+                    "road": "Ohio Tpke",
+                    "state": "OH",
+                    "country": "USA",
+                    "type": "barrier",
+                    "tagCost": 4.5,
+                    "tagPriCost": 4.5,
+                    "tagSecCost": null,
+                    "cashCost": 6.25,
+                    "licensePlateCost": 5.5,
+                    "prepaidCardCost": 4.5,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass",
+                        "E-ZPass DE",
+                        "Uni",
+                        "I-Pass",
+                        "E-ZPass Skyway",
+                        "E-ZPass IN",
+                        "RiverLink",
+                        "E-ZPass ME",
+                        "E-ZPass MD",
+                        "E-ZPass MA",
+                        "MnPass",
+                        "E-ZPass NH",
+                        "E-ZPass NJ",
+                        "E-ZPass NY",
+                        "E-ZPass NC",
+                        "E-ZPass OH",
+                        "E-ZPass PA",
+                        "E-ZPass RI",
+                        "E-ZPass VA",
+                        "E-ZPass WV",
+                        "E-Zpass Flex"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass",
+                        "E-ZPass DE",
+                        "Uni",
+                        "I-Pass",
+                        "E-ZPass Skyway",
+                        "E-ZPass IN",
+                        "RiverLink",
+                        "E-ZPass ME",
+                        "E-ZPass MD",
+                        "E-ZPass MA",
+                        "MnPass",
+                        "E-ZPass NH",
+                        "E-ZPass NJ",
+                        "E-ZPass NY",
+                        "E-ZPass NC",
+                        "E-ZPass OH",
+                        "E-ZPass PA",
+                        "E-ZPass RI",
+                        "E-ZPass VA",
+                        "E-ZPass WV",
+                        "E-Zpass Flex"
+                    ],
+                    "tagSecondary": [],
+                    "licensePlateNames": [
+                        "Video Toll"
+                    ],
+                    "discountCarDetails": null,
+                    "discountCarType": null,
+                    "arrival": {
+                        "distance": 223410.37,
+                        "time": "2024-07-12T19:16:18+05:30"
+                    },
+                    "timestamp_formatted": "2024-07-12T19:16:18+05:30",
+                    "timestamp_localized": "2024-07-12T09:46:18-04:00",
+                    "point": {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -84.754353,
+                                41.628798
+                            ]
+                        }
+                    },
+                    "height": 7.5,
+                    "tagRequested": "tagPriCost",
+                    "tollAgencyNames": [
+                        "Ohio Turnpike Commission"
+                    ],
+                    "tollAgencyAbbr": [
+                        "OTC"
+                    ]
+                },
+                {
+                    "type": "ticketSystem1",
+                    "tagCost": 2.75,
+                    "tagPriCost": 2.75,
+                    "tagSecCost": null,
+                    "cashCost": 4,
+                    "licensePlateCost": 3.75,
+                    "prepaidCardCost": 2.75,
+                    "currency": "USD",
+                    "tagPrimaryNames": [
+                        "E-ZPass",
+                        "E-ZPass DE",
+                        "Uni",
+                        "I-Pass",
+                        "E-ZPass Skyway",
+                        "E-ZPass IN",
+                        "RiverLink",
+                        "E-ZPass ME",
+                        "E-ZPass MD",
+                        "E-ZPass MA",
+                        "MnPass",
+                        "E-ZPass NH",
+                        "E-ZPass NJ",
+                        "E-ZPass NY",
+                        "E-ZPass NC",
+                        "E-ZPass OH",
+                        "E-ZPass PA",
+                        "E-ZPass RI",
+                        "E-ZPass VA",
+                        "E-ZPass WV",
+                        "E-Zpass Flex"
+                    ],
+                    "prepaidCardNames": [],
+                    "tagPrimary": [
+                        "E-ZPass",
+                        "E-ZPass DE",
+                        "Uni",
+                        "I-Pass",
+                        "E-ZPass Skyway",
+                        "E-ZPass IN",
+                        "RiverLink",
+                        "E-ZPass ME",
+                        "E-ZPass MD",
+                        "E-ZPass MA",
+                        "MnPass",
+                        "E-ZPass NH",
+                        "E-ZPass NJ",
+                        "E-ZPass NY",
+                        "E-ZPass NC",
+                        "E-ZPass OH",
+                        "E-ZPass PA",
+                        "E-ZPass RI",
+                        "E-ZPass VA",
+                        "E-ZPass WV",
+                        "E-Zpass Flex"
+                    ],
+                    "tagSecondary": [],
+                    "licensePlateNames": [
+                        "Video Toll"
+                    ],
+                    "discountCarDetails": null,
+                    "discountCarType": null,
+                    "start": {
+                        "id": 128100200,
+                        "lat": 41.6010908,
+                        "lng": -83.8731889,
+                        "name": "49 - Swanton",
+                        "road": "Ohio Tpke",
+                        "state": "OH",
+                        "country": "USA",
+                        "arrival": {
+                            "distance": 297663.68,
+                            "time": "2024-07-12T20:14:18+05:30"
+                        },
+                        "timestamp_formatted": "2024-07-12T20:14:18+05:30",
+                        "timestamp_localized": "2024-07-12T10:44:18-04:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -83.8731889,
+                                    41.6010908
+                                ]
+                            }
+                        }
+                    },
+                    "end": {
+                        "id": 128100400,
+                        "lat": 41.59647,
+                        "lng": -83.809444,
+                        "name": "52 - Toledo Airport-Swanton",
+                        "road": "Ohio Tpke",
+                        "state": "OH",
+                        "country": "USA",
+                        "arrival": {
+                            "distance": 304132.6,
+                            "time": "2024-07-12T20:19:15+05:30"
+                        },
+                        "timestamp_formatted": "2024-07-12T20:19:15+05:30",
+                        "timestamp_localized": "2024-07-12T10:49:15-04:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -83.809444,
+                                    41.59647
+                                ]
+                            }
+                        }
+                    },
+                    "height": 7.5,
+                    "tagRequested": "tagPriCost",
+                    "tollAgencyNames": [
+                        "Ohio Turnpike Commission"
+                    ],
+                    "tollAgencyAbbr": [
+                        "OTC"
+                    ]
+                }
+            ],
+            "polyline": "qw}{Fz|mrOgAGuF@yIDqB@s@AS?Y@K?MBIB[FI@G@GAEAIACEI[GWEYEc@Ca@G_@ASC_@Ku@Qy@YaAo@oAi@eAo@kAYi@[e@U]UWc@g@]_@c@a@iByAc@YcAw@m@g@cA_Ag@k@IKGIW_@k@}@[g@[q@g@sAKYoBcGMHCBMc@EISEGEMe@IFa@PKFIBc@RG@[FqARoEp@cANwAXAa@As@?[w@@MGu@ILoBJuADe@\\oDP?^JBQHy@Ju@BGDC^JJc@j@PHk@F]AGWeAGKCEa@GMCc@QN}@F[H_@\\kB@Ef@aCVgA|@iEnAaGNo@P}@`@mBF]RmATuAP{BH{BD}BCkBIoBMaBQ{A_@{BoAcF]{AqAkFq@kCcFkSm@kCYuAAE[kBKq@SsBAISoCIaBEoB?Ya@@qABQBUDSFKLESAEI]GSSu@Ia@Ke@Gg@?KAUAe@@c@B[Dc@Hm@@MBO@[A]C]G]K]MYUWCCKGEC[OYEc@AO?K?{B@K?E?S??a@?G?Yc@@mB?_C@cA?oAAE@UIO@y@BIAGCGEICQKIGIAI?GDGFEJSFA?ODMDOF}@@wB?cB@m@?eB?}@?{@?K?M?y@?cB?oA@k@?M?@S?CD_@BSDOTq@FQBQD[Ba@?mB@{DAa@C]ESISIOKQMMu@g@MKQMOOOSOWKWK_@Gc@Cc@Ai@?gA@_C?kB@_B?[?Q?sB?i@?q@Ay@AOWyBA_A?E?Yk@?Q?wB?kC?qCAI?e@AcCBI?w@@Y?G?iBA?{@qD?YXaBaCS??iB?gE?oG@cF@qC?iB?_@@{D?{@AgE?[BgC?iR?qF@sD?aL@o@?gD?oA?oJ?gA?M@_@?gA?}@?mK?g@Bg@D}@F[FYJYH[D]B[Bk@Aq@WeLOyFE}AAk@gEmAuK{C_A[i@Ug@]yBeBe@c@a@g@S]]y@a@oAqCoI{@gCWw@_@uAo@qBK_@w@gCMa@Qo@kBeGaBaF}AeEWk@oCoGACEM{@oByBgFa@{@MUa@s@q@eAaAwAi@u@OSEG}D{F{CmEcBaCeA_B]i@Ue@Uq@S{@iBoLqAyIo@cEy@oFYiBWwAa@iBa@aBi@mB{@mCw@yBUk@[u@gAcCqAaCeAgBaBcCwAiBy@_Ay@aAgBsBaDuDCEqB}BoEgFwEsF_@e@KKcG_HgAaAqAgAmA{@gBgAmAs@iBw@yAm@oA_@uA]oAUICaB[m@Ky@M]C_A@gBBu@AoAAuOQiQS{BAwCIkAKu@Ky@Oq@QuAc@wAm@iAq@eAy@_Au@cAcAaAkAy@kAy@wAaAqBq@kB}BkHiE{MgDoKeCaIWu@cEqMgH}TuAeEGQ_AiCmAyCuAcDmB{DyAsC{@gBcTob@kBuD]q@kA_Ce@aAs@yAEIe@eAe@gAi@uASm@Oa@EMYy@e@cBKc@U{@YoA[wAY{AYeBQoAAIOuAQeBQoBYiESoCKgAIw@McAIe@Oi@I[Uq@We@Ua@IMES?QAQEOGIIEICM?IDIFELEL?L@P@v@At@Ch@Eb@a@jBo@vBSr@Uz@Uz@y@rCyBbIKZK^k@tBcCzIm@|Ba@`B]xAQdA_@rBW~AUhBk@|Fe@hEUbBYfBc@rBYnACHoA|EsAhFm@~Bi@`Cc@vBs@O_AAgDEeAQg@Mk@SME}@c@cAk@a@[IGu@a@S]GEw@k@OO[Yi@Y[Ue@c@cA_@u@So@Mc@C}BX}@^gAb@GDeCtB}AbByAzAy@h@gAp@_ALyFB]?kBBkA@oEF{ACmNLq@@m@?eB@kA@w@?mEBw@?oA@e@?G?{B@U?mB@mCB}J@}HBgA?_E@gB@m@@U?sEFA?gB?y@?a@@kDByBB}DBsEBcFB}@@[?{BBm@?eDBgDBY?uA@m@@kA??kAA}BqBJOQ}BqYMcB[GSiDMq@c@}B_@wAKo@[mBo@_Ho@eGsFgu@]iEk@cHYyCw@gIqEgf@c@sEeByQyBoUmBeSoH{w@uCoZ[eDa@kDg@eDm@{C_A{Dy@sCeA}CgAoCuAqC{AoC}A_CqAeBiAqAmAqAaA_AmCcCmAgAuEeEeD}CwDmD{A{AwAaByAkBsAmBkAkBsA_CsAiCgAaC{@qB{@aCu@yBu@cCg@gBm@gCk@gCwGw[_DeOgH}\\yEmUWmAgDaPmE{SgDkP}CyNcCqLcDsOqLik@oEgTeBkI}@eE}@mDcAqDgAyD{AkEqAaDoAwCgBsDiBiDgByCcBiCwAqBeByBuAeB_BgBeDmDgAgAyCgDkC{CmDgEwD{EyBwCcDoE}BeD{BgDqB}CqBaDwBqDgD}FaGeKgB_D{BoDiBoCoBoC{BwC}BsCyBeCqBuB{C}CqVsVgBmByA_B{CoDcC_DuAoBoAgBgBmCcA_BcCeEuB}DqAgCqBmEw@gB_CuFkA{CeAyCmB_GmBuGuAuFqAuFoAiGeBsJs@uD_BqI_BuIqEeVmBiJoBaJeBiHa@_B}AaGy@wCcAoDgAsD}EgOuBwGmHaUmAsDmA}DgAsDoAsEkAkEcAeEw@gDi@aCe@yBsAsGw@mEgAiGcAwGaAcHi@gEc@sD]iDc@uE]qD[}DYcEW{DWgFOwCOoDMoDMyFEsAGiDEmCE{DAiEAiD@gD@oDDyDDeEJcFNmGh@mU^iP?G`@sPRcJFoD?}CEiCMqC[sCc@mCq@_Dk@uB_AaCaAwBgAgBgA}AcAkA_AaAyBqBgIeH{AuAoBoBuAyAwAgB}AyBsAoBaBuC_B}CaAuBeAgCiA_DcAcDcO}h@aBeGgAqDmAmDkAaDqAaDuA{CuAsCgBcDgBuCeBkCgBcC{C{DeFoGoKyMwDyE}BaDoBsCaC{DyAeCmBkDoAeC_AmBkAeCmCiGwB_FmAwCmBiEkAcCyBmEeAkBgB}CcAcBeBkCsAqBcBaCsCsDeDiEuEgGkMsPoMqPsG_IwCgDyEeF}AaBm\\u\\iCkCaAeA_AkAy@iAcA{A_AaBu@{A{@iBs@iBy@aCi@gBg@qBa@oB_@kBYoBYwBQoBOwBMuBGqBEsBAwB[ky@?qAKgWKuWEmEMqEUgF[iE[mD[uC_@{Ce@yCg@wCm@yCaAoEeA}Du@eC}@kCwEkN_AmC}@uCy@qCu@qCi@}By@sDk@wCe@qCg@cDc@cD_@iDa@sE]gEg@cGi@{Ek@iEg@yCe@mCm@}Cm@mCm@cCs@kCm@sBk@mBm@gBoHiTcDkJkAoDoA}DaAiDcAuDw@eDs@yCw@yDcAgFw@{Eq@wE_@mC[mCOoA_@mDYwCW_DSkCWqEWwEQcFKuEGwCAoCCcEE{PEyLCaJAwBAaBCaCE{BIsBI{BM}BKwBKeBWyCWuCSeBSmBUiBUgBc@sCWaB[eBs@uD_@eBeKge@oFsVeH_\\gG}X_F_UaGqXqCoMeCaLgAoFWqAQiAQkAOkAUsBOeBKoAMuBI{BGeCC{B?cB@yA@sAFkBFiBJ}BL_BRyBV{BXwB\\uBb@}Bd@uB\\uA^qA`@uA`@kA`@mAp@aBb@gAn@sAr@yA`G_LfBiD`@y@^{@t@iBf@sAZ{@l@kBd@_BXiAXiAZ{A\\iB\\gBVgBNkATqBHeAPsBJ_BDgAFkAF}B@}A@{C@wV?cF?ir@?i^@eB@_BBqADoAFqBFuAFiAHoAJsAJoA\\cDVuBTaB^}BX}ATmATaA^cBn@cCd@eBr@yBr@sBt@oBt@iBj@mAp@uAv@}A|@}AnCsE|GyKfFoI|HgMjJoOzE{HtBoDrAeCvAsCvA_Dp@_Bn@{A`AiCr@uBl@cBz@oCp@aCp@eCp@oCf@}Bn@yCf@mCf@yCl@_E\\cCZqCVkCToCNeBJsAJcBJmBLuCFcBBqAHkDBkCBiDFe\\D_U@s@BmID_RBmO@gLCeRGyw@E_w@AsOCcYAgSCi`@?eBByBBqBHsBHwBLqBJgBToCRmBXaC\\aC^yB\\kBj@iCb@iBd@gB`@uAp@}Bn@iB`AgC^}@r@}A~@oBfI{ObAsBbAsBh@oAh@sAd@qAf@uA`@yAb@wA\\sAb@oB\\eBX}AZsBTaBLgALsAJkARiCFoAFeBFaBBuA?kB?uCa@abBAsHAyHEcJGgVC_KEmIC_Q?uBGmMAeD?iA@}A@eAB{@H{AJuALmANkAZkBViA^yAj@cBh@qAb@aAn@oAlAyBR[v@yAl@cAz@yAbEoH^m@dAqBn@kAd@cAb@eAd@qA\\kAZoAVmARiARyAReBHyAFcAFoBBuBBuARqSbA{}@f@ud@J{I@mD@yC@gD?uDAcDIkTQ_h@AUE{QAqEKaWIeUUms@EeLCyDA{CEqCIqCKeDUaESwCQ{BSuB[mC[gCi@yDe@qCm@aD]aBc@oBa@gBc@aBg@kBg@eBs@yBw@{Bi@{Aq@eBw@mBiAiC}@kBah@acAkJ{QkD_HaBeD{@sBy@uBq@iBk@iBcAiDWcAi@yBa@oB_@kBUsA[wBYsBWuB[_DOaCOuBOaEGqBCgBAmBC{IAeFYojAGcX?eD@eD@yCDwCHyDHmDJgCNyCTiETeDX}Df@cGzByVvAsPXoDPyCVaEP{DNiEJwDFqDBeD@cEDyjB@w^?kP?q@?{J@ma@?_NCmDGwCKiDQkCU{C]sDWaCm@aEoAyH_@kCScBQeBS_COaCQiCGkBKeDCaCAqCA{b@B{HBcFDaEFcDFkETqHVsGV_Fj@mKXgGLuDHwCHyCDkC@gC@{C?oDGcWK_c@BiJFmKHuEF_ELmGX_Kr@iVNiGP}JHwF@iBPaOBkCt@is@PgRBaH@qPAgECyj@@yL@cHDaFFgGLmKb@}YBqBbAss@|AuhAx@yj@b@gZHiJDoGDwOAyFAeFEeIE{EIgGGsEOsHMuGGqBcAo[YkIk@oRs@uTOyFS}JM}HGuFG_HM_Tk@aaAa@mp@[gi@EyEK_EQmDU_D[oDe@gEuAsISmAeBkKiO{~@_@aCc@wC]wCa@qEUoDOcEIkDCcE@sDHiEJoDToDd@eG|BaXp@gIr@gIn@sHTsCNqCL_CFwCD_C@kDCoDOqIUkLYwOi@kXg@gWOaJEuB@oBBkBJ_CRwBRaBVwAXsAZmAd@{Ab@mAt@cBp@qA~@_BdAmBdGqKp@kApC_F|@eBv@gBp@gBn@sBn@eC`@mB\\{BVmBTmCNqCDqC@kCIgDSgDY{C]aC}EsXkLep@eAwF{AwH_B_ImB}IyCiMkCqKcD_MaEyN{EwOqEeNuFwPsByG_A{Ce@gB]oA_AkDw@eDiAeFaAkE}@mEu@_Ew@mEo@yD_AoGq@}Es@wFg@sEo@aGm@iHa@kF]_G[wF]kHSyGMsEIwEIcGCuHE_QGg_@EeVEySEsVCkGEcEGmEGqDMqEOcF[cHY{Fa@sGw@}Jo@cHu@_HeBiN{AaKeAiGcAqFw@{Du@oDgA}EaCwJ{CcMi@}B_@oBWuAW_BW_BWsBUoBSaCQuBQ{CKcCGeCEgCAuC@_DBeCJiDL{CRuCTwC\\kDl@iFdAoJr@oGf@_F^cE\\gEd@eGXwEZsGZiHPeFLeFJcGFgF@yD@mFAcFCaGI_FKcGQwG]_N_Ay_@QiGMoFMsEOoGWyJ]kMUiJ[qLY{KYqLg@_Si@}SImDQsGIqDCmC?iDBqCFeCHiCLyBPmCRkC\\{CZeCd@aDj@{CbAyExB_KfBoIvC_NvAyG`AwE~AsIbAaGzAaJnA}IdAiIlAgKp@cGd@mF^gEv@uJj@sI^iHd@eJ\\uIRsHLuGL_HF}GBmFBmICqIGoKKsQMyPWm`@GgHQaIY{H]mGk@sHu@eIu@yGu@mFoAeIoB_LiByK{CeQqDeTqAwHyAsIyAyIeEqVu@iFe@wEe@kFWmEOaCO}DKcGAkFDoHHwFVcRRcLHuHBkE?kA@wB?{EAgGCyEAeCGsHIeOKoMGaKEgGO{TKkOGmJK_PMuQG{LS{YCyCa@{m@AsB[ue@CcFCgE@gDBkCF_DJ_DHkCRaDVuDXcD\\cDb@eD`@wCf@sCXaB^oB\\}A\\{Aj@yBdBsHt@eDj@yCr@cE`@sC\\kCZqCVeCPyBN}BN_CTyEXuF^gHZuGx@aPjAcVVeFRcGP}FPiHHaFHmHBoCBmE@}E@gFE_IIyISeMo@gd@S}MM{IGoFCuD?uEDqFFsEHwDJeDPqDReEVsDVkDZ{Df@_Ff@kEr@cFx@kFh@}CxBuL~BiMhAiGzAwIrAiIl@yDnByMr@mFlAmJbAoIhAcKdAoKv@gIl@iHl@gIn@cJf@}Hj@}JRcE^gIVuGJqCLkDPwGRgHBsAPiKLeJFqIDqK?mE?sCCyCM_D[eDo@sDs@yCcA}CsAoC{AaC{AmBaBaBaBuAcFwD{GgFuN}KsAaAa@YoFeEuC_CqAmAo@m@mAqAcAqAkAaBaAgB{@gBeAiCs@yBs@qCi@kCa@gCa@eDQmCKoCGqC?oCBmd@Bm]Boc@@sQ@aL@iHCuDGqDA_AKwBOwCUmDW}CK_AK_AOcAYyBa@mCQeAm@uD[sB[{B[oCe@aF[eFOkEKeECuC@mEDgHLiQJaM^mi@HiMd@qq@d@iq@H}PDuQPyw@@qBLue@f@qwBN_l@Lui@H{\\@yEDwCFqCL}CLkCP_CTcCXcCb@eDdFs[fA_H`AcGTqA`AiGb@kC`@mCj@yD`@eDf@_Ef@gF`@aF^gFl@qIbGyz@dCc^n@mJVgETgERmEViGXkI\\iNDsAb@kR^yNh@{T`@uONuGFgFD}EAyFAmCEkCIyEOoFSwFwAqd@SqGKkEMsGKeHEsGAkGAiHDgHFoHZsTf@c^HqDHsCPmCXkCXqB`@wBl@mCt@cCf@uAf@kAz@eBDKhAmB|BqD|@yAfHgLxS{\\|BqDb@s@hAkBhAqBbAwBx@oBr@qBn@oBl@}Bb@qBh@sC`@mCZmCTsCNsCH_CD_C@iD?gC@_E@yC@yIB}I@iH@kBDsWBcOBoPDcNBiJDeCJgCTeCZ_C^sBp@gC|@iCfA_CpAwBxAmBfBgBtEiEtCkC|EkEdDaDdWoU`ImHhE{DjGyFzAyAlAqA~AmBpAmBrA{BtAqCfAiCbAqC`BkFtCqJrDkLdDqKzD{L`AcDnCeJfByFnCuIdCmIfBwF`EoM`BmF`Ukt@bGoRlAwDrAsDvAyDjBsEhCwFvBkEtD}GfSc^xBeElB{DfB{DrAcDdBmE`BsEhAkDpAmEdBiG`DgM~Lif@~EqR`BiGjAyDhAiDtA_E|AaEtAkD|AmDdBqDdAqBnBwDtBoDvBkD`QsWhC{DbMcRpCkEtDcG~AoCxCkFhBeD~BqElCoFdAyBtDeIxAiDbB}DrBeFxE}L`KeXh@uAjAyC|D_KdBqE~@yBbAwBhAoBxAuBr@y@t@w@x@u@v@q@pBsAfB_AdAe@vAe@fAYj@Kl@M`AMbPaBfTuBpI{@rBW|AWfBc@vAe@xAs@tA{@jA}@v@u@j@m@z@gA|@qAx@uAv@}AjByDzB{EhFuKjAaCj@gAbAqB~C}FbB{CxDuGrEmHlBuCnBwClBoC~BcDbFwG|GcJvQaVdBaCtAsBj@{@j@eA`@y@j@mAf@qANa@b@sAr@kC`@cB`@sB\\cCV}BPyBLgCF_C@}CC_CKsCMsBWiDe@kG}@cLm@aI_@_FsAeP}A{Sg@qG[yDQeCMwASkDIeCEwCCqDF{EFkDDaCHsDHcEPuLFiEVeMDkBLoH@cANwGBqBDoAHyFN_IJuFJqFNoJBcAFcDVgOFwCHeEJuGJyFfA_m@?KJqGHcEXcPJgFTqLL_HXcSDgBBeA@o@NaIXqONaJNaIB{CXiNPeIJmHLuFZ_RJiEJoDNcENaDLaC`@yGT_DN{BB_@ToCHcA\\yDLwAx@eHbAgIbAkHhAmHn@yD`BoJ~AwIToArD}SxDeTbLsp@jAkHfAmH|@gHjBmWV}Gv@u\\dAip@LqMtAuv@j@y\\j@m^FoOOeUUaOq@ua@c@eMuDabAk@{L]aKOwJEkFHkGBkBBiHlAq[ZiJ`@sKNgENiEXoGHmCjAi\\ZaHTeGXeINcELcDZoIJ{BVaGLeELaEN}DPeENeEp@qQPeENiENkENmEPoEFsAHsCReFRwFPsEPcFTgFL{CDsAHkCR_Fd@_MPaFNmEPiFPqDRgENkCRmDViD^}E\\{E^{Er@iJNqBVcDToCHqAZwDt@wJXuDXwDXwDZwDB]vAsQp@uIZgEbAsMhByUf@}G|@cLz@wLn@yH^uEF_A`@oGb@sJRyHJ{G?c@HsEDmEJaKPqPDsCFgG@i@t@}n@RqOZ_Yb@q_@XcVJ}GT{SJqI^}[FwEFyDDaELwKDqCHgG@oBJcGFkFLwKBqBDkEBqBHqFFgFp@_j@XkVBgB\\}XXsUBiBHsINsKJuJDiCFoDD}D@sAFiFFeFBmADuDHcHNuMJgHDeC@eAF{ED_EBgBHgIJaHJgELgEPmFVgGV}E`@oGZeEV_DDe@ZuDb@aEb@_EZiCl@}EpAyIPkAn@wDTqAbAuFp@iDx@aE~@gE`@gBh@}Bt@sCh@sBb@aBh@qBrBeHdAeD`AaDjAqDx@eCz@mClA{DlB_GlEgNx@cCt@eCz@mCz@kC`A_Dd@uAh@aB`@mAd@wA`JcYxAyEZaAl@qBb@qAl@iBXcAf@{ARq@x@iCx@iCh@eB\\mARaAVkAJk@Jm@Ju@Jw@J_AHq@Ds@F_ABu@D{@@c@BcA@qA?s@CaBEuAG}AIsAKmAKy@OmASaBYeCk@yDwB_N}A}Kc@{CAG{BwO_@gCo@qESyAs@wFe@iEe@oF[cESuDQ_D]_JKiEI}FAwBAeGBwDFcGNqGFiCXaLB}@XqLlC}iAL{FN_KDeKCmd@OujACojAGk}@OgxBGmiAAy`@K{qBGgjACc`@AqCAqCA{AKgHGeDGsBE{@A{@MkDOoDKqBQmDKuBOqCo@iL_AmPo@sL]gGUgEQuCYeFSmDE}@_@aHMuBMqBOqCOoCI}AI{AOqCK_BGaAGmAEy@EwAAyAA{A?qA@y@BwAB{@Dy@@_@TiFDu@DmAJaBhAmVHeBF_Bp@aNBu@Ds@NsCLsCLqC^}HZaHtB}c@XcGjBc`@Bs@@k@TcEHkBLoCHyBFqBDuBFoCBwB@uB@sC?qCWub@s@iwA{AipCa@ku@Qs\\CcEAcBAeAEoIAeBAsBAqBAmBAyBAqBCsBAgCCkFOiW?}AQ}ZAcBAuBEaDS{EY}DYkC]_DaAeGo@_DgB_HoJs[a@uAaD}KqCiJu@gCq@cCWgAIYG][}AQkAEYKy@OyAI}@KmBGyAAaAAoA?_CDkCtAs{@x@_g@DsF@mB@yB?uA?yBAiCAyBAuBAyBEwBCoBMmGCuAEoBCoAy@eb@_@yR{EufCEuCSgJMqGKgHAqDAwBAmD?sDAoDEwwAGowA?kA?qAGw}@AmCAqJAqCBmV?kHAgH?iH?kGAkF?iFAcD@{E?kFCqHAoPAeQCwXEki@?_DGe{AOsO{HqlCEwAkC_~@]oKEwAC_B?uBBqBH_BP_Ch@uDzAuHh@oC|@qD^kAJYj@cAb@c@f@Uz@It@Ll@`@ZXZj@N`@T|@Fv@l@xIFj@P`AZbAd@bAd@n@f@h@j@b@n@ZhDbAxBn@BvQ@~Ab@@dGKrDMh@S~@s@pG~Uf@jBTv@hB~GzI~[xBjIsC@cMGu@?{EE?hABpJ?XBdO?vB@xA?fC@hA@pI?|A@zC?H@tB?rB@bFDpR?pC@jABxNj@?dDA`B?tB?|AAbA?jB?X?p_@KAOYsDMeBi@eHC}C?Q?U?S?U@SDSFMFMJMNINGf@MF?d@?d@AjPMfIEj@A^AJ?f@Cd@E^ENEZGn@Sh@UPGPIh@Yp@c@b@]j@i@d@g@Za@\\g@Xi@Zm@Pc@Re@Rm@Rs@R}@Lu@Jw@Hu@Fs@Dw@B{@@w@@_A?eAC}O@}EAeB?wF?OAsCAaFGcACm@Ac@DWBO@ABCLCREZGbAAl@@hJCfDAhKAjB?zFC^?lB@zP@N?R?bF@bD?pB?fE@tBCpAAjHAnCA`@?dA?xDAlAAhDAdA?j@?vHCnB?p@AbA?J?h@?xGAvJCdFArB?L?b@A`ECdFCxEC|@A`HClB@|FDz@@bFD~A@nB@nA@p@@pED~DBX@lDBfC@tA?vB?lBAhBAzAAr@Ad@?hCCdCAf@}D`@kDbA}Id@yDHi@PaAPs@pAwE`CwIh@qBFQt@kCRs@hBkGZgAt@cCNa@z@wBPa@~CqH`AyBf@iAJWfAcCjAmCtA_DFSDMDOBU@U@e@?{D?OAuB?IAUJ?n@[XOLGHEHG~A{@`Ai@TMTK~@i@|@g@RKr@_@TMNI\\KR?b@?d@?hAATA?]A{ICiKAoC?UAaF?iAAc@AaD?e@?oACuF?M?g@CuJEsK?U?WCeFAiGAoE@s@@o@D{@F{@Hy@LaALw@BMN{@HSHk@DYDWBWBS@U@W@S@I?E@C@C@GJ]DAHIDK@O?GAG^qBJw@He@Lm@RgABWH_@XmANw@@GRaALo@\\kBVqAHg@PcAdDeRpAmHhAqGX}AVwAN_Ah@uClCkOrBmLl@qDhAoGn@sDZ_BLw@XwAV{ABGj@}CjBcKLo@ZeBrB@pFCjDDb@Bn@JRFv@ZhALdIfErCfBTP",
+            "territoryMileage": [
+                {
+                    "territory": {
+                        "name": "Ohio",
+                        "code": "OH",
+                        "type": "state"
+                    },
+                    "distance": {
+                        "text": "63",
+                        "metric": "102",
+                        "value": "102256"
+                    },
+                    "trafficTime": "1 h 34 m"
+                },
+                {
+                    "territory": {
+                        "name": "Indiana",
+                        "code": "IN",
+                        "type": "state"
+                    },
+                    "distance": {
+                        "text": "138",
+                        "metric": "222",
+                        "value": "222224"
+                    },
+                    "trafficTime": "3 h 9 m"
+                }
+            ],
+            "pathPolygon": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -85.455,
+                                41.7876
+                            ],
+                            [
+                                -85.4682,
+                                41.7796
+                            ],
+                            [
+                                -85.4849,
+                                41.7838
+                            ],
+                            [
+                                -85.498,
+                                41.7758
+                            ],
+                            [
+                                -85.5147,
+                                41.78
+                            ],
+                            [
+                                -85.5278,
+                                41.7719
+                            ],
+                            [
+                                -85.5445,
+                                41.7761
+                            ],
+                            [
+                                -85.548,
+                                41.7884
+                            ],
+                            [
+                                -85.5647,
+                                41.7926
+                            ],
+                            [
+                                -85.5779,
+                                41.7845
+                            ],
+                            [
+                                -85.5945,
+                                41.7887
+                            ],
+                            [
+                                -85.6077,
+                                41.7807
+                            ],
+                            [
+                                -85.6243,
+                                41.7849
+                            ],
+                            [
+                                -85.6375,
+                                41.7768
+                            ],
+                            [
+                                -85.6541,
+                                41.781
+                            ],
+                            [
+                                -85.6672,
+                                41.773
+                            ],
+                            [
+                                -85.6839,
+                                41.7771
+                            ],
+                            [
+                                -85.697,
+                                41.7691
+                            ],
+                            [
+                                -85.7137,
+                                41.7733
+                            ],
+                            [
+                                -85.7268,
+                                41.7652
+                            ],
+                            [
+                                -85.7435,
+                                41.7694
+                            ],
+                            [
+                                -85.7566,
+                                41.7613
+                            ],
+                            [
+                                -85.7733,
+                                41.7655
+                            ],
+                            [
+                                -85.7863,
+                                41.7574
+                            ],
+                            [
+                                -85.803,
+                                41.7616
+                            ],
+                            [
+                                -85.8066,
+                                41.7738
+                            ],
+                            [
+                                -85.8233,
+                                41.778
+                            ],
+                            [
+                                -85.8364,
+                                41.7699
+                            ],
+                            [
+                                -85.8531,
+                                41.7741
+                            ],
+                            [
+                                -85.8662,
+                                41.766
+                            ],
+                            [
+                                -85.8829,
+                                41.7701
+                            ],
+                            [
+                                -85.8959,
+                                41.7621
+                            ],
+                            [
+                                -85.9126,
+                                41.7662
+                            ],
+                            [
+                                -85.9257,
+                                41.7581
+                            ],
+                            [
+                                -85.9424,
+                                41.7623
+                            ],
+                            [
+                                -85.9554,
+                                41.7542
+                            ],
+                            [
+                                -85.9721,
+                                41.7583
+                            ],
+                            [
+                                -85.9758,
+                                41.7705
+                            ],
+                            [
+                                -85.9925,
+                                41.7747
+                            ],
+                            [
+                                -86.0055,
+                                41.7666
+                            ],
+                            [
+                                -86.0222,
+                                41.7707
+                            ],
+                            [
+                                -86.0352,
+                                41.7626
+                            ],
+                            [
+                                -86.0519,
+                                41.7668
+                            ],
+                            [
+                                -86.0649,
+                                41.7587
+                            ],
+                            [
+                                -86.0816,
+                                41.7628
+                            ],
+                            [
+                                -86.0947,
+                                41.7547
+                            ],
+                            [
+                                -86.1114,
+                                41.7588
+                            ],
+                            [
+                                -86.1151,
+                                41.771
+                            ],
+                            [
+                                -86.1318,
+                                41.7751
+                            ],
+                            [
+                                -86.1448,
+                                41.767
+                            ],
+                            [
+                                -86.1615,
+                                41.7711
+                            ],
+                            [
+                                -86.1745,
+                                41.7631
+                            ],
+                            [
+                                -86.1708,
+                                41.7508
+                            ],
+                            [
+                                -86.1838,
+                                41.7427
+                            ],
+                            [
+                                -86.2005,
+                                41.7469
+                            ],
+                            [
+                                -86.2134,
+                                41.7388
+                            ],
+                            [
+                                -86.2302,
+                                41.7428
+                            ],
+                            [
+                                -86.2339,
+                                41.755
+                            ],
+                            [
+                                -86.2506,
+                                41.7591
+                            ],
+                            [
+                                -86.2636,
+                                41.751
+                            ],
+                            [
+                                -86.2803,
+                                41.7551
+                            ],
+                            [
+                                -86.284,
+                                41.7673
+                            ],
+                            [
+                                -86.3007,
+                                41.7714
+                            ],
+                            [
+                                -86.3137,
+                                41.7633
+                            ],
+                            [
+                                -86.3304,
+                                41.7674
+                            ],
+                            [
+                                -86.3434,
+                                41.7593
+                            ],
+                            [
+                                -86.3601,
+                                41.7633
+                            ],
+                            [
+                                -86.3639,
+                                41.7755
+                            ],
+                            [
+                                -86.3806,
+                                41.7796
+                            ],
+                            [
+                                -86.3936,
+                                41.7715
+                            ],
+                            [
+                                -86.4103,
+                                41.7756
+                            ],
+                            [
+                                -86.4141,
+                                41.7877
+                            ],
+                            [
+                                -86.4308,
+                                41.7918
+                            ],
+                            [
+                                -86.4437,
+                                41.7837
+                            ],
+                            [
+                                -86.4605,
+                                41.7877
+                            ],
+                            [
+                                -86.4734,
+                                41.7796
+                            ],
+                            [
+                                -86.4901,
+                                41.7837
+                            ],
+                            [
+                                -86.5031,
+                                41.7755
+                            ],
+                            [
+                                -86.5198,
+                                41.7796
+                            ],
+                            [
+                                -86.5327,
+                                41.7715
+                            ],
+                            [
+                                -86.5495,
+                                41.7755
+                            ],
+                            [
+                                -86.5624,
+                                41.7674
+                            ],
+                            [
+                                -86.5791,
+                                41.7714
+                            ],
+                            [
+                                -86.592,
+                                41.7633
+                            ],
+                            [
+                                -86.5882,
+                                41.7511
+                            ],
+                            [
+                                -86.6011,
+                                41.7429
+                            ],
+                            [
+                                -86.6178,
+                                41.747
+                            ],
+                            [
+                                -86.6307,
+                                41.7388
+                            ],
+                            [
+                                -86.6475,
+                                41.7429
+                            ],
+                            [
+                                -86.6604,
+                                41.7347
+                            ],
+                            [
+                                -86.6565,
+                                41.7226
+                            ],
+                            [
+                                -86.6694,
+                                41.7144
+                            ],
+                            [
+                                -86.6861,
+                                41.7184
+                            ],
+                            [
+                                -86.699,
+                                41.7103
+                            ],
+                            [
+                                -86.7157,
+                                41.7143
+                            ],
+                            [
+                                -86.7286,
+                                41.7062
+                            ],
+                            [
+                                -86.7453,
+                                41.7102
+                            ],
+                            [
+                                -86.7582,
+                                41.702
+                            ],
+                            [
+                                -86.7543,
+                                41.6899
+                            ],
+                            [
+                                -86.7672,
+                                41.6817
+                            ],
+                            [
+                                -86.7839,
+                                41.6857
+                            ],
+                            [
+                                -86.7967,
+                                41.6776
+                            ],
+                            [
+                                -86.7929,
+                                41.6654
+                            ],
+                            [
+                                -86.8057,
+                                41.6573
+                            ],
+                            [
+                                -86.8224,
+                                41.6613
+                            ],
+                            [
+                                -86.8352,
+                                41.6531
+                            ],
+                            [
+                                -86.852,
+                                41.6571
+                            ],
+                            [
+                                -86.8648,
+                                41.6489
+                            ],
+                            [
+                                -86.8609,
+                                41.6368
+                            ],
+                            [
+                                -86.8737,
+                                41.6286
+                            ],
+                            [
+                                -86.8904,
+                                41.6326
+                            ],
+                            [
+                                -86.9032,
+                                41.6245
+                            ],
+                            [
+                                -86.9199,
+                                41.6285
+                            ],
+                            [
+                                -86.9327,
+                                41.6203
+                            ],
+                            [
+                                -86.9494,
+                                41.6243
+                            ],
+                            [
+                                -86.9622,
+                                41.6161
+                            ],
+                            [
+                                -86.9583,
+                                41.604
+                            ],
+                            [
+                                -86.9711,
+                                41.5958
+                            ],
+                            [
+                                -86.9672,
+                                41.5837
+                            ],
+                            [
+                                -86.98,
+                                41.5755
+                            ],
+                            [
+                                -86.9761,
+                                41.5634
+                            ],
+                            [
+                                -86.9889,
+                                41.5552
+                            ],
+                            [
+                                -86.985,
+                                41.5431
+                            ],
+                            [
+                                -86.9977,
+                                41.5349
+                            ],
+                            [
+                                -86.9938,
+                                41.5228
+                            ],
+                            [
+                                -87.0066,
+                                41.5146
+                            ],
+                            [
+                                -87.0232,
+                                41.5186
+                            ],
+                            [
+                                -87.036,
+                                41.5104
+                            ],
+                            [
+                                -87.0527,
+                                41.5144
+                            ],
+                            [
+                                -87.0654,
+                                41.5063
+                            ],
+                            [
+                                -87.0615,
+                                41.4941
+                            ],
+                            [
+                                -87.0742,
+                                41.486
+                            ],
+                            [
+                                -87.0909,
+                                41.4899
+                            ],
+                            [
+                                -87.1036,
+                                41.4818
+                            ],
+                            [
+                                -87.0997,
+                                41.4696
+                            ],
+                            [
+                                -87.1124,
+                                41.4615
+                            ],
+                            [
+                                -87.1085,
+                                41.4494
+                            ],
+                            [
+                                -87.1212,
+                                41.4412
+                            ],
+                            [
+                                -87.1173,
+                                41.4291
+                            ],
+                            [
+                                -87.1006,
+                                41.4251
+                            ],
+                            [
+                                -87.0967,
+                                41.413
+                            ],
+                            [
+                                -87.0801,
+                                41.4091
+                            ],
+                            [
+                                -87.0674,
+                                41.4172
+                            ],
+                            [
+                                -87.0507,
+                                41.4133
+                            ],
+                            [
+                                -87.038,
+                                41.4214
+                            ],
+                            [
+                                -87.0419,
+                                41.4335
+                            ],
+                            [
+                                -87.0292,
+                                41.4417
+                            ],
+                            [
+                                -87.0126,
+                                41.4377
+                            ],
+                            [
+                                -86.9998,
+                                41.4459
+                            ],
+                            [
+                                -86.9832,
+                                41.4419
+                            ],
+                            [
+                                -86.9704,
+                                41.45
+                            ],
+                            [
+                                -86.9743,
+                                41.4622
+                            ],
+                            [
+                                -86.9616,
+                                41.4703
+                            ],
+                            [
+                                -86.9449,
+                                41.4663
+                            ],
+                            [
+                                -86.9322,
+                                41.4745
+                            ],
+                            [
+                                -86.9361,
+                                41.4866
+                            ],
+                            [
+                                -86.9233,
+                                41.4947
+                            ],
+                            [
+                                -86.9066,
+                                41.4908
+                            ],
+                            [
+                                -86.8939,
+                                41.4989
+                            ],
+                            [
+                                -86.8978,
+                                41.511
+                            ],
+                            [
+                                -86.885,
+                                41.5192
+                            ],
+                            [
+                                -86.8888,
+                                41.5313
+                            ],
+                            [
+                                -86.8761,
+                                41.5395
+                            ],
+                            [
+                                -86.8799,
+                                41.5516
+                            ],
+                            [
+                                -86.8671,
+                                41.5598
+                            ],
+                            [
+                                -86.8505,
+                                41.5558
+                            ],
+                            [
+                                -86.8377,
+                                41.5639
+                            ],
+                            [
+                                -86.8415,
+                                41.576
+                            ],
+                            [
+                                -86.8287,
+                                41.5842
+                            ],
+                            [
+                                -86.812,
+                                41.5802
+                            ],
+                            [
+                                -86.7992,
+                                41.5883
+                            ],
+                            [
+                                -86.7825,
+                                41.5843
+                            ],
+                            [
+                                -86.7697,
+                                41.5925
+                            ],
+                            [
+                                -86.7736,
+                                41.6046
+                            ],
+                            [
+                                -86.7607,
+                                41.6128
+                            ],
+                            [
+                                -86.7441,
+                                41.6088
+                            ],
+                            [
+                                -86.7312,
+                                41.6169
+                            ],
+                            [
+                                -86.7351,
+                                41.629
+                            ],
+                            [
+                                -86.7222,
+                                41.6372
+                            ],
+                            [
+                                -86.7055,
+                                41.6332
+                            ],
+                            [
+                                -86.6927,
+                                41.6413
+                            ],
+                            [
+                                -86.676,
+                                41.6373
+                            ],
+                            [
+                                -86.6631,
+                                41.6454
+                            ],
+                            [
+                                -86.6464,
+                                41.6414
+                            ],
+                            [
+                                -86.6336,
+                                41.6495
+                            ],
+                            [
+                                -86.6374,
+                                41.6617
+                            ],
+                            [
+                                -86.6245,
+                                41.6698
+                            ],
+                            [
+                                -86.6078,
+                                41.6658
+                            ],
+                            [
+                                -86.5949,
+                                41.6739
+                            ],
+                            [
+                                -86.5987,
+                                41.6861
+                            ],
+                            [
+                                -86.5859,
+                                41.6942
+                            ],
+                            [
+                                -86.5691,
+                                41.6902
+                            ],
+                            [
+                                -86.5563,
+                                41.6983
+                            ],
+                            [
+                                -86.5395,
+                                41.6943
+                            ],
+                            [
+                                -86.5266,
+                                41.7024
+                            ],
+                            [
+                                -86.5099,
+                                41.6984
+                            ],
+                            [
+                                -86.497,
+                                41.7065
+                            ],
+                            [
+                                -86.5008,
+                                41.7187
+                            ],
+                            [
+                                -86.4879,
+                                41.7268
+                            ],
+                            [
+                                -86.4712,
+                                41.7227
+                            ],
+                            [
+                                -86.4583,
+                                41.7309
+                            ],
+                            [
+                                -86.4415,
+                                41.7268
+                            ],
+                            [
+                                -86.4378,
+                                41.7146
+                            ],
+                            [
+                                -86.4211,
+                                41.7106
+                            ],
+                            [
+                                -86.4173,
+                                41.6984
+                            ],
+                            [
+                                -86.4006,
+                                41.6943
+                            ],
+                            [
+                                -86.3877,
+                                41.7024
+                            ],
+                            [
+                                -86.371,
+                                41.6983
+                            ],
+                            [
+                                -86.358,
+                                41.7065
+                            ],
+                            [
+                                -86.3413,
+                                41.7024
+                            ],
+                            [
+                                -86.3376,
+                                41.6902
+                            ],
+                            [
+                                -86.3209,
+                                41.6861
+                            ],
+                            [
+                                -86.3079,
+                                41.6942
+                            ],
+                            [
+                                -86.2912,
+                                41.6901
+                            ],
+                            [
+                                -86.2783,
+                                41.6982
+                            ],
+                            [
+                                -86.2616,
+                                41.6942
+                            ],
+                            [
+                                -86.2579,
+                                41.682
+                            ],
+                            [
+                                -86.2412,
+                                41.6779
+                            ],
+                            [
+                                -86.2282,
+                                41.686
+                            ],
+                            [
+                                -86.2115,
+                                41.6819
+                            ],
+                            [
+                                -86.1986,
+                                41.69
+                            ],
+                            [
+                                -86.1819,
+                                41.6859
+                            ],
+                            [
+                                -86.1689,
+                                41.694
+                            ],
+                            [
+                                -86.1522,
+                                41.6899
+                            ],
+                            [
+                                -86.1393,
+                                41.6979
+                            ],
+                            [
+                                -86.1226,
+                                41.6938
+                            ],
+                            [
+                                -86.1096,
+                                41.7019
+                            ],
+                            [
+                                -86.0929,
+                                41.6978
+                            ],
+                            [
+                                -86.0799,
+                                41.7059
+                            ],
+                            [
+                                -86.0632,
+                                41.7018
+                            ],
+                            [
+                                -86.0502,
+                                41.7099
+                            ],
+                            [
+                                -86.0335,
+                                41.7057
+                            ],
+                            [
+                                -86.0299,
+                                41.6935
+                            ],
+                            [
+                                -86.0132,
+                                41.6894
+                            ],
+                            [
+                                -86.0002,
+                                41.6975
+                            ],
+                            [
+                                -85.9835,
+                                41.6934
+                            ],
+                            [
+                                -85.9705,
+                                41.7014
+                            ],
+                            [
+                                -85.9538,
+                                41.6973
+                            ],
+                            [
+                                -85.9408,
+                                41.7054
+                            ],
+                            [
+                                -85.9241,
+                                41.7012
+                            ],
+                            [
+                                -85.9205,
+                                41.689
+                            ],
+                            [
+                                -85.9038,
+                                41.6849
+                            ],
+                            [
+                                -85.8908,
+                                41.6929
+                            ],
+                            [
+                                -85.8741,
+                                41.6888
+                            ],
+                            [
+                                -85.8611,
+                                41.6969
+                            ],
+                            [
+                                -85.8444,
+                                41.6927
+                            ],
+                            [
+                                -85.8313,
+                                41.7008
+                            ],
+                            [
+                                -85.8147,
+                                41.6966
+                            ],
+                            [
+                                -85.8016,
+                                41.7047
+                            ],
+                            [
+                                -85.785,
+                                41.7005
+                            ],
+                            [
+                                -85.7719,
+                                41.7086
+                            ],
+                            [
+                                -85.7552,
+                                41.7044
+                            ],
+                            [
+                                -85.7422,
+                                41.7124
+                            ],
+                            [
+                                -85.7255,
+                                41.7083
+                            ],
+                            [
+                                -85.7124,
+                                41.7163
+                            ],
+                            [
+                                -85.6958,
+                                41.7121
+                            ],
+                            [
+                                -85.6827,
+                                41.7202
+                            ],
+                            [
+                                -85.666,
+                                41.716
+                            ],
+                            [
+                                -85.6529,
+                                41.7241
+                            ],
+                            [
+                                -85.6363,
+                                41.7199
+                            ],
+                            [
+                                -85.6232,
+                                41.7279
+                            ],
+                            [
+                                -85.6065,
+                                41.7237
+                            ],
+                            [
+                                -85.5934,
+                                41.7318
+                            ],
+                            [
+                                -85.5767,
+                                41.7276
+                            ],
+                            [
+                                -85.5732,
+                                41.7153
+                            ],
+                            [
+                                -85.5565,
+                                41.7112
+                            ],
+                            [
+                                -85.5434,
+                                41.7192
+                            ],
+                            [
+                                -85.5268,
+                                41.715
+                            ],
+                            [
+                                -85.5136,
+                                41.723
+                            ],
+                            [
+                                -85.497,
+                                41.7188
+                            ],
+                            [
+                                -85.4839,
+                                41.7268
+                            ],
+                            [
+                                -85.4672,
+                                41.7226
+                            ],
+                            [
+                                -85.4541,
+                                41.7306
+                            ],
+                            [
+                                -85.4374,
+                                41.7264
+                            ],
+                            [
+                                -85.4243,
+                                41.7345
+                            ],
+                            [
+                                -85.4076,
+                                41.7302
+                            ],
+                            [
+                                -85.4041,
+                                41.718
+                            ],
+                            [
+                                -85.3875,
+                                41.7138
+                            ],
+                            [
+                                -85.3743,
+                                41.7218
+                            ],
+                            [
+                                -85.3577,
+                                41.7176
+                            ],
+                            [
+                                -85.3445,
+                                41.7256
+                            ],
+                            [
+                                -85.3279,
+                                41.7214
+                            ],
+                            [
+                                -85.3244,
+                                41.7091
+                            ],
+                            [
+                                -85.3077,
+                                41.7049
+                            ],
+                            [
+                                -85.2946,
+                                41.7129
+                            ],
+                            [
+                                -85.2779,
+                                41.7087
+                            ],
+                            [
+                                -85.2648,
+                                41.7167
+                            ],
+                            [
+                                -85.2481,
+                                41.7124
+                            ],
+                            [
+                                -85.235,
+                                41.7204
+                            ],
+                            [
+                                -85.2183,
+                                41.7162
+                            ],
+                            [
+                                -85.2052,
+                                41.7242
+                            ],
+                            [
+                                -85.1885,
+                                41.7199
+                            ],
+                            [
+                                -85.1753,
+                                41.7279
+                            ],
+                            [
+                                -85.1587,
+                                41.7237
+                            ],
+                            [
+                                -85.1455,
+                                41.7316
+                            ],
+                            [
+                                -85.1289,
+                                41.7274
+                            ],
+                            [
+                                -85.1254,
+                                41.7151
+                            ],
+                            [
+                                -85.1088,
+                                41.7109
+                            ],
+                            [
+                                -85.0956,
+                                41.7189
+                            ],
+                            [
+                                -85.079,
+                                41.7146
+                            ],
+                            [
+                                -85.0658,
+                                41.7226
+                            ],
+                            [
+                                -85.0491,
+                                41.7183
+                            ],
+                            [
+                                -85.0457,
+                                41.7061
+                            ],
+                            [
+                                -85.0291,
+                                41.7018
+                            ],
+                            [
+                                -85.0159,
+                                41.7098
+                            ],
+                            [
+                                -84.9992,
+                                41.7055
+                            ],
+                            [
+                                -84.9958,
+                                41.6932
+                            ],
+                            [
+                                -84.9792,
+                                41.689
+                            ],
+                            [
+                                -84.9758,
+                                41.6767
+                            ],
+                            [
+                                -84.9592,
+                                41.6724
+                            ],
+                            [
+                                -84.946,
+                                41.6804
+                            ],
+                            [
+                                -84.9294,
+                                41.6761
+                            ],
+                            [
+                                -84.926,
+                                41.6639
+                            ],
+                            [
+                                -84.9094,
+                                41.6596
+                            ],
+                            [
+                                -84.906,
+                                41.6473
+                            ],
+                            [
+                                -84.8894,
+                                41.6431
+                            ],
+                            [
+                                -84.8861,
+                                41.6308
+                            ],
+                            [
+                                -84.8695,
+                                41.6265
+                            ],
+                            [
+                                -84.8661,
+                                41.6143
+                            ],
+                            [
+                                -84.8495,
+                                41.61
+                            ],
+                            [
+                                -84.8462,
+                                41.5978
+                            ],
+                            [
+                                -84.8296,
+                                41.5935
+                            ],
+                            [
+                                -84.8164,
+                                41.6014
+                            ],
+                            [
+                                -84.7998,
+                                41.5971
+                            ],
+                            [
+                                -84.7866,
+                                41.605
+                            ],
+                            [
+                                -84.77,
+                                41.6007
+                            ],
+                            [
+                                -84.7568,
+                                41.6087
+                            ],
+                            [
+                                -84.7402,
+                                41.6043
+                            ],
+                            [
+                                -84.7369,
+                                41.5921
+                            ],
+                            [
+                                -84.7203,
+                                41.5878
+                            ],
+                            [
+                                -84.7071,
+                                41.5957
+                            ],
+                            [
+                                -84.6905,
+                                41.5914
+                            ],
+                            [
+                                -84.6872,
+                                41.5792
+                            ],
+                            [
+                                -84.6706,
+                                41.5748
+                            ],
+                            [
+                                -84.6574,
+                                41.5828
+                            ],
+                            [
+                                -84.6408,
+                                41.5784
+                            ],
+                            [
+                                -84.6276,
+                                41.5864
+                            ],
+                            [
+                                -84.611,
+                                41.582
+                            ],
+                            [
+                                -84.5978,
+                                41.5899
+                            ],
+                            [
+                                -84.5812,
+                                41.5856
+                            ],
+                            [
+                                -84.568,
+                                41.5935
+                            ],
+                            [
+                                -84.5514,
+                                41.5892
+                            ],
+                            [
+                                -84.5481,
+                                41.5769
+                            ],
+                            [
+                                -84.5316,
+                                41.5726
+                            ],
+                            [
+                                -84.5183,
+                                41.5805
+                            ],
+                            [
+                                -84.5018,
+                                41.5762
+                            ],
+                            [
+                                -84.4885,
+                                41.5841
+                            ],
+                            [
+                                -84.4719,
+                                41.5797
+                            ],
+                            [
+                                -84.4687,
+                                41.5675
+                            ],
+                            [
+                                -84.4521,
+                                41.5631
+                            ],
+                            [
+                                -84.4389,
+                                41.571
+                            ],
+                            [
+                                -84.4223,
+                                41.5667
+                            ],
+                            [
+                                -84.409,
+                                41.5745
+                            ],
+                            [
+                                -84.3925,
+                                41.5702
+                            ],
+                            [
+                                -84.3893,
+                                41.5579
+                            ],
+                            [
+                                -84.3727,
+                                41.5536
+                            ],
+                            [
+                                -84.3594,
+                                41.5615
+                            ],
+                            [
+                                -84.3429,
+                                41.5571
+                            ],
+                            [
+                                -84.3296,
+                                41.565
+                            ],
+                            [
+                                -84.3131,
+                                41.5606
+                            ],
+                            [
+                                -84.2998,
+                                41.5685
+                            ],
+                            [
+                                -84.2832,
+                                41.5641
+                            ],
+                            [
+                                -84.28,
+                                41.5518
+                            ],
+                            [
+                                -84.2635,
+                                41.5475
+                            ],
+                            [
+                                -84.2502,
+                                41.5553
+                            ],
+                            [
+                                -84.2337,
+                                41.551
+                            ],
+                            [
+                                -84.2203,
+                                41.5588
+                            ],
+                            [
+                                -84.2038,
+                                41.5544
+                            ],
+                            [
+                                -84.1905,
+                                41.5623
+                            ],
+                            [
+                                -84.174,
+                                41.5579
+                            ],
+                            [
+                                -84.1607,
+                                41.5658
+                            ],
+                            [
+                                -84.1441,
+                                41.5614
+                            ],
+                            [
+                                -84.1308,
+                                41.5692
+                            ],
+                            [
+                                -84.1143,
+                                41.5648
+                            ],
+                            [
+                                -84.1111,
+                                41.5526
+                            ],
+                            [
+                                -84.0946,
+                                41.5482
+                            ],
+                            [
+                                -84.0813,
+                                41.556
+                            ],
+                            [
+                                -84.0647,
+                                41.5516
+                            ],
+                            [
+                                -84.0514,
+                                41.5595
+                            ],
+                            [
+                                -84.0349,
+                                41.5551
+                            ],
+                            [
+                                -84.0215,
+                                41.5629
+                            ],
+                            [
+                                -84.005,
+                                41.5585
+                            ],
+                            [
+                                -83.9917,
+                                41.5663
+                            ],
+                            [
+                                -83.9752,
+                                41.5619
+                            ],
+                            [
+                                -83.9618,
+                                41.5698
+                            ],
+                            [
+                                -83.9453,
+                                41.5653
+                            ],
+                            [
+                                -83.9319,
+                                41.5732
+                            ],
+                            [
+                                -83.9154,
+                                41.5688
+                            ],
+                            [
+                                -83.902,
+                                41.5766
+                            ],
+                            [
+                                -83.8855,
+                                41.5722
+                            ],
+                            [
+                                -83.8824,
+                                41.5599
+                            ],
+                            [
+                                -83.8659,
+                                41.5554
+                            ],
+                            [
+                                -83.8628,
+                                41.5432
+                            ],
+                            [
+                                -83.8762,
+                                41.5354
+                            ],
+                            [
+                                -83.8731,
+                                41.5231
+                            ],
+                            [
+                                -83.8566,
+                                41.5187
+                            ],
+                            [
+                                -83.8535,
+                                41.5064
+                            ],
+                            [
+                                -83.837,
+                                41.502
+                            ],
+                            [
+                                -83.8339,
+                                41.4897
+                            ],
+                            [
+                                -83.8175,
+                                41.4853
+                            ],
+                            [
+                                -83.8041,
+                                41.4931
+                            ],
+                            [
+                                -83.7876,
+                                41.4886
+                            ],
+                            [
+                                -83.7845,
+                                41.4764
+                            ],
+                            [
+                                -83.7681,
+                                41.4719
+                            ],
+                            [
+                                -83.7547,
+                                41.4797
+                            ],
+                            [
+                                -83.7382,
+                                41.4753
+                            ],
+                            [
+                                -83.7248,
+                                41.4831
+                            ],
+                            [
+                                -83.7279,
+                                41.4953
+                            ],
+                            [
+                                -83.7145,
+                                41.5032
+                            ],
+                            [
+                                -83.7176,
+                                41.5154
+                            ],
+                            [
+                                -83.734,
+                                41.5199
+                            ],
+                            [
+                                -83.7371,
+                                41.5321
+                            ],
+                            [
+                                -83.7536,
+                                41.5366
+                            ],
+                            [
+                                -83.7567,
+                                41.5489
+                            ],
+                            [
+                                -83.7731,
+                                41.5533
+                            ],
+                            [
+                                -83.7762,
+                                41.5656
+                            ],
+                            [
+                                -83.7628,
+                                41.5734
+                            ],
+                            [
+                                -83.7659,
+                                41.5857
+                            ],
+                            [
+                                -83.7525,
+                                41.5935
+                            ],
+                            [
+                                -83.7555,
+                                41.6058
+                            ],
+                            [
+                                -83.7721,
+                                41.6102
+                            ],
+                            [
+                                -83.7751,
+                                41.6225
+                            ],
+                            [
+                                -83.7917,
+                                41.627
+                            ],
+                            [
+                                -83.7947,
+                                41.6393
+                            ],
+                            [
+                                -83.8113,
+                                41.6437
+                            ],
+                            [
+                                -83.8247,
+                                41.6359
+                            ],
+                            [
+                                -83.8412,
+                                41.6403
+                            ],
+                            [
+                                -83.8546,
+                                41.6325
+                            ],
+                            [
+                                -83.8711,
+                                41.6369
+                            ],
+                            [
+                                -83.8846,
+                                41.6291
+                            ],
+                            [
+                                -83.9011,
+                                41.6335
+                            ],
+                            [
+                                -83.9145,
+                                41.6257
+                            ],
+                            [
+                                -83.931,
+                                41.6301
+                            ],
+                            [
+                                -83.9444,
+                                41.6223
+                            ],
+                            [
+                                -83.9609,
+                                41.6267
+                            ],
+                            [
+                                -83.9743,
+                                41.6188
+                            ],
+                            [
+                                -83.9908,
+                                41.6233
+                            ],
+                            [
+                                -83.994,
+                                41.6355
+                            ],
+                            [
+                                -84.0105,
+                                41.64
+                            ],
+                            [
+                                -84.0239,
+                                41.6321
+                            ],
+                            [
+                                -84.0404,
+                                41.6365
+                            ],
+                            [
+                                -84.0538,
+                                41.6287
+                            ],
+                            [
+                                -84.0507,
+                                41.6164
+                            ],
+                            [
+                                -84.064,
+                                41.6085
+                            ],
+                            [
+                                -84.0805,
+                                41.6129
+                            ],
+                            [
+                                -84.0837,
+                                41.6252
+                            ],
+                            [
+                                -84.1003,
+                                41.6296
+                            ],
+                            [
+                                -84.1136,
+                                41.6218
+                            ],
+                            [
+                                -84.1301,
+                                41.6262
+                            ],
+                            [
+                                -84.1435,
+                                41.6183
+                            ],
+                            [
+                                -84.16,
+                                41.6227
+                            ],
+                            [
+                                -84.1734,
+                                41.6148
+                            ],
+                            [
+                                -84.1899,
+                                41.6192
+                            ],
+                            [
+                                -84.2033,
+                                41.6113
+                            ],
+                            [
+                                -84.2198,
+                                41.6157
+                            ],
+                            [
+                                -84.223,
+                                41.628
+                            ],
+                            [
+                                -84.2396,
+                                41.6324
+                            ],
+                            [
+                                -84.2529,
+                                41.6245
+                            ],
+                            [
+                                -84.2694,
+                                41.6289
+                            ],
+                            [
+                                -84.2828,
+                                41.621
+                            ],
+                            [
+                                -84.2993,
+                                41.6254
+                            ],
+                            [
+                                -84.3126,
+                                41.6175
+                            ],
+                            [
+                                -84.3292,
+                                41.6219
+                            ],
+                            [
+                                -84.3425,
+                                41.614
+                            ],
+                            [
+                                -84.3591,
+                                41.6184
+                            ],
+                            [
+                                -84.3623,
+                                41.6306
+                            ],
+                            [
+                                -84.3789,
+                                41.635
+                            ],
+                            [
+                                -84.3922,
+                                41.6271
+                            ],
+                            [
+                                -84.4087,
+                                41.6315
+                            ],
+                            [
+                                -84.412,
+                                41.6437
+                            ],
+                            [
+                                -84.4285,
+                                41.6481
+                            ],
+                            [
+                                -84.4418,
+                                41.6402
+                            ],
+                            [
+                                -84.4584,
+                                41.6445
+                            ],
+                            [
+                                -84.4717,
+                                41.6366
+                            ],
+                            [
+                                -84.4883,
+                                41.641
+                            ],
+                            [
+                                -84.5016,
+                                41.6331
+                            ],
+                            [
+                                -84.5181,
+                                41.6374
+                            ],
+                            [
+                                -84.5214,
+                                41.6497
+                            ],
+                            [
+                                -84.538,
+                                41.654
+                            ],
+                            [
+                                -84.5513,
+                                41.6461
+                            ],
+                            [
+                                -84.5678,
+                                41.6504
+                            ],
+                            [
+                                -84.5811,
+                                41.6425
+                            ],
+                            [
+                                -84.5977,
+                                41.6469
+                            ],
+                            [
+                                -84.611,
+                                41.6389
+                            ],
+                            [
+                                -84.6275,
+                                41.6433
+                            ],
+                            [
+                                -84.6309,
+                                41.6555
+                            ],
+                            [
+                                -84.6474,
+                                41.6598
+                            ],
+                            [
+                                -84.6607,
+                                41.6519
+                            ],
+                            [
+                                -84.6773,
+                                41.6562
+                            ],
+                            [
+                                -84.6905,
+                                41.6483
+                            ],
+                            [
+                                -84.7071,
+                                41.6526
+                            ],
+                            [
+                                -84.7105,
+                                41.6649
+                            ],
+                            [
+                                -84.727,
+                                41.6692
+                            ],
+                            [
+                                -84.7403,
+                                41.6613
+                            ],
+                            [
+                                -84.7569,
+                                41.6656
+                            ],
+                            [
+                                -84.7701,
+                                41.6576
+                            ],
+                            [
+                                -84.7867,
+                                41.6619
+                            ],
+                            [
+                                -84.7901,
+                                41.6742
+                            ],
+                            [
+                                -84.8067,
+                                41.6785
+                            ],
+                            [
+                                -84.81,
+                                41.6907
+                            ],
+                            [
+                                -84.8266,
+                                41.6951
+                            ],
+                            [
+                                -84.83,
+                                41.7073
+                            ],
+                            [
+                                -84.8466,
+                                41.7116
+                            ],
+                            [
+                                -84.8599,
+                                41.7037
+                            ],
+                            [
+                                -84.8765,
+                                41.7079
+                            ],
+                            [
+                                -84.8799,
+                                41.7202
+                            ],
+                            [
+                                -84.8965,
+                                41.7245
+                            ],
+                            [
+                                -84.8999,
+                                41.7367
+                            ],
+                            [
+                                -84.9165,
+                                41.741
+                            ],
+                            [
+                                -84.9199,
+                                41.7533
+                            ],
+                            [
+                                -84.9365,
+                                41.7576
+                            ],
+                            [
+                                -84.9399,
+                                41.7698
+                            ],
+                            [
+                                -84.9566,
+                                41.7741
+                            ],
+                            [
+                                -84.9698,
+                                41.7662
+                            ],
+                            [
+                                -84.9864,
+                                41.7704
+                            ],
+                            [
+                                -84.9898,
+                                41.7827
+                            ],
+                            [
+                                -85.0065,
+                                41.787
+                            ],
+                            [
+                                -85.0197,
+                                41.779
+                            ],
+                            [
+                                -85.0364,
+                                41.7833
+                            ],
+                            [
+                                -85.0496,
+                                41.7753
+                            ],
+                            [
+                                -85.0663,
+                                41.7796
+                            ],
+                            [
+                                -85.0795,
+                                41.7716
+                            ],
+                            [
+                                -85.0961,
+                                41.7758
+                            ],
+                            [
+                                -85.0996,
+                                41.7881
+                            ],
+                            [
+                                -85.1162,
+                                41.7924
+                            ],
+                            [
+                                -85.1294,
+                                41.7844
+                            ],
+                            [
+                                -85.1461,
+                                41.7886
+                            ],
+                            [
+                                -85.1593,
+                                41.7806
+                            ],
+                            [
+                                -85.176,
+                                41.7849
+                            ],
+                            [
+                                -85.1892,
+                                41.7769
+                            ],
+                            [
+                                -85.2058,
+                                41.7811
+                            ],
+                            [
+                                -85.2093,
+                                41.7934
+                            ],
+                            [
+                                -85.226,
+                                41.7976
+                            ],
+                            [
+                                -85.2392,
+                                41.7896
+                            ],
+                            [
+                                -85.2558,
+                                41.7939
+                            ],
+                            [
+                                -85.269,
+                                41.7859
+                            ],
+                            [
+                                -85.2857,
+                                41.7901
+                            ],
+                            [
+                                -85.2989,
+                                41.7821
+                            ],
+                            [
+                                -85.3155,
+                                41.7863
+                            ],
+                            [
+                                -85.3287,
+                                41.7783
+                            ],
+                            [
+                                -85.3454,
+                                41.7825
+                            ],
+                            [
+                                -85.3585,
+                                41.7745
+                            ],
+                            [
+                                -85.3752,
+                                41.7788
+                            ],
+                            [
+                                -85.3787,
+                                41.791
+                            ],
+                            [
+                                -85.3954,
+                                41.7952
+                            ],
+                            [
+                                -85.4085,
+                                41.7872
+                            ],
+                            [
+                                -85.4252,
+                                41.7914
+                            ],
+                            [
+                                -85.4384,
+                                41.7834
+                            ],
+                            [
+                                -85.455,
+                                41.7876
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "vehicleStops": [
+                {
+                    "stops": [
+                        {
+                            "stopId": 515999,
+                            "lat": 41.448527,
+                            "lng": -87.010376,
+                            "geometry": {
+                                "coordinates": [
+                                    -87.010376,
+                                    41.448527
+                                ],
+                                "type": "Point"
+                            },
+                            "stopName": "PILOT VALPARAISO 036",
+                            "stopType": "fuel"
+                        },
+                        {
+                            "stopId": 540052,
+                            "lat": 41.73812,
+                            "lng": -86.335719,
+                            "geometry": {
+                                "coordinates": [
+                                    -86.335719,
+                                    41.73812
+                                ],
+                                "type": "Point"
+                            },
+                            "stopName": "ONE9 SPEEDWAY 86674",
+                            "stopType": "fuel"
+                        },
+                        {
+                            "stopId": 515998,
+                            "lat": 41.736021,
+                            "lng": -86.336832,
+                            "geometry": {
+                                "coordinates": [
+                                    -86.336832,
+                                    41.736021
+                                ],
+                                "type": "Point"
+                            },
+                            "stopName": "PILOT SOUTH BEND 035",
+                            "stopType": "fuel"
+                        },
+                        {
+                            "stopId": 540088,
+                            "lat": 41.721871,
+                            "lng": -85.815436,
+                            "geometry": {
+                                "coordinates": [
+                                    -85.815436,
+                                    41.721871
+                                ],
+                                "type": "Point"
+                            },
+                            "stopName": "ONE9 SPEEDWAY 86664",
+                            "stopType": "fuel"
+                        },
+                        {
+                            "stopId": 514637,
+                            "lat": 41.7483,
+                            "lng": -84.9932,
+                            "geometry": {
+                                "coordinates": [
+                                    -84.9932,
+                                    41.7483
+                                ],
+                                "type": "Point"
+                            },
+                            "stopName": "PETRO ANGOLA",
+                            "stopType": "fuel"
+                        },
+                        {
+                            "stopId": 515994,
+                            "lat": 41.744075,
+                            "lng": -84.999268,
+                            "geometry": {
+                                "coordinates": [
+                                    -84.999268,
+                                    41.744075
+                                ],
+                                "type": "Point"
+                            },
+                            "stopName": "PILOT 29",
+                            "stopType": "fuel"
+                        },
+                        {
+                            "stopId": 540041,
+                            "lat": 41.627937,
+                            "lng": -84.768334,
+                            "geometry": {
+                                "coordinates": [
+                                    -84.768334,
+                                    41.627937
+                                ],
+                                "type": "Point"
+                            },
+                            "stopName": "LOVES #748 TRAVEL STOP",
+                            "stopType": "fuel"
+                        },
+                        {
+                            "stopId": 547996,
+                            "lat": 41.63338,
+                            "lng": -84.765869,
+                            "geometry": {
+                                "coordinates": [
+                                    -84.765869,
+                                    41.63338
+                                ],
+                                "type": "Point"
+                            },
+                            "stopName": "FJ 1056",
+                            "stopType": "fuel"
+                        }
+                    ],
+                    "start": {
+                        "index": 0,
+                        "lat": 41.45,
+                        "lng": -87.08
+                    },
+                    "end": {
+                        "index": 3208,
+                        "lat": 41.5,
+                        "lng": -83.76
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "userId": "",
+        "customerId": "",
+        "tx": 4,
+        "type": "",
+        "client": "",
+        "source": ""
+    }
+}
