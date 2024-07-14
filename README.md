@@ -119,15 +119,6 @@ const calculatePreferredRoute = async () => {
 
 calculatePreferredRoute();
 ```
-
-## Features
-
-- **Route Calculation**: Calculate the toll costs for a given route.
-- **Vehicle Parameterization**: Customize toll calculations based on vehicle types and configurations.
-- **Multi-Route Support**: Compare toll costs for multiple routes.
-
-For more detailed examples, refer to the scripts provided in this repository.
-
 ## Contributing
 
 We welcome contributions to this repository! If you have suggestions or improvements, please open an issue or submit a pull request.
@@ -154,9 +145,9 @@ For a comprehensive overview and additional details, refer to the following sect
 - [API Overview](https://www.tollguru.com/toll-api-docs#api-overview)
 - [Authentication](https://www.tollguru.com/toll-api-docs#authentication)
 - [Endpoints and Parameters](https://www.tollguru.com/toll-api-docs#endpoints-and-parameters)
-  - [Calculate Toll Costs](https://www.tollguru.com/toll-api-docs#calculate-toll-costs)
-  - [Vehicle Types](https://www.tollguru.com/toll-api-docs#vehicle-types)
-  - [Route Preferences](https://www.tollguru.com/toll-api-docs#route-preferences)
-- [Response Structure](https://www.tollguru.com/toll-api-docs#response-structure)
-- [Error Handling](https://www.tollguru.com/toll-api-docs#error-handling)
+  - [Calculate Toll Costs between start, to, waypoints](https://www.tollguru.com/toll-api-docs#tolls-between-origin-destination-and-waypoints)
+  - [Calculate Toll Costs for an encoded polyline](https://www.tollguru.com/toll-api-docs#route-encoded-polyline)
+  - [Calculate Toll Costs from a GPS track](https://www.tollguru.com/toll-api-docs#tolltally---gps-tracks-to-toll-api)
+  - [Vehicle Types](https://www.tollguru.com/toll-api-docs#vehicle-types-supported-by-tollguru)
+- [Error Handling](https://www.tollguru.com/toll-api-docs#errors-and-troubleshooting)
 - [FAQ](https://www.tollguru.com/toll-api-docs#faq)
