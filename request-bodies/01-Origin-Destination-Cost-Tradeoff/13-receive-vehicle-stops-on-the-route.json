@@ -7,6 +7,5 @@
     },
     "vehicleType": "3AxlesTruck",
     "serviceProvider": "tollguru",
-    "getPathPolygon": true,
     "getVehicleStops": true
 }
