@@ -38,13 +38,13 @@
             "fuelEfficiencyUnit": "MPG",
             "fuelUnit": "gallon"
         },
-        "departure_time": "2024-07-25T13:16:23.003304+05:30",
-        "departureTime": "2024-07-25T13:16:23.003304+05:30",
+        "departure_time": "2024-07-29T17:19:20.137129+05:30",
+        "departureTime": "2024-07-29T17:19:20.137129+05:30",
         "share": {
             "name": "-",
             "prefix": "-",
-            "uuid": "4dda9a5f-2f14-4eb0-a472-9745ff36ead6",
-            "timestamp": "2024-07-25T13:16:23.00338+05:30",
+            "uuid": "ad18adb3-4de8-44ce-a823-727af677fa9d",
+            "timestamp": "2024-07-29T17:19:20.137466+05:30",
             "client": "api"
         },
         "source": "TOLLGURU"
@@ -151,10 +151,10 @@
                     "discountCarType": null,
                     "arrival": {
                         "distance": 223410.37,
-                        "time": "2024-07-25T16:26:27+05:30"
+                        "time": "2024-07-29T20:29:24+05:30"
                     },
-                    "timestamp_formatted": "2024-07-25T16:26:27+05:30",
-                    "timestamp_localized": "2024-07-25T06:56:27-04:00",
+                    "timestamp_formatted": "2024-07-29T20:29:24+05:30",
+                    "timestamp_localized": "2024-07-29T10:59:24-04:00",
                     "point": {
                         "type": "Feature",
                         "geometry": {
@@ -246,10 +246,10 @@
                         "country": "USA",
                         "arrival": {
                             "distance": 297663.68,
-                            "time": "2024-07-25T17:24:27+05:30"
+                            "time": "2024-07-29T21:27:24+05:30"
                         },
-                        "timestamp_formatted": "2024-07-25T17:24:27+05:30",
-                        "timestamp_localized": "2024-07-25T07:54:27-04:00",
+                        "timestamp_formatted": "2024-07-29T21:27:24+05:30",
+                        "timestamp_localized": "2024-07-29T11:57:24-04:00",
                         "point": {
                             "type": "Feature",
                             "geometry": {
@@ -271,10 +271,10 @@
                         "country": "USA",
                         "arrival": {
                             "distance": 304132.6,
-                            "time": "2024-07-25T17:29:24+05:30"
+                            "time": "2024-07-29T21:32:21+05:30"
                         },
-                        "timestamp_formatted": "2024-07-25T17:29:24+05:30",
-                        "timestamp_localized": "2024-07-25T07:59:24-04:00",
+                        "timestamp_formatted": "2024-07-29T21:32:21+05:30",
+                        "timestamp_localized": "2024-07-29T12:02:21-04:00",
                         "point": {
                             "type": "Feature",
                             "geometry": {
@@ -484,12 +484,22 @@
                     "start": {
                         "index": 0,
                         "lat": 41.45,
-                        "lng": -87.08
+                        "lng": -87.08,
+                        "distance": {
+                            "text": "0 mi",
+                            "metric": "0 km",
+                            "value": 0
+                        }
                     },
                     "end": {
                         "index": 3208,
                         "lat": 41.5,
-                        "lng": -83.76
+                        "lng": -83.76,
+                        "distance": {
+                            "text": "201 mi",
+                            "metric": "324 km",
+                            "value": 324511
+                        }
                     }
                 }
             ]
