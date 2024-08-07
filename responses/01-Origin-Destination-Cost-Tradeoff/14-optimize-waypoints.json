@@ -1,0 +1,126 @@
+{
+    "status": "OK",
+    "summary": {
+        "route": [
+            {
+                "location": {
+                    "lat": 40.748817,
+                    "lng": -73.985656
+                }
+            },
+            {
+                "location": {
+                    "lat": 40.7831,
+                    "lng": -73.9776
+                }
+            },
+            {
+                "location": {
+                    "lat": 40.7128,
+                    "lng": -74.006
+                }
+            },
+            {
+                "location": {
+                    "lat": 40.73061,
+                    "lng": -73.935242
+                }
+            }
+        ],
+        "countries": [
+            "COL",
+            "USA"
+        ],
+        "currency": "USD",
+        "vehicleType": "2AxlesTruck",
+        "vehicleDescription": "Truck - 2 Axles",
+        "fuelPrice": {
+            "value": 3.75,
+            "currency": "USD",
+            "units": "USD/gallon",
+            "fuelUnit": "gallon"
+        },
+        "fuelEfficiency": {
+            "city": 13,
+            "hwy": 18,
+            "units": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "units": {
+            "currencyUnit": "USD",
+            "fuelEfficiencyUnit": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "departure_time": "2024-08-07T10:55:32.726768818Z",
+        "departureTime": "2024-08-07T10:55:32.726768818Z",
+        "share": {
+            "name": "-",
+            "prefix": "-",
+            "uuid": "5cbaa9b2-c2f7-4cb0-9b26-da860ca9cacd",
+            "timestamp": "2024-08-07T10:55:32.726795123Z",
+            "client": "api"
+        },
+        "source": "TOLLGURU"
+    },
+    "routes": [
+        {
+            "summary": {
+                "hasTolls": false,
+                "hasExpressTolls": false,
+                "diffs": {
+                    "cheapest": 0,
+                    "fastest": 0
+                },
+                "url": "https://www.google.com/maps/?saddr=40.748817,-73.985656&daddr=40.782907,-73.977743+to:40.782907,-73.977743+to:40.740860,-73.952031+to:40.698406,-73.983992+to:40.712885,-74.005883+to:40.712885,-74.005883+to:40.723834,-73.937366+to:40.730451,-73.935001+to:40.730610,-73.935242&via=1,3,4,5,7,8",
+                "distance": {
+                    "text": "28 mi",
+                    "metric": "46 km",
+                    "value": 46129
+                },
+                "duration": {
+                    "text": "13 h 24 min",
+                    "value": 48270
+                },
+                "name": ""
+            },
+            "costs": {
+                "tagAndCash": null,
+                "minimumTollCost": null,
+                "fuel": 7.84,
+                "tag": null,
+                "cash": null,
+                "licensePlate": null,
+                "prepaidCard": null
+            },
+            "tolls": [],
+            "polyline": "qwuwF~hqbMt@aCTu@JYFWx@gC\\}@^mAFQOKaBgAGEIEKIcBgAKIMI_BeAMIKI{AaAGEIGMGcBgAKGKIuA}@MIKGIG{AaAIGIGKGeBkASMQMiAw@YSCCMGIIeBgAIGKG}@m@i@]KGIG{AcAIGKGIE}@k@i@]KIGEeBiAKIKGa@YMGw@i@KGKGsA_AOIKIKGoAy@WQIGIXkArDg@zAKVIVqAdEM\\ENuBvG[dAKZKGcBiAECGEIGm@_@w@i@IGMIcBgAKGMIoAy@UOKIIGeBiAIGMIeBiAQMUOgBiAIGMIk@_@y@i@SI[GSAG?E@EBGFGHGJGN]r@GLEFEDEDGDGDEBEBI@GBG?G@GAIAGAICECIEGGGGIKGOCIEIEOKMIMGIIIKIIGIEKGgAe@SKOGGEOGw@c@eAk@MIMKMKOKSQOSQSOSIMIKEKGKCICICKCMCKAKAIAO?M?O?O@M@O@ODMBMDOBGRg@JWBIBKBKBM@M@K@I?I?Q?OAQAIESCKEMEMGOKUKSIMGKGIIKGEGGMISKSKkAi@KGKIIIIIIMIKIMGOGM[y@Si@IUIQIOGMKKIKIIIIIGIGIEOIMGa@Q_@QICICKCMCKCMAIAG?I?I?E?MBMBOFSXEHCHELAFCHAF?HAH?H?D?D@J@JBZ@H?H@J?J?HAHAHCLAJCHKd@CNENCRCPCLKp@CPCPIt@CJAL?N?J?N@L@N@J@R@X@L?L?N?LANANCPCNCLEJELGLEHGHGJIHYVMLGJKLKNGPIPENEPCLCJAN?DAHAN?`@Cj@AH?HAFCDCFEHGFEDEDGBEBGDYNI@I@K?M?M?MAKAMCMEUGEACAE?E@E?CBEBADA@CFUp@KZIVSp@GR[bAQMw@g@u@e@IG}CxJEJEPIVyEbOGTMIgBiAIGKGuA{@QMKGKGiBmAGCKKwA}@QMKIIEgBkAIGMGi@]_Ao@QKHYd@{AdCyHl@mBHWPLjBlAHFJFPLLH`An@JFNJtAz@RLJFHFhBnAHFFDtA~@RNHFJFhBhAJFJFx@h@n@`@PLJ[~CyJZcAFSRq@HWJ[Tq@BG@A@EDCBCD?DAD?B@D@TFLDLBJ@L@L?L?J?HAHA\\Gh@OHCD?BAD?B?VDFLFJHHHHHFFFr@f@\\TLHLHVL`@P`@P`@Nf@P\\J^HJBLDFBTJNHRJNHRNPLNLNLNPRTJPJPz@|APZ`@j@\\f@NPRVNRXZVX^^TT^VRNRLPHNFNFPDD@H@F?H?JAHAJEJEJGNGNKPMNMPQNQJONWd@y@DITc@JWFD@?D@B@D?F?HBJDHDFD~@p@VNHWnBgGl@kBX}@DMV{@BGJ[HU~DkMFMDKDGFMDGBI^gAFUJYr@{B~@uCHUHSRk@xAyEFUNc@HULc@~AcFFSHWJ_@p@sBr@{BHWH[Rk@pBoGV{@FQJWE[CMAKAMAO?Q@S@SDm@@K@KBMBIBKhBuFrB{Ft^{gAzGqSlDuKrCyIr@uBj@eBTo@hAgDDKDM^iAd@k@HKBGDK^iATk@Vg@@CHOj@q@Z[JMPURSbBeBhFuFhAiAnAoAn@o@VYDTPhALv@Jx@|@~FNbAN|@Lv@Jv@VhAz@xDbArEP@B?tBTPBjBTNBH@FBD@FDFDFBDDDFjAjA|BbCnArABBB@B@HBPDxBf@CPAHoA`LANCPsAzLvBf@NDLBfBb@RDsAhLALAHAJCRAHALi@tEAHCLYjC]IEAECCEEGAGK[GQK_@Ke@Os@WqACSASAU?SAU?W@[?Y@[BYBYB[D]xBwRFa@Fe@Fa@F_@F_@F[FYH[HYH]FUHYJ]rHuUJ[Ne@Ja@J]H[Jc@Ha@H_@H_@Hg@He@Fa@He@Fe@Fk@Fc@Dk@Dg@Dc@Be@NmCBe@Da@Ba@Hk@t@sGDg@D[B[ToC`@_C`@sDpB_Q\\kC\\eBVwBDYBUF[D_@FW^kANu@FUHWHYHUHUHOFMHKHIHGJGLGXMPCLAL?J?NBJBJDJDLHJHLLLLRRf@\\TRPNPLPLRJRLlAj@jCpAp@^tA^|ChBd@Xf@Xb@Xf@Zb@\\b@^d@`@`@b@^b@b@d@|JrL\\f@\\d@\\h@LRNXZn@Vn@Vn@Tp@Pr@Rr@Lr@b@tBr@dERhAjBxKLr@Lt@HZFXHZHXHXHTHXJVJVN\\`@|@hBfEXh@Xf@l@bAb@p@zA|BdAhBzEtJpF|KfF~JpFnJhEzGdCjDnChDtB`CzChD`AfAx@x@z@r@r@d@z@`@v@Vr@PrAVr@Rx@\\nFfCdHfDnAl@dK|EjB~@pCvAlIxDx@\\lBz@fEzAz@VrBb@lE|@|@PpAV`A\\ZPZR\\VXZX\\Xb@P\\N\\JTHVPp@P~@H~@Bt@?t@oAhcAMxGGrCGpEA^C\\CVCZG\\GXI^IXIXGNKVWXMHKBM?IAIEGGEIEKCM?Q@MBKDIFIFEFCFAHAH@H@J@LDJBFDJFJJLJDFBBFHNXJTHTL\\NZDPDXDR@V?XAVARAXATAbAA\\?P?XE~BCBCBE@E?}FOG?K?MA_CGG?OAEjD?JANAJELEPININMNMNMLUP{@l@UPQN[Pg@ZiwA`p@iBx@iAh@WLMDMD[Fc@Bi@@m@@b@}ABI@K?INFxAj@L?VG@AlBy@LEHC~@YHCFAJAHADA@?BAXMNGl@YFCBADAB??DFvAHEnBy@LG@Z@LD`A?J@PVpG@TLzD@H@FBF@FBX@ZHnA@N@PNxC?F@JLzC@d@TRpBpBTTGJGJIHGDMHIDIDMDIBK@OBC?E?EAGCCAEAGAiA?oC@W?C?G?DTv@`G@JBLBLDLBFBHDJDJDJd@t@`@v@BD\\j@JRFP@J@J@BFb@BN@LAL?JCNCLCLEH[n@EJAJCJCLALAJ?N?L@L?LBN@LQFA@C@CBCF[x@Wp@Wl@QOA@}@u@Ri@@E@IBA@A@?BG?A@?A?@ABI@A?A?KFCBCPe@|@v@CD?@Uj@HD@?FBZy@BGBCBA@APGBLJt@BH@@B?@ALEAOCe@AK?ECOAKAKAQAI@G?G@GBGBGDI@AHQR]j@aABEBEDI~AoCHMFKT_@v@uA[RMLKN_@n@?DAD?B?F@FQGEAECCCACAGCEg@s@IMIUEOGSCSAMAE?GC[AOCUAOAQGaCC}@AK?IA_@?QIwC?SCe@Ae@M{CAK?GOyCAQQBkB^MBK@AO?KKeC?KAKAe@O}DWqGAQ?OCu@GwA?EEiA?CGeBAOA[A[ASSsFMiDAOAQUaG?KAQ?QWmG?I?EO@kAJOBK?Q?O?M?]?k@Cc@CQEOAICc@K]Og@SQIMIIGCCGGA?iDwAqB{@ICKEGCR{@F]bA}Ed@_C~AaIpBwJfAuF`@cAhAeGbR{}@fBqIXgBjDwPZeARgADWNs@@OBM@O@MFcADy@@MBOBMBMv@cDBGFUOGw@c@g@[GCECAWEcA?AIiBKqBAK?IAQE_@Cc@Ek@IaBIqAAUOIQKyBmAIEs@a@i@YeAk@u@a@OIsBeAaAg@iBaAOWWWu@{@_BkBUWMQq@cABMBO[kH?QAQYyGAKAQAM[iHAQK@uBRK@M@uBPI@MBsBPK@K@oAJMBGMc@}@AWSkE?CAWAUYyGAG?QAQO}C?OAMOkDQiDASM@_@B}@JcAHMBI?q@FuAN_BNo@FCQSoA]qBu@uEAGCQOFwBr@COAGw@uEMs@AGG[O@}@NU@GYWsAESMw@Km@Ks@_AsGQmAe@_DGc@Ms@Mu@Qu@Os@Yq@OYSo@Wq@Wo@Yk@]m@[g@Yc@EE_@g@_@e@sA_BsEwF_@c@_@e@_@c@c@c@a@a@c@a@c@]e@]e@]e@[g@[wEsCcCaByBqAOKMKKKKMKOKQGQGQESEUCUAU?S?Q@SB[T}BAk@AUAQCSEUEQGOIQIMKMKKMKMIKGMCOEOCOAQ?O@O?MBMBQFKDOHWRYPWTSVQTOTOVKVIRKVIVGPGXYzAW|@Gj@Kn@If@Kf@Ib@I`@Mh@Kf@Kh@Ih@Ij@Gh@KdAK~@UfDmA|Kc@pD[bEs@rICZC\\E`@{@pHEb@E\\CZCZKtBC^C\\C`@E`@Ed@Ed@E\\EZE\\Gb@Gb@G^I^G\\K`@G^I^IVI\\GTKZGVSj@sHxUK`@K\\Mb@I^K^GXG^I`@Gb@G`@G`@E`@yBlRCTEXAVCVCTAXAZ?X?Z?V?^RbCR|BBX@R@R@TFf@@N?P?THs@@i@@MASAS?MCQASEWA_@WcCCSASAU?SAU?W@[?Y@[BYBYB[D]xBwRFa@Fe@Fa@F_@F_@F[FYH[HYH]FUHYJ]rHuUJ[Ne@Ja@J]H[Jc@Ha@H_@H_@Hg@He@Fa@He@Fe@Fk@Fc@Dk@Dg@Dc@Be@NmCBe@Da@Ba@Hk@t@sGDg@D[B[ToC`@_C`@sDpB_Q\\kC\\eBVwBDYBUF[D_@FW^kANu@FUHWHYHUHUHOFMHKHIHGJGLGXCN@J@J@JBLFHFJHLJTRTRZVZTVPjDpB^TTLtBrAZRnGpDNHJHLJLLJJJJJLHNHNJPHPFNHRFRFRDNDPJ^DZ@P@L@N?L?J?H?JAjAExAAn@?P?N@L@NBL@JBJ@@BHT`@JRE^K|@AHCHCDCHEFCFiAjBiClES\\aBlCOVLNfBvB",
+            "territoryMileage": [
+                {
+                    "territory": {
+                        "name": "New York",
+                        "code": "NY",
+                        "type": "state"
+                    },
+                    "distance": {
+                        "text": "28",
+                        "metric": "46",
+                        "value": "46087"
+                    },
+                    "trafficTime": "13 h 23 m",
+                    "tollDistance": {
+                        "unit": "meter",
+                        "value": 3903
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "userId": "",
+        "customerId": "",
+        "tx": 6,
+        "type": "",
+        "client": "",
+        "source": ""
+    }
+}
