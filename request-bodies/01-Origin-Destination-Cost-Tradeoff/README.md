@@ -25,3 +25,4 @@ Some examples for the different ways a request to this endpoint can be customize
 | 12  | Receive EV Locations on the Route       | [View](./12-receive-ev-locations-on-the-route.json)       | [View](../../responses/01-Origin-Destination-Cost-Tradeoff/12-receive-ev-locations-on-the-route.json)       |
 | 13  | Receive Vehicle Stops on the Route      | [View](./13-receive-vehicle-stops-on-the-route.json)      | [View](../../responses/01-Origin-Destination-Cost-Tradeoff/13-receive-vehicle-stops-on-the-route.json)      |
 | 14  | Optimize Waypoints                      | [View](./14-optimize-waypoints.json)                      | [View](../../responses/01-Origin-Destination-Cost-Tradeoff/14-optimize-waypoints.json)                      |
+| 15  | Allow Ferry on the Route                | [View](./15-allow-ferry.json)                             | [View](../../responses/01-Origin-Destination-Cost-Tradeoff/15-allow-ferry.json)                             |

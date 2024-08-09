@@ -1,0 +1,12 @@
+{
+    "from": {
+        "address": "54503-900 CABO DE SANTO AGOSTINHO"
+    },
+    "to": {
+        "address": "69075-830 MANAUS"
+    },
+    "vehicle": {
+        "type": "3AxlesTruck"
+    },
+    "allowFerry": true
+}
