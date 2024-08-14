@@ -22,5 +22,5 @@
         "type": "2AxlesTruck"
     },
     "optimizeWaypoints": true,
-    "optimizeWaypointsPrefrence": "duration"
+    "optimizeWaypointsPreference": "duration"
 }
