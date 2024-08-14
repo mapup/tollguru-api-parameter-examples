@@ -21,6 +21,9 @@
     "vehicle": {
         "type": "2AxlesTruck"
     },
-    "optimizeWaypoints": true,
-    "optimizeWaypointsPreference": "distance"
+    "optimize": {
+        "waypoints": {
+            "optimizationCriteria": "duration"
+        }
+    }
 }
