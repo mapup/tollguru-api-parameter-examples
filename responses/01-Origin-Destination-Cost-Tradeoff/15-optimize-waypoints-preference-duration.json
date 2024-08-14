@@ -1,0 +1,121 @@
+{
+    "status": "OK",
+    "summary": {
+        "route": [
+            {
+                "location": {
+                    "lat": 40.748817,
+                    "lng": -73.985656
+                }
+            },
+            {
+                "location": {
+                    "lat": 40.7831,
+                    "lng": -73.9776
+                }
+            },
+            {
+                "location": {
+                    "lat": 40.7128,
+                    "lng": -74.006
+                }
+            },
+            {
+                "location": {
+                    "lat": 40.73061,
+                    "lng": -73.935242
+                }
+            }
+        ],
+        "countries": [
+            "USA"
+        ],
+        "currency": "USD",
+        "vehicleType": "2AxlesTruck",
+        "vehicleDescription": "Truck - 2 Axles",
+        "fuelPrice": {
+            "value": 3.79,
+            "currency": "USD",
+            "units": "USD/gallon",
+            "fuelUnit": "gallon"
+        },
+        "fuelEfficiency": {
+            "city": 13,
+            "hwy": 18,
+            "units": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "units": {
+            "currencyUnit": "USD",
+            "fuelEfficiencyUnit": "MPG",
+            "fuelUnit": "gallon"
+        },
+        "departure_time": "2024-08-14T13:49:37.561118887Z",
+        "departureTime": "2024-08-14T13:49:37.561118887Z",
+        "share": {
+            "name": "-",
+            "prefix": "-",
+            "uuid": "ec45bd26-c35b-4add-95ef-ae7504d1a11f",
+            "timestamp": "2024-08-14T13:49:37.561139975Z",
+            "client": "api"
+        },
+        "source": "TOLLGURU"
+    },
+    "routes": [
+        {
+            "summary": {
+                "hasTolls": false,
+                "hasExpressTolls": false,
+                "diffs": {
+                    "cheapest": 0,
+                    "fastest": 0
+                },
+                "url": "https://www.google.com/maps/?saddr=40.748817,-73.985656&daddr=40.768263,-73.981474+to:40.782907,-73.977743+to:40.782907,-73.977743+to:40.781961,-73.975499+to:40.712885,-74.005883+to:40.712885,-74.005883+to:40.717616,-73.985824+to:40.730451,-73.935001+to:40.730610,-73.935242&via=1,2,4,5,7,8",
+                "distance": {
+                    "text": "14 mi",
+                    "metric": "23 km",
+                    "value": 23864
+                },
+                "duration": {
+                    "text": "1 h ",
+                    "value": 3627
+                },
+                "name": ""
+            },
+            "costs": {
+                "tagAndCash": null,
+                "minimumTollCost": null,
+                "fuel": 4.29,
+                "tag": null,
+                "cash": null,
+                "licensePlate": null,
+                "prepaidCard": null
+            },
+            "tolls": [],
+            "polyline": "qwuwF~hqbMt@aCTu@JYFWx@gC\\}@^mAFQOKaBgAGEIEKIcBgAKIMI_BeAMIKI{AaAGEIGMGcBgAKGKIuA}@MIKGIG{AaAIGIGKGeBkASMQMiAw@YSCCMGIIeBgAIGKG}@m@i@]KGITqBtGIVKVa@pAoCrIq@tBSr@KZKGaBiAA?KIKGAAcBgAKGKI[SiAu@KGKGeBkAIGq@c@_Am@MI[SIGiAu@KGKGcBiAECGEIGm@_@w@i@IGMIcBgAKGMIoAy@UOKIIGeBiAIGMIeBiAQMUOgBiAIGMIk@_@y@i@SIKZCFWz@ELY|@m@jBoBfGIVITa@pAcBlFi@fAEJCDCBEBC@A@IDULE?C@C?C@GDEBGFCDEHEHCFSh@CFCBA@A@E@G@E?a@?M@O?s@?O@}@?M?O@eCBO?O?cC@O?Q?}@@eA@M@I?aBFc@AG?M?M?Q?wB@O?M?eCCK@OAaCEO?MAcCCMAQ?_CEM?Q?aCEM?UAKAGAEAGCIC}@i@SMSMcAo@e@]IEMIgBiAIGKGuA{@QMKGKGiBmAGCKKwA}@QMKIIEgBkAIGMGi@]_Ao@QKHYd@{AdCyHl@mBHWPLjBlAHFJFPLLH`An@JFNJtAz@RLJFHFfBnAJFFDtA~@RNHFJFhBhAJFJFx@h@n@`@PLPLv@f@p@d@LFHFdBhAJFHFfBjAJFHFpAz@RNLFHFdBjAJFHF`@VbAp@JFJH~AdARLHFDBl@b@v@d@PJ`BfALHHFfAr@ZRNJJHbAn@\\TLHJF~AdAPLPJ|AdAJFLHp@`@l@`@NJJHt@d@p@d@RLRLlAv@VPJHJF~@n@d@ZFFHDB@hAt@\\RJHHFfAp@\\TJHJFjAv@XPHDJHfBjAJFHF|@l@f@ZJFJHdBhAJFHFnAx@VPJFHFdBhAJHHDlAv@XRHFHDfBjAJHJFrAz@PLJFJFbBhALHJHh@^x@j@TNNJtA|@NHTNpA|@RLLHJFx@h@h@\\JFJFfAt@ZRJFHFlAx@TNLHHFfAt@XRJFJH~@n@DBDBVPJFJHz@j@h@\\PJRLpAx@TNHFLFrA~@HFd@ZxA`AJHHFl@^JHPJRNLHLHbBhAJHJFJFxA~@HFHF|AbAb@X\\T~@n@LHJF`BfANJFD`@X`Al@JHJFf@\\~@l@NHPLd@\\`Ap@HFLFbBfALFHHb@Xx@h@JFJF|AbAHHLFZR~@n@HFLH|A`AJFJH\\TXPFD\\TJFHFFDLHRFZNf@VHDJHHDh@ZRBt@HRBPDn@NR@~@HL?LB|ANN@?R?t@@xB?L?R?`A?l@@zC?F@T?P?L@vF?J?`@\\Bb@DNBLDDHHNBJJFNHXJvBMTAJ?LAF?D?F?F?H?H?V?R@~I\\D?b@BtFNF?\\BlFTF@v@BlDPH@d@BxBHL?R@rBHR@|@F\\BF?TBbJd@TBB?P@TBlBN`BLN@b@DxAN`@DdCVD@b@D`CXbBT`@DzARXBJBdJhA^FLBnEn@l@HpARdANd@HtCd@Vs@JYf@wAf@uA`AqCHUDMhCgHHWHW`BuEJYHSpAqDn@gBJWLJNLPLTPHFPLJHNLxAhAFF@CB?HEBA@EBEn@aB?A@EQOA@}@u@Ri@@E@IBA@A@?BG?A@?A?@ABI@A?A?KFCBCPe@|@v@CD?@Uj@HD@?FBZy@BGBCBA@APGBLJt@BH@@B?@ALEFCFEFEPSBCDEX]JKf@i@l@q@HKrCyCLOIIe@k@MMKIMKGE[MQIKCQGEAECCCACAGCEg@s@IMIUEOGSCSAMAE?GC[AOCUAOAQGaCC}@AK?IA_@?QIwC?SCe@Ae@M{CAK?GOyCAQQBkB^MBK@AO?KKeC?KAKAe@O}DWqGAQ?OCu@GwA?EEiA?CGeBAOA[A[ASSsFMiDAOAQUaG?KAQ?QWmG?I?EO@kAJOBK?Q?O?M?]?k@Cc@CQEOAICc@K]Og@SQIMIIGCCGGA?iDwAqB{@ICKEGCR{@F]bA}Ed@_C~AaIpBwJfAuF`@cAhAeGbR{}@fBqIXgBjDwPZeARgADWNs@@OBM@O@MFcADy@@MBOBMBMv@cDBGFUOGw@c@g@[GCECAWEcA?AIiBKqBAK?IAQE_@Cc@Ek@IaBIqAAUOIQKyBmAIEs@a@i@YeAk@u@a@OIsBeAaAg@iBaAOWWWu@{@_BkBUWMQq@cAiDkFg@}@KQKOwAiCsA_CIOKQkAuBeByCIOGMc@}@i@cAeAoBIOIMuB_EM]KOmC}FIOGO_B}CGMeAeBY_@QYk@EMJIDSBkBPoALI@O@oDZiE`@aBNK@O@wIv@M@QB_Hl@{@HkCVA?aAJw@F_CRG@aCR_AFUBQuBEa@CSCWCWG[EYGYGYIWWeAk@{B[iAIYIWKWKWQe@o@}Ae@kAUQ^g@@AjAkAJK`AaAnBqBh@g@XY^_@n@q@n@o@FIFIFIpCuELNfBvB",
+            "territoryMileage": [
+                {
+                    "territory": {
+                        "name": "New York",
+                        "code": "NY",
+                        "type": "state"
+                    },
+                    "distance": {
+                        "text": "14",
+                        "metric": "23",
+                        "value": "23850"
+                    },
+                    "trafficTime": "1 h"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "userId": "",
+        "customerId": "",
+        "tx": 6,
+        "type": "",
+        "client": "",
+        "source": "tollguru"
+    }
+}
