@@ -3,5 +3,5 @@
     "vehicle": {
         "type": "5AxlesTruck",
         "height": { "value": 10, "unit": "feet" }
-    },
+    }
 }
