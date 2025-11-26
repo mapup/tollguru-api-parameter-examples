@@ -3,5 +3,5 @@
     "vehicle": {
         "type": "5AxlesTruck",
         "weight": { "value": 45000, "unit": "pounds" }
-    },
+    }
 }
