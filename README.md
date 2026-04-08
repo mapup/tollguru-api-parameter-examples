@@ -18,7 +18,7 @@ Sample request and response JSON payloads for the TollGuru Toll API and TollTall
 This repository provides sample JSON request bodies and response payloads for the TollGuru Toll API. Use these examples as a reference when building integrations — each file demonstrates a specific parameter combination or feature of the API.
 
 The examples cover three API endpoints across the TollGuru and TollTally product suite:
-- Toll calculation via origin, destination, and waypoints
+- Toll calculation via origin, destination, and waypoints (TollGuru)
 - Toll calculation via complete polyline (TollTally)
 - Toll calculation via GPS track CSV upload (TollTally)
 
