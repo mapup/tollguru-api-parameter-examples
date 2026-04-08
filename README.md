@@ -1,13 +1,13 @@
 # TollGuru API Parameter Examples
 
-This repository provides examples of how to interact with the TollGuru API. The TollGuru API offers a comprehensive suite of tools for calculating toll costs for various routes and vehicles, providing accurate and efficient toll pricing information. This guide will help you understand how to use the provided examples to integrate toll calculations into your applications.
+Sample request and response JSON payloads for the TollGuru Toll API and TollTally endpoints.
 
 ## Table of Contents
 
 - [Project Description](#project-description)
-- [Installation](#installation)
+- [Repository Structure](#repository-structure)
+- [Endpoints](#endpoints)
 - [Usage](#usage)
-- [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -15,110 +15,106 @@ This repository provides examples of how to interact with the TollGuru API. The 
 
 ## Project Description
 
-The TollGuru API allows developers to calculate toll costs for different routes based on vehicle parameters and toll policies. This API is useful for various applications, including fleet management, trip planning, and logistics. With support for different vehicle types and configurations, the API provides flexible and accurate toll calculation.
+This repository provides sample JSON request bodies and response payloads for the TollGuru Toll API. Use these examples as a reference when building integrations — each file demonstrates a specific parameter combination or feature of the API.
 
-Key features include:
-- **Route Calculation**: Determine toll costs for specified routes.
-- **Vehicle Parameterization**: Customize calculations based on vehicle type, fuel cost, tag cost, and more.
-- **Multi-Route Support**: Compare toll costs for multiple routes to find the most cost-effective path.
+The examples cover three API endpoints across the TollGuru and TollTally product suite:
+- Toll calculation via origin, destination, and waypoints
+- Toll calculation via complete polyline (TollTally)
+- Toll calculation via GPS track CSV upload (TollTally)
 
-For a comprehensive overview of the TollGuru API, please visit the [TollGuru API Documentation](https://www.tollguru.com/toll-api-docs).
+For API authentication and full endpoint documentation, visit the [TollGuru API Documentation](https://www.tollguru.com/toll-api-docs).
 
-## Installation
+## Repository Structure
 
-To use the examples in this repository, clone the repo to your local machine and install the necessary dependencies.
+```
+.
+├── request-bodies/                            # Sample JSON request payloads, organized by endpoint
+│   ├── 01-Origin-Destination-Cost-Tradeoff/
+│   ├── 02-Complete-Polyline-To-Toll/
+│   └── 03-TollTally-GPS-Tracks-To-Toll/
+└── responses/                                 # Corresponding sample JSON responses
+    ├── 01-Origin-Destination-Cost-Tradeoff/
+    ├── 02-Complete-Polyline-To-Toll/
+    └── 03-TollTally-GPS-Tracks-To-Toll/
+```
+
+## Endpoints
+
+### 1. Origin-Destination-Cost-Tradeoff
+
+Endpoint: `/origin-destination-waypoints`
+
+Calculates toll costs, route details, and fuel expenses by specifying an origin, destination, and optional waypoints.
+
+[View request examples →](./request-bodies/01-Origin-Destination-Cost-Tradeoff/)
+
+---
+
+### 2. TollTally-Complete-Polyline-To-Toll
+
+Endpoint: `/complete-polyline-from-mapping-service`
+
+Calculates toll costs and route details by providing a route's complete polyline as an encoded string or as decoded coordinates.
+
+[View request examples →](./request-bodies/02-Complete-Polyline-To-Toll/)
+
+---
+
+### 3. TollTally-GPS-Tracks-To-Toll
+
+Endpoint: `/gps-tracks-csv-upload`
+
+Calculates toll costs and route details from GPS points uploaded as a CSV file. Supports both synchronous (small files) and asynchronous (large files) uploads.
+
+[View request examples →](./request-bodies/03-TollTally-GPS-Tracks-To-Toll/)
+
+---
+
+## Usage
+
+Clone the repository and use the JSON files directly as request bodies in your API calls.
 
 ```bash
 git clone https://github.com/mapup/tollguru-api-parameter-examples.git
 cd tollguru-api-parameter-examples
-npm install
 ```
 
-## Usage
+### Example: Origin-Destination request using cURL
 
-The repository includes several example scripts that demonstrate how to interact with the TollGuru API. Each example showcases different functionalities of the API.
+```bash
+curl -X POST <TOLLGURU_API_BASE_URL>/origin-destination-waypoints \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: YOUR_API_KEY" \
+  -d @request-bodies/01-Origin-Destination-Cost-Tradeoff/01-address-as-string.json
+```
 
-### Example: Calculate Toll Costs
+The request body used (`01-address-as-string.json`):
 
-```javascript
-const axios = require('axios');
-
-const calculateToll = async () => {
-  const response = await axios.post('https://api.tollguru.com/v1/calc/route', {
-    source: {
-      lat: 37.7749,
-      lng: -122.4194
+```json
+{
+    "from": {
+        "address": "Walt Whitman Brg Philadelphia, PA 19148, USA"
     },
-    destination: {
-      lat: 34.0522,
-      lng: -118.2437
+    "to": {
+        "address": "Ocean City, NJ 08226 USA"
     },
-    vehicleType: "2AxlesAuto",
-    departure_time: "2023-08-01T12:00:00Z"
-  }, {
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': 'YOUR_API_KEY'
+    "vehicle": {
+        "type": "2AxlesAuto"
     }
-  });
-
-  console.log(response.data);
-};
-
-calculateToll();
+}
 ```
 
-Replace `'YOUR_API_KEY'` with your actual API key. This example demonstrates how to calculate toll costs for a route between San Francisco and Los Angeles for a 2-axle automobile.
+Replace `YOUR_API_KEY` with your actual TollGuru API key and `TOLLGURU_API_BASE_URL` with the base URL from the [API documentation](https://www.tollguru.com/toll-api-docs#authentication).
 
-### Example: Vehicle Parameters
+### TollTally GPS Tracks
 
-```javascript
-const axios = require('axios');
+For the `/gps-tracks-csv-upload` endpoint, parameters are sent as query parameters alongside the CSV file upload. Utility scripts are provided to help generate cURL commands from the sample JSON parameter files:
 
-const getVehicleParameters = async () => {
-  const response = await axios.get('https://api.tollguru.com/v1/vehicle-types', {
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': 'YOUR_API_KEY'
-    }
-  });
-
-  console.log(response.data);
-};
-
-getVehicleParameters();
+```bash
+python request-bodies/03-TollTally-GPS-Tracks-To-Toll/scripts/convert_json_params_to_curl.py \
+  01-sync-upload-for-small-files.json out.txt
 ```
 
-### Example: Route Preferences
-
-```javascript
-const axios = require('axios');
-
-const calculatePreferredRoute = async () => {
-  const response = await axios.post('https://api.tollguru.com/v1/calc/route', {
-    source: {
-      lat: 40.7128,
-      lng: -74.0060
-    },
-    destination: {
-      lat: 34.0522,
-      lng: -118.2437
-    },
-    vehicleType: "2AxlesAuto",
-    departure_time: "2023-08-01T12:00:00Z",
-    preferred_routes: ["fastest", "shortest"]
-  }, {
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': 'YOUR_API_KEY'
-    }
-  });
-
-  console.log(response.data);
-};
-
-calculatePreferredRoute();
-```
 ## Contributing
 
 We welcome contributions to this repository! If you have suggestions or improvements, please open an issue or submit a pull request.
@@ -140,14 +136,13 @@ For any questions or support, please reach out to [api-support@tollguru.com](mai
 
 ## Additional Resources
 
-For a comprehensive overview and additional details, refer to the following sections of the [TollGuru API Documentation](https://www.tollguru.com/toll-api-docs):
+For full API documentation, refer to:
 
 - [API Overview](https://www.tollguru.com/toll-api-docs#api-overview)
 - [Authentication](https://www.tollguru.com/toll-api-docs#authentication)
-- [Endpoints and Parameters](https://www.tollguru.com/toll-api-docs#endpoints-and-parameters)
-  - [Calculate Toll Costs between start, to, waypoints](https://www.tollguru.com/toll-api-docs#tolls-between-origin-destination-and-waypoints)
-  - [Calculate Toll Costs for an encoded polyline](https://www.tollguru.com/toll-api-docs#route-encoded-polyline)
-  - [Calculate Toll Costs from a GPS track](https://www.tollguru.com/toll-api-docs#tolltally---gps-tracks-to-toll-api)
-  - [Vehicle Types](https://www.tollguru.com/toll-api-docs#vehicle-types-supported-by-tollguru)
+- [Origin-Destination Waypoints](https://www.tollguru.com/toll-api-docs#tolls-between-origin-destination-and-waypoints)
+- [TollTally Complete Polyline](https://www.tollguru.com/toll-api-docs#route-encoded-polyline)
+- [TollTally GPS Tracks](https://www.tollguru.com/toll-api-docs#tolltally---gps-tracks-to-toll-api)
+- [Vehicle Types](https://www.tollguru.com/toll-api-docs#vehicle-types-supported-by-tollguru)
 - [Error Handling](https://www.tollguru.com/toll-api-docs#errors-and-troubleshooting)
 - [FAQ](https://www.tollguru.com/toll-api-docs#faq)
