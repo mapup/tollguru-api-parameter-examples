@@ -4,14 +4,6 @@
 
 This repository is a static collection of API examples and does not contain running services. The examples interact with TollGuru's external API services.
 
-## Datastore Choices
-
-No datastores are used in this repository. All data is stored as static JSON files for API request/response examples.
-
-## Queues/Jobs
-
-No queues or job processing systems are implemented in this repository.
-
 ## Third-Party Dependencies
 
 Dependencies are minimal and primarily for utility scripts:
