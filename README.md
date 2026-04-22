@@ -2,6 +2,82 @@
 
 Sample request and response JSON payloads for the TollGuru Toll API and TollTally endpoints.
 
+## What This Repository Is
+
+A comprehensive collection of API request/response examples for TollGuru's toll calculation services. This repository serves as a reference library for developers integrating with TollGuru APIs, providing ready-to-use JSON payloads for various use cases and parameter combinations.
+
+## Architecture
+
+- **Static Content Repository**: Contains JSON examples organized by API endpoint
+- **Utility Scripts**: Python scripts for converting examples to cURL commands
+- **Documentation**: Comprehensive examples and usage patterns
+- **No Running Services**: Purely a reference repository with no deployed infrastructure
+- **External API Integration**: Examples connect to TollGuru's cloud APIs
+- **Multi-Endpoint Coverage**: Supports TollGuru and TollTally API endpoints
+- **Version Control**: Git-based versioning for example updates
+- **Community Contributions**: Open to external contributions and improvements
+
+## Prerequisites
+
+- Git for repository management
+- Basic understanding of JSON and REST APIs
+- Valid TollGuru API key (for testing examples)
+- Python 3.x (for utility scripts)
+- cURL or similar HTTP client tool
+
+## Local Setup
+
+```bash
+git clone https://github.com/mapup/tollguru-api-parameter-examples.git
+cd tollguru-api-parameter-examples
+```
+
+No additional setup required - this is a static repository of examples.
+
+## How to Run Tests
+
+This repository does not contain automated tests. To validate examples:
+
+```bash
+# Test individual examples with cURL
+curl -X POST <TOLLGURU_API_BASE_URL>/origin-destination-waypoints \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: YOUR_API_KEY" \
+  -d @request-bodies/01-Origin-Destination-Cost-Tradeoff/01-address-as-string.json
+
+# Validate JSON syntax
+python -m json.tool request-bodies/01-Origin-Destination-Cost-Tradeoff/01-address-as-string.json
+```
+
+## How to Deploy
+
+This repository does not require deployment as it contains static examples only. For distribution:
+
+- GitHub Pages for documentation hosting (optional)
+- npm package distribution (if packaged as library)
+- Direct git clone for local usage
+
+## Where Config Lives
+
+- **API Configuration**: Examples use placeholder API keys that must be replaced
+- **Base URLs**: Defined in individual examples and utility scripts
+- **No Runtime Config**: This is a static repository with no runtime configuration
+
+## Known Limitations
+
+- Examples use placeholder API keys that require replacement
+- No automated validation against live API endpoints
+- Limited to TollGuru API endpoints - not a general toll calculation library
+- Examples may become outdated with API changes
+- No error handling or retry logic in examples
+- Utility scripts have basic functionality only
+
+## Documentation
+
+- **[Architecture Details](docs/architecture.md)**: Technical architecture and system design
+- **[Runbook](docs/runbook.md)**: Operational procedures and troubleshooting guide
+- **[API Documentation](https://www.tollguru.com/toll-api-docs)**: Complete TollGuru API reference
+
 ## Table of Contents
 
 - [Project Description](#project-description)
