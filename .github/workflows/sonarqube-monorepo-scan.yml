@@ -1,0 +1,25 @@
+name: SonarQube Scan
+
+on:
+  schedule:
+    - cron: '15 3,15 * * *'
+  workflow_dispatch:
+
+jobs:
+  sonar-scan:
+    name: SonarQube Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v7.1.0
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: https://sonarqube.mapup.ai
+        with:
+          args: >
+            -Dsonar.projectKey=tollguru-tolltally-api-payload-examples
