@@ -45,3 +45,16 @@ jobs:
             -Dsonar.projectKey=tollguru-tolltally-api-payload-examples
             -Dsonar.sources=.
             -Dsonar.exclusions=**/node_modules/**
+
+      - name: Update project sheet tab
+        continue-on-error: true
+        run: |
+          sleep 120
+          RESPONSE=$(curl -s -L \
+            "${{ secrets.APPS_SCRIPT_WEB_APP_URL }}?project=tollguru-tolltally-api-payload-examples")
+          echo "Sheet update response: $RESPONSE"
+          if [ "$RESPONSE" = "ok" ]; then
+            echo "✅ Sheet updated successfully"
+          else
+            echo "⚠️ Sheet update may have failed: $RESPONSE"
+          fi
