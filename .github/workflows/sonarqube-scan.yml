@@ -1,0 +1,79 @@
+# SonarQube — scan the tollguru-api-parameter-examples repo against the
+# central SonarQube server.
+#
+# Required GitHub Secret:
+#   SONAR_TOKEN — user token with Execute Analysis + Browse on the
+#                 `TollGuru-API-Parameter-Examples` SonarQube project.
+#
+# SONAR_HOST_URL is intentionally not a secret — it's a public URL.
+
+name: SonarQube Scan
+
+on:
+  # Twice-daily scheduled scans (IST = UTC + 5:30):
+  #   03:15 UTC = 08:45 AM IST   (morning baseline)
+  #   15:15 UTC = 08:45 PM IST   (evening baseline)
+  schedule:
+    - cron: '15 3,15 * * *'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual run'
+        required: false
+        default: 'Manual SonarQube scan'
+
+concurrency:
+  group: sonar-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: read
+
+env:
+  SONAR_HOST_URL: https://sonarqube.mapup.ai
+
+jobs:
+  sonarqube-scan:
+    name: SonarQube — tollguru-api-parameter-examples
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Log manual run reason
+        if: github.event_name == 'workflow_dispatch'
+        run: echo "Manual trigger - ${{ github.event.inputs.reason }}"
+
+      # Python repo of API request examples + a pytest integration suite.
+      # The tests hit the live TollGuru API and need TOLLGURU_API_KEY, so we
+      # do not run them here — this is a static Sonar scan of the sources only.
+      - name: SonarQube scan
+        uses: SonarSource/sonarqube-scan-action@v7.1.0
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.projectKey=TollGuru-API-Parameter-Examples
+            -Dsonar.sources=.
+            -Dsonar.exclusions=**/node_modules/**,**/__pycache__/**,**/venv/**,**/.venv/**,**/.pytest_cache/**,**/.vscode/**,**/.code-review-graph/**,**/*.csv,**/*.parquet,**/*.log,**/dist/**,**/build/**
+
+      # Push fresh metrics to the Code Health Google Sheet once SonarQube has
+      # finished processing the scan. Best-effort: a sheet update failure must
+      # not fail the scan workflow.
+      - name: Update project sheet tab
+        continue-on-error: true
+        run: |
+          sleep 120
+          RESPONSE=$(curl -s -L \
+            "${{ secrets.APPS_SCRIPT_WEB_APP_URL }}?project=TollGuru-API-Parameter-Examples")
+          echo "Sheet update response: $RESPONSE"
+          if [ "$RESPONSE" = "ok" ]; then
+            echo "✅ Sheet updated successfully"
+          else
+            echo "⚠️ Sheet update may have failed: $RESPONSE"
+          fi

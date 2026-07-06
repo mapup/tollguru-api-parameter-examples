@@ -1,2 +1,7 @@
 .DS_Store
 make_requests.py
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
