@@ -1,0 +1,18 @@
+# Gitleaks configuration
+#
+# This repository contains only public API request/response examples and
+# documentation. It intentionally ships placeholder credentials in the
+# README so users know where to paste their own key.
+#
+# Everything else keeps the upstream default ruleset.
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Documentation placeholders, not real credentials"
+targetRules = ["curl-auth-header"]
+regexes = [
+  '''(?i)YOUR[_-]?API[_-]?KEY''',
+  '''(?i)<[^>]*API[_-]?KEY[^>]*>''',
+]
