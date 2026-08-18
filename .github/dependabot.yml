@@ -1,0 +1,16 @@
+version: 2
+updates:
+  # Keep SHA-pinned GitHub Actions current; Dependabot updates the pin and
+  # the trailing version comment on each upstream release.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # Wait 7 days after an upstream release before proposing the bump —
+    # compromised releases are usually detected and yanked within days.
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions:
+        patterns:
+          - "*"

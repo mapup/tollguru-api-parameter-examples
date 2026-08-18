@@ -41,19 +41,21 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           fetch-depth: 0
 
       - name: Log manual run reason
         if: github.event_name == 'workflow_dispatch'
-        run: echo "Manual trigger - ${{ github.event.inputs.reason }}"
+        env:
+          RUN_REASON: ${{ github.event.inputs.reason }}
+        run: echo "Manual trigger - $RUN_REASON"
 
       # Python repo of API request examples + a pytest integration suite.
       # The tests hit the live TollGuru API and need TOLLGURU_API_KEY, so we
       # do not run them here — this is a static Sonar scan of the sources only.
       - name: SonarQube scan
-        uses: SonarSource/sonarqube-scan-action@v7.1.0
+        uses: SonarSource/sonarqube-scan-action@299e4b793aaa83bf2aba7c9c14bedbb485688ec4 # v7.1.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
