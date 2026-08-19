@@ -20,7 +20,7 @@ on:
         required: false
         default: ""
   schedule:
-    - cron: "0 */3 * * *" # every 3 hours (UTC); use "0 */2 * * *" for every 2
+    - cron: "0 4,16 * * *" # twice a day at 04:00 & 16:00 UTC (9:30 AM & 9:30 PM IST)
 
 permissions:
   contents: read
@@ -37,6 +37,8 @@ jobs:
     steps:
       - name: Resolve branch
         id: branch
+        # github context values go through env, never interpolated into the
+        # script body — a crafted branch name must stay data, not shell code.
         env:
           INPUT_BRANCH: ${{ github.event.inputs.branch }}
           REF_NAME: ${{ github.ref_name }}
@@ -129,10 +131,30 @@ jobs:
                 f"{payload['repo']}@{payload['branch']}")
           PY
 
+          # All repos share one cron tick, so stagger the posts a little —
+          # Apps Script allows ~30 simultaneous executions and returns an HTML
+          # error page to the overflow. Keep the sleeps SHORT: runner minutes
+          # are billed, waiting included.
+          sleep $((RANDOM % 20))
+
           # -L is required: Apps Script answers with a redirect to the response.
           # Do NOT add -X POST — it would force POST on the redirect too, which
           # Google's response endpoint rejects. -d already makes this a POST.
-          RESPONSE=$(curl -sSL -H "Content-Type: application/json" \
-            --data-binary @payload.json "$WEBAPP_URL")
-          echo "Webhook response: $RESPONSE"
-          echo "$RESPONSE" | grep -q '"ok":true'
+          for attempt in 1 2 3; do
+            RESPONSE=$(curl -sSL -H "Content-Type: application/json" \
+              --data-binary @payload.json "$WEBAPP_URL" || true)
+            if echo "$RESPONSE" | grep -q '"ok":true'; then
+              echo "Webhook response: $RESPONSE"
+              exit 0
+            fi
+            if echo "$RESPONSE" | grep -q '"ok":false'; then
+              # Real rejection (bad token, bad payload) — retrying won't help
+              echo "::error::Webhook rejected the report: $RESPONSE"
+              exit 1
+            fi
+            echo "Attempt $attempt got a transient Apps Script error; retrying..."
+            sleep $((attempt * 15 + RANDOM % 15))
+          done
+          echo "::error::Webhook still failing after 3 attempts"
+          echo "$(echo "$RESPONSE" | head -c 300)"
+          exit 1
