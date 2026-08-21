@@ -31,29 +31,29 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Node.js (if needed)
         if: hashFiles('**/package.json') != ''
-        uses: actions/setup-node@v7
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: '18'
 
       - name: Setup Python (if needed)
         if: hashFiles('**/requirements.txt', '**/pyproject.toml', '**/setup.py') != ''
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.x'
 
       - name: Setup Go (if needed)
         if: hashFiles('**/go.mod') != ''
-        uses: actions/setup-go@v7
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
         with:
           go-version: 'stable'
 
       - name: Setup Java (if needed)
         if: hashFiles('**/pom.xml', '**/build.gradle', '**/build.gradle.kts') != ''
-        uses: actions/setup-java@v5
+        uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5.7.0
         with:
           distribution: 'temurin'
           java-version: '17'
@@ -132,13 +132,19 @@ jobs:
         continue-on-error: true
 
       - name: Generate SBOM with Trivy
-        uses: aquasecurity/trivy-action@v0.36.0
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25 # v0.36.0
         with:
           scan-type: fs
           format: cyclonedx
           output: bom-raw.json
           scanners: license
-          license-full: true
+        env:
+          # trivy-action exposes no `license-full` input — it forwards TRIVY_*
+          # env vars to the Trivy CLI instead. TRIVY_LICENSE_FULL maps to
+          # `--license-full`: scan source headers and LICENSE files, not just
+          # package metadata. Passing it as a `with:` input silently does
+          # nothing, which downgrades this to metadata-only license coverage.
+          TRIVY_LICENSE_FULL: true
 
       - name: Clean and validate SBOM
         run: |
@@ -162,12 +168,23 @@ jobs:
           echo ""
           echo "📊 SBOM Statistics:"
           cat bom.json | jq '{
-              totalComponents: (.components | length),
-              componentsWithLicenses: ([.components[] | select(.licenses)] | length)
+              totalComponents: ((.components // []) | length),
+              componentsWithLicenses: ([(.components // [])[] | select(.licenses)] | length)
           }'
 
+          # License compliance is a required control, so treat "components
+          # found but not one carries a license" as a broken scan rather than
+          # a clean result — that is what a silently-ignored Trivy option
+          # looks like. A genuinely empty SBOM (no dependencies) still passes.
+          total=$(jq '(.components // []) | length' bom.json)
+          licensed=$(jq '[(.components // [])[] | select(.licenses)] | length' bom.json)
+          if [ "$total" -gt 0 ] && [ "$licensed" -eq 0 ]; then
+            echo "::error::SBOM has $total components but no license data. Trivy license scanning is not working — check the scanners input and TRIVY_LICENSE_FULL."
+            exit 1
+          fi
+
       - name: Upload BOM to Dependency-Track
-        uses: DependencyTrack/gh-upload-sbom@v4
+        uses: DependencyTrack/gh-upload-sbom@95c2b5a810450509ef8a67e4f854b42d2ddf7fbf # v4.1.0
         with:
           serverhostname: '44.194.0.211'
           port: '8091'
@@ -179,7 +196,7 @@ jobs:
           autocreate: 'true'
 
       - name: Archive SBOM artifact
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         if: always()
         with:
           name: sbom-cyclonedx
