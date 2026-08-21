@@ -30,9 +30,37 @@ A comprehensive collection of API request/response examples for TollGuru's toll 
 ```bash
 git clone https://github.com/mapup/tollguru-api-parameter-examples.git
 cd tollguru-api-parameter-examples
+./hooks/install.sh
 ```
 
-No additional setup required - this is a static repository of examples.
+No additional setup required to use the examples - this is a static repository. The one
+command worth running once per clone is `./hooks/install.sh`.
+
+### Secret scanning hook (run once per clone)
+
+`./hooks/install.sh` points `core.hooksPath` at the tracked `hooks/` directory and installs
+[gitleaks](https://github.com/gitleaks/gitleaks) if it is missing (Homebrew first, falling
+back to the official release tarball into `~/.local/bin`). After that, every commit — from
+the terminal, VS Code's Source Control panel, or any other git client — is scanned for
+credentials in the staged diff and blocked if one is found.
+
+`core.hooksPath` lives in `.git/config`, which is not part of the repository, so cloning
+gets you the hook files but not the wiring. Re-run the installer after a fresh clone, after
+adding a git worktree, or any time `git config --get core.hooksPath` comes back empty. Every
+step is a no-op when already done, so re-running is harmless.
+
+```bash
+git config --get core.hooksPath   # -> hooks
+gitleaks version                  # -> e.g. 8.30.1
+```
+
+If a commit is blocked and the finding is a false positive, add a value-anchored allowlist to
+`.gitleaks.toml` rather than a path-based one. Emergency bypass for a single commit:
+`GITLEAKS_SKIP=1 git commit ...`.
+
+The hook is a local convenience, not the enforcement boundary — the
+[Gitleaks Secret Scan workflow](.github/workflows/gitleaks.yml) runs on every pull request
+and nightly, and is the backstop for any clone that never ran the installer.
 
 ## How to Run Tests
 
